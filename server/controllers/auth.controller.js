@@ -17,7 +17,7 @@ class AuthController {
   }
 
   get sessionSecret() {
-    return process.env.SESSION_SECRET || '';
+    return process.env.SESSION_SECRET || 'GulasalAI_2026_CityStage_Production_Secret_Key';
   }
 
   get googleClientId() {
