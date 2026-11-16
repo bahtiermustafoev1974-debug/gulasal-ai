@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#090a0f">
+  <meta name="description" content="Gulasal AI — Maqsadlar sari birga boramiz.">
+  <title>Gulasal AI — Shaxsiy sun’iy intellekt</title>
+
+  <!-- PWA & MOBILE SUPPORT -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/svg+xml" href="/public/icon-192.svg">
+  <link rel="apple-touch-icon" href="/public/icon-192.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Gulasal AI">
+
+  <!-- TELEGRAM WEBAPP SDK -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/client/styles/main.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/mentor/mentor.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/community/community.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/eilist/eilist.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/admin/admin.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/styles/cinematic-intro.css?v=20261116_mobile1">
+  <link rel="stylesheet" href="/client/styles/luxury-vibes.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/styles/curriculum.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="/client/styles/premium-features.css?v=20261116_apple_landing1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+      background: #090a0f;
+    }
+
+    body {
+      color: #f4f4f5;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* MAIN APP CONTAINER */
+    #app {
+      min-height: 100vh;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    body.authenticated #app {
+      opacity: 1;
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========================================================
+       1. ULTRA-PREMIUM CINEMATIC INTRO EXPERIENCE
+  ======================================================== -->
+  <!-- ========================================================
+       1. ULTRA-PREMIUM APPLE-STYLE SHOWCASE LANDING PAGE
+  ======================================================== -->
+  <div id="cinematic-intro">
+    <div class="intro-aurora-mesh"></div>
+    <div class="intro-grid-pattern"></div>
+
+    <!-- 1.1 APPLE-STYLE STICKY GLASS HEADER -->
+    <header class="apple-nav-header">
+      <div class="apple-nav-container">
+        <!-- BRAND LOGO -->
+        <a href="#cinematic-intro" class="apple-brand-link">
+          <div class="apple-brand-icon">
+            <span>G</span>
+          </div>
+          <span class="apple-brand-title">GULASAL <span>AI</span></span>
+        </a>
+
+        <!-- NAV LINKS -->
+        <nav class="apple-nav-links">
+          <a href="#landing-showcase" class="apple-nav-link">Imkoniyatlar</a>
+          <a href="#landing-math" class="apple-nav-link">Aniq Fanlar</a>
+          <a href="#landing-ielts" class="apple-nav-link">IELTS Tillar</a>
+          <a href="#landing-mentor" class="apple-nav-link">AI Mentor</a>
+        </nav>
+
+        <!-- RIGHT ACTIONS: SIGN IN / SIGN UP -->
+        <div class="apple-nav-actions">
+          <button id="intro-nav-login-btn" class="apple-nav-login-btn js-open-auth" type="button" title="Mavjud hisobga kirish">
+            Kirish
+          </button>
+          <button id="intro-nav-register-btn" class="apple-nav-register-btn js-open-auth" type="button" title="Yangi hisob ochish">
+            <span>Ro‘yxatdan o‘tish</span>
+            <span class="apple-nav-arrow">→</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 1.2 HERO SECTION (APPLE KEYNOTE STYLE) -->
+    <section class="landing-hero-section" id="landing-hero">
+      <div class="landing-container">
+        <!-- Live Badge -->
+        <div class="landing-hero-badge">
+          <span class="badge-dot"></span>
+          <span>Gulasal AI 7.0 • Yangi avlod intellektual ta’limi</span>
+        </div>
+
+        <!-- Hero Headline -->
+        <h1 class="landing-hero-headline">
+          Ta’limning yangi davri.<br>
+          <span class="landing-headline-gradient">Sun’iy intellekt bilan mukammal natija.</span>
+        </h1>
+
+        <!-- Hero Subtitle -->
+        <p class="landing-hero-desc">
+          Matematika, fizika, IELTS va axborot texnologiyalarini chuqur tushunish uchun sizga 24/7 yordam beruvchi shaxsiy AI ustozi. Hech qanday murakkabliksiz — bir zumda aniq yechim.
+        </p>
+
+        <!-- Primary CTA Buttons -->
+        <div class="landing-hero-cta-group">
+          <button id="intro-start-btn" class="landing-primary-btn js-open-auth" type="button">
+            <span>Boshlash (Bepul)</span>
+            <span class="landing-btn-arrow">→</span>
+          </button>
+          <a href="#landing-showcase" class="landing-secondary-btn" id="landing-explore-btn">
+            <span>Imkoniyatlarni ko‘rish</span>
+            <span class="landing-scroll-arrow">↓</span>
+          </a>
+        </div>
+
+        <!-- Quick Feature Tags -->
+        <div class="landing-hero-tags">
+          <span class="landing-tag">✓ 0.2 soniyada javob</span>
+          <span class="landing-tag">✓ Ovozli IELTS tahlil</span>
+          <span class="landing-tag">✓ Bosqichma-bosqich formulalar</span>
+          <span class="landing-tag">✓ 100% O‘zbek tilida</span>
+        </div>
+
+        <!-- 1.3 APPLE TITANIUM WORKSPACE SHOWCASE (MOCKUP) -->
+        <div class="landing-mockup-wrapper" id="landing-showcase">
+          <div class="landing-mockup-frame">
+            <!-- Window header -->
+            <div class="mockup-header-bar">
+              <div class="mockup-dots">
+                <span class="mockup-dot dot-red"></span>
+                <span class="mockup-dot dot-yellow"></span>
+                <span class="mockup-dot dot-green"></span>
+              </div>
+              <div class="mockup-address-bar">
+                <span>https://gulasalai.uz/workspace/ai-chat</span>
+              </div>
+              <div class="mockup-badge-live">
+                <span class="status-pulse"></span>
+                <span>AI Aktiv</span>
+              </div>
+            </div>
+
+            <!-- Inside Mockup: Split Demo -->
+            <div class="mockup-content-grid">
+              <!-- Left: Chat & Math Solution Demo -->
+              <div class="mockup-chat-pane">
+                <div class="mockup-msg mockup-user-msg">
+                  <span class="mockup-avatar">M</span>
+                  <div class="mockup-bubble">
+                    <p>y = x² - 4x + 3 parabolaning uchi va nollarini topib, grafigini tushuntirib bering.</p>
+                  </div>
+                </div>
+
+                <div class="mockup-msg mockup-ai-msg">
+                  <div class="mockup-ai-avatar">G</div>
+                  <div class="mockup-bubble">
+                    <p class="mockup-ai-title"><strong>Gulasal AI • Matematika Tahlili:</strong></p>
+                    <p>1. <strong>Parabola uchi (Vertex):</strong> x₀ = -b / (2a) = 4 / 2 = <strong>2</strong>; y₀ = 2² - 4(2) + 3 = <strong>-1</strong>. Koordinatasi: <strong>(2, -1)</strong>.</p>
+                    <p>2. <strong>Funksiya nollari (Ildizlar):</strong> x² - 4x + 3 = 0 ⟹ (x - 1)(x - 3) = 0 ⟹ <strong>x₁ = 1, x₂ = 3</strong>.</p>
+                    <div class="mockup-formula-tag">
+                      <span>✓ Grafik minimum nuqtasi: (2, -1) | Shoxlari yuqoriga qaragan</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Right: IELTS Speaking & Listening Card Preview -->
+              <div class="mockup-side-pane">
+                <div class="mockup-ielts-card">
+                  <div class="ielts-card-top">
+                    <span class="ielts-mic-icon">🎧</span>
+                    <div>
+                      <h4>IELTS Speaking & Listening</h4>
+                      <p>Cambridge mezonlari • Tahlil</p>
+                    </div>
+                    <span class="ielts-score-pill">Band 8.5</span>
+                  </div>
+                  <!-- Audio Waveform visual -->
+                  <div class="mockup-waveform">
+                    <span class="wave-bar w1"></span>
+                    <span class="wave-bar w2"></span>
+                    <span class="wave-bar w3"></span>
+                    <span class="wave-bar w4"></span>
+                    <span class="wave-bar w5"></span>
+                    <span class="wave-bar w6"></span>
+                    <span class="wave-bar w7"></span>
+                    <span class="wave-bar w8"></span>
+                    <span class="wave-bar w9"></span>
+                    <span class="wave-bar w10"></span>
+                  </div>
+                  <div class="ielts-metrics-grid">
+                    <div class="ielts-metric">
+                      <small>Fluency</small>
+                      <strong>8.5</strong>
+                    </div>
+                    <div class="ielts-metric">
+                      <small>Lexical</small>
+                      <strong>9.0</strong>
+                    </div>
+                    <div class="ielts-metric">
+                      <small>Grammar</small>
+                      <strong>8.0</strong>
+                    </div>
+                    <div class="ielts-metric">
+                      <small>Pronunciation</small>
+                      <strong>8.5</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Daily Streak Badge -->
+                <div class="mockup-streak-card">
+                  <span class="streak-flame">🔥</span>
+                  <div>
+                    <h4>14 Kunlik Davomiylik (Streak)</h4>
+                    <p>Ketma-ket 14 kun maqsadlar bajarildi!</p>
+                  </div>
+                  <span class="streak-xp">+450 XP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1.4 STORYTELLING SECTION 1: ANIQ FANLAR & FORMULALAR (APPLE STYLE) -->
+    <section class="landing-story-section" id="landing-math">
+      <div class="landing-container">
+        <div class="story-header-center">
+          <span class="story-overline">ANIQ FANLAR VA FORMULALAR</span>
+          <h2 class="story-headline">
+            Murakkab formulalar.<br>
+            <span class="text-gradient-cyan">Ko‘z o‘ngingizda jonlanadi.</span>
+          </h2>
+          <p class="story-subheadline">
+            Quruq matnlar va tushunarsiz formulalarni unuting. Gulasal AI har bir masalani vizual tushuntiradi, qadam-baqadam yechadi va formulalarning mohiyatini ochib beradi.
+          </p>
+        </div>
+
+        <div class="story-bento-grid">
+          <!-- Bento 1: Parabola va Funksiyalar -->
+          <div class="bento-card bento-wide">
+            <div class="bento-content">
+              <span class="bento-tag">Interaktiv Asbob</span>
+              <h3>Grafik va Parabola Vizualizatori</h3>
+              <p>Ixtiyoriy tenglama kiriting — tizim funksiyaning egri chizig‘i, ekstremum nuqtalari va asimptotalarini bir zumda 2D/3D fazoda hosil qiladi.</p>
+              <div class="bento-formula-preview">
+                <code>f(x) = ax² + bx + c ⟹ D = b² - 4ac</code>
+              </div>
+            </div>
+            <div class="bento-visual math-canvas-visual">
+              <div class="parabola-curve-mock">
+                <svg viewBox="0 0 300 160" width="100%" height="100%" preserveAspectRatio="none">
+                  <path d="M 10 140 Q 150 10 290 140" fill="none" stroke="url(#cyanGrad)" stroke-width="3.5" />
+                  <line x1="150" y1="0" x2="150" y2="160" stroke="rgba(255,255,255,0.12)" stroke-dasharray="4,4" />
+                  <line x1="0" y1="120" x2="300" y2="120" stroke="rgba(255,255,255,0.12)" />
+                  <circle cx="150" cy="75" r="5" fill="#22d3ee" />
+                  <defs>
+                    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#6366f1" />
+                      <stop offset="100%" stop-color="#06b6d4" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento 2: Rasm Skaneri (OCR) -->
+          <div class="bento-card">
+            <div class="bento-content">
+              <span class="bento-tag">Sun’iy Intellekt OCR</span>
+              <h3>Kamera va Masala Skaneri</h3>
+              <p>Daftar yoki kitobdagi qo‘lyozma misolni rasmga oling. Tizim matnni taniydi va qoidalar bilan to‘liq tahlil qilib beradi.</p>
+              <div class="bento-scanner-pill">
+                <span>📸 Foto tahlil: 0.3 soniya</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento 3: Nazariyadan Amaliyotga -->
+          <div class="bento-card">
+            <div class="bento-content">
+              <span class="bento-tag">Interaktiv Testlar</span>
+              <h3>Besh Bosqichli Amaliyot</h3>
+              <p>Faqat eslab qolish emas — misollar orqali mustahkamlash. Testlar, xatolar tahlili va formulalar spravochnigi.</p>
+              <div class="bento-scanner-pill">
+                <span>✓ 7 bosqichli darslik tizimi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1.5 STORYTELLING SECTION 2: IELTS & TILLAR AKADEMIYASI -->
+    <section class="landing-story-section" id="landing-ielts">
+      <div class="landing-container">
+        <div class="story-header-center">
+          <span class="story-overline">IELTS AKADEMIYASI</span>
+          <h2 class="story-headline">
+            IELTS Speaking & Listening.<br>
+            <span class="text-gradient-purple">Band 8.5+ sari to‘g‘ri va tizimli yo‘l.</span>
+          </h2>
+          <p class="story-subheadline">
+            IELTS Speaking (Part 1, 2 va 3) hamda Listening bo‘yicha Cambridge standartidagi darsliklar, faol audio tahlili va aniq band hisoboti.
+          </p>
+        </div>
+
+        <div class="story-ielts-feature-card">
+          <div class="ielts-feature-grid">
+            <div class="ielts-feature-item">
+              <div class="ielts-feat-icon">🎧</div>
+              <h4>IELTS Listening & Audio</h4>
+              <p>Haqiqiy IELTS audio darslari, audio matnlar (transcript) va savollarga javob berish amaliyoti.</p>
+            </div>
+            <div class="ielts-feature-item">
+              <div class="ielts-feat-icon">💬</div>
+              <h4>IELTS Speaking Tahlili</h4>
+              <p>Part 1, 2, 3 mavzulari, namunaviy javoblar, boy so‘z birikmalari va grammatik tahlil.</p>
+            </div>
+            <div class="ielts-feature-item">
+              <div class="ielts-feat-icon">📊</div>
+              <h4>Band 9.0 Rasmiy Mezonlari</h4>
+              <p>Fluency, Lexical Resource, Grammatical Range va Pronunciation bo‘yicha batafsil ball hisoboti.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1.6 STORYTELLING SECTION 3: SHAXSIY AI MENTOR -->
+    <section class="landing-story-section" id="landing-mentor">
+      <div class="landing-container">
+        <div class="story-header-center">
+          <span class="story-overline">SHAXSIY MENTOR</span>
+          <h2 class="story-headline">
+            Sizning sur’atingiz.<br>
+            <span class="text-gradient-emerald">Sizning shaxsiy ta’lim rejangiz.</span>
+          </h2>
+          <p class="story-subheadline">
+            Har bir talaba o‘z tezligida o‘rganadi. Gulasal AI sizning kuchli va kuchsiz tomonlaringizni aniqlab, faqat sizga mos yo‘nalish chizadi.
+          </p>
+        </div>
+
+        <div class="mentor-metrics-row">
+          <div class="mentor-stat-box">
+            <span class="mentor-stat-num">15,000+</span>
+            <span class="mentor-stat-label">Yechilgan masalalar</span>
+          </div>
+          <div class="mentor-stat-box">
+            <span class="mentor-stat-num">98.6%</span>
+            <span class="mentor-stat-label">Ijobiy natijalar</span>
+          </div>
+          <div class="mentor-stat-box">
+            <span class="mentor-stat-num">24 / 7</span>
+            <span class="mentor-stat-label">Uzluksiz intellektual yordam</span>
+          </div>
+          <div class="mentor-stat-box">
+            <span class="mentor-stat-num">0.2s</span>
+            <span class="mentor-stat-label">Tezkor AI javob tezligi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1.7 FINAL CALL TO ACTION (APPLE STYLE KEYNOTE CLOSING) -->
+    <section class="landing-final-cta-section" id="landing-cta">
+      <div class="landing-container">
+        <div class="final-cta-card">
+          <div class="final-cta-badge">Gulasal AI Platformasi</div>
+          <h2 class="final-cta-title">Bugun o‘z kelajagingiz sari birinchi qadamni tashlang.</h2>
+          <p class="final-cta-sub">Ro‘yxatdan o‘tish mutlaqo bepul va 1 daqiqadan kam vaqt oladi.</p>
+          <div class="final-cta-btn-wrap">
+            <button id="intro-bottom-cta-btn" class="landing-primary-btn js-open-auth" type="button">
+              <span>Gulasal AI bilan boshlash</span>
+              <span class="landing-btn-arrow">→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1.8 MINIMALIST APPLE FOOTER -->
+    <footer class="landing-footer">
+      <div class="landing-container landing-footer-container">
+        <div class="footer-left">
+          <span class="footer-logo">Gulasal AI</span>
+          <p>© 2026 Gulasal AI Ta’lim Ekotizimi. Barcha huquqlar himoyalangan.</p>
+        </div>
+        <div class="footer-right">
+          <button class="footer-link-btn js-open-auth" type="button">Kirish</button>
+          <span class="footer-divider">•</span>
+          <button class="footer-link-btn js-open-auth" type="button">Ro‘yxatdan o‘tish</button>
+          <span class="footer-divider">•</span>
+          <span class="footer-version">v7.0 Pro</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ========================================================
+       2. AUTHENTICATION SCREEN — DEDICATED LOGIN & REGISTER MODAL
+  ======================================================== -->
+  <section id="auth-screen">
+    <div class="auth-card-circular">
+      <button id="auth-back-intro" class="auth-back-btn" type="button" title="Asosiy sahifaga qaytish">
+        ← Asosiy sahifa
+      </button>
+
+      <!-- BRAND LOGO BADGE -->
+      <div class="auth-logo-badge-mini">G</div>
+
+      <!-- AUTH MODE SELECTOR TABS -->
+      <div class="auth-tabs-nav" role="tablist">
+        <button id="tab-login-btn" class="auth-tab-btn active" type="button" role="tab" aria-selected="true">
+          <span>🔑 Kirish</span>
+        </button>
+        <button id="tab-register-btn" class="auth-tab-btn" type="button" role="tab" aria-selected="false">
+          <span>✨ Ro‘yxatdan o‘tish</span>
+        </button>
+      </div>
+
+      <!-- ================= 2.1 LOGIN VIEW ================= -->
+      <div id="auth-view-login" class="auth-pane-view active">
+        <div class="auth-header-circular">
+          <h1 class="auth-title-circular">Tizimga kirish</h1>
+          <p class="auth-subtitle-circular">Gulasal AI hisobingizga kiring va darslarni davom ettiring</p>
+        </div>
+
+        <div class="auth-glass-cards-row">
+          <!-- GOOGLE 1-CLICK LOGIN BUTTON -->
+          <button class="auth-glass-card google-glass-card" id="google-glass-btn" type="button" title="Google bilan davom etish">
+            <div class="card-glow-aura google-aura"></div>
+            <div class="card-inner-glass">
+              <div class="card-icon-wrap">
+                <svg class="google-brand-svg" width="24" height="24" viewBox="0 0 48 48">
+                  <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                  <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                  <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                  <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                </svg>
+              </div>
+              <div class="card-text-wrap">
+                <span class="card-title">Google orqali kirish</span>
+                <span class="card-desc">Google hisobingiz orqali 1-klikda</span>
+              </div>
+              <span class="card-arrow">→</span>
+            </div>
+          </button>
+
+          <!-- DELICATE 'YOKI' DIVIDER -->
+          <div class="auth-divider-yoki">
+            <span class="divider-line"></span>
+            <span class="divider-text">YOKI EMAIL VA PAROL BILAN</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <!-- EMAIL LOGIN FORM -->
+          <form id="email-login-form" class="auth-custom-form" autocomplete="on">
+            <div class="auth-input-group">
+              <label for="login-email">Email manzilingiz</label>
+              <div class="auth-input-wrap">
+                <span class="input-icon">✉️</span>
+                <input type="email" id="login-email" placeholder="namuna@gmail.com" required autocomplete="email">
+              </div>
+            </div>
+
+            <div class="auth-input-group">
+              <label for="login-password">Parol</label>
+              <div class="auth-input-wrap">
+                <span class="input-icon">🔒</span>
+                <input type="password" id="login-password" placeholder="Parolingizni kiriting" required autocomplete="current-password">
+              </div>
+            </div>
+
+            <button id="login-submit-btn" class="auth-submit-btn" type="submit">
+              <span>Hisobga kirish</span>
+              <span class="submit-arrow">→</span>
+            </button>
+          </form>
+
+          <!-- 2. GUEST LOGIN GLASS CARD -->
+          <button id="guest-button" class="auth-glass-card guest-glass-card" type="button" title="Mehmon sifatida kirish">
+            <div class="card-glow-aura guest-aura"></div>
+            <div class="card-inner-glass">
+              <div class="card-icon-wrap guest-icon-wrap">
+                <svg class="guest-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="card-text-wrap">
+                <span class="card-title">Mehmon sifatida sinab ko‘rish</span>
+                <span class="card-desc">Parolsiz, tezkor tanishish rejimi</span>
+              </div>
+              <span class="card-arrow">→</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="auth-footer-options">
+          <p class="auth-switch-text">
+            Hali hisobingiz yo‘qmi?
+            <button id="switch-to-register-btn" class="auth-switch-link" type="button">Ro‘yxatdan o‘tish →</button>
+          </p>
+        </div>
+      </div>
+
+      <!-- ================= 2.2 REGISTER VIEW (ALOHIDA RO'YXATDAN O'TISH) ================= -->
+      <div id="auth-view-register" class="auth-pane-view">
+        <div class="auth-header-circular">
+          <h1 class="auth-title-circular">Yangi hisob ochish</h1>
+          <p class="auth-subtitle-circular">Gulasal AI oilasiga qo‘shiling va bepul o‘rganishni boshlang</p>
+        </div>
+
+        <div class="auth-glass-cards-row">
+          <!-- GOOGLE 1-CLICK REGISTER BUTTON -->
+          <button class="auth-glass-card google-glass-card" id="google-glass-btn-reg" type="button" title="Google bilan ro‘yxatdan o‘tish">
+            <div class="card-glow-aura google-aura"></div>
+            <div class="card-inner-glass">
+              <div class="card-icon-wrap">
+                <svg class="google-brand-svg" width="24" height="24" viewBox="0 0 48 48">
+                  <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                  <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                  <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                  <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                </svg>
+              </div>
+              <div class="card-text-wrap">
+                <span class="card-title">Google orqali ro‘yxatdan o‘tish</span>
+                <span class="card-desc">1-klikda tezkor va xavfsiz akkaunt</span>
+              </div>
+              <span class="card-arrow">→</span>
+            </div>
+          </button>
+
+          <!-- DELICATE 'YOKI' DIVIDER -->
+          <div class="auth-divider-yoki">
+            <span class="divider-line"></span>
+            <span class="divider-text">YOKI MA’LUMOTLARNI TO‘LDIRING</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <!-- EMAIL REGISTER FORM -->
+          <form id="email-register-form" class="auth-custom-form" autocomplete="on">
+            <div class="auth-input-group">
+              <label for="register-name">Ism va familiyangiz</label>
+              <div class="auth-input-wrap">
+                <span class="input-icon">👤</span>
+                <input type="text" id="register-name" placeholder="Masalan: Malika Sobirova" required autocomplete="name">
+              </div>
+            </div>
+
+            <div class="auth-input-group">
+              <label for="register-email">Email manzilingiz</label>
+              <div class="auth-input-wrap">
+                <span class="input-icon">✉️</span>
+                <input type="email" id="register-email" placeholder="namuna@gmail.com" required autocomplete="email">
+              </div>
+            </div>
+
+            <div class="auth-input-group">
+              <label for="register-password">Yangi parol</label>
+              <div class="auth-input-wrap">
+                <span class="input-icon">🔒</span>
+                <input type="password" id="register-password" placeholder="Kamida 8 ta belgi" required minlength="8" autocomplete="new-password">
+              </div>
+            </div>
+
+            <button id="register-submit-btn" class="auth-submit-btn auth-submit-register" type="submit">
+              <span>Ro‘yxatdan o‘tish (Bepul)</span>
+              <span class="submit-arrow">→</span>
+            </button>
+          </form>
+        </div>
+
+        <div class="auth-footer-options">
+          <p class="auth-switch-text">
+            Allaqachon hisobingiz bormi?
+            <button id="switch-to-login-btn" class="auth-switch-link" type="button">Tizimga kirish →</button>
+          </p>
+        </div>
+      </div>
+
+      <!-- Official Google Sign-In Fallback Button (visible if popup blocked or for direct GSI) -->
+      <div id="google-fallback-container" class="google-fallback-container" style="display: none;">
+        <div id="google-signin-button"></div>
+      </div>
+
+      <div id="auth-message" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       3. MAIN APPLICATION INTERFACE
+  ======================================================== -->
+  <div id="app">
+    <aside class="sidebar" id="sidebar-container"></aside>
+    <div id="sidebar-backdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+
+    <div class="main-wrapper">
+      <header class="navbar" id="navbar-container"></header>
+
+      <main class="view-container" id="view-container">
+        <div class="app-loading">
+          <div class="loading-icon">G</div>
+          <h2>Gulasal AI</h2>
+          <p>Tizim yuklanmoqda...</p>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- GOOGLE IDENTITY SERVICES -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <!-- APPLICATION ARCHITECTURE & INTERACTIONS -->
+  <script type="module">
+    import { ThemeManager } from '/client/utils/themeManager.js';
+    try { ThemeManager.init(); } catch (e) {}
+
+    let GOOGLE_CLIENT_ID =
+      '299782937916-r3l418dr3h1ku0941ue2urk4gru3cjqo.apps.googleusercontent.com';
+
+    const authMessage = document.getElementById('auth-message');
+    const guestButton = document.getElementById('guest-button');
+    const googleButton = document.getElementById('google-signin-button');
+
+    const appData = {
+      system: {},
+      stats: {},
+      subjects: [],
+      tools: [],
+      library: []
+    };
+
+    const allowedViews = ['chat', 'subjects', 'tools', 'mentor', 'community', 'eilist', 'settings', 'admin'];
+
+    let activeTab = 'chat';
+    let appStarted = false;
+    let appStarting = false;
+    let googleInitialized = false;
+    let modules = null;
+    let currentUser = null;
+    let googleWait = null;
+    let googleTimeout = null;
+
+    function showAuthMessage(message = '', isError = false) {
+      if (!authMessage) return;
+      authMessage.textContent = message;
+      authMessage.style.color = isError ? '#ff9caa' : '#a993ff';
+      if (message) console.log(`[AUTH MSG] ${message}`);
+    }
+
+    // DIAGNOSTIC LOGGING FOR MOBILE
+    const logs = [];
+    function diagLog(msg, data) {
+      const logMsg = `[DIAG] ${msg} ${data ? JSON.stringify(data) : ''}`;
+      console.log(logMsg);
+      logs.push(logMsg);
+      if (logs.length > 20) logs.shift();
+      
+      let overlay = document.getElementById('diag-overlay');
+      if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.id = 'diag-overlay';
+        overlay.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:rgba(0,0,0,0.85);color:white;font-size:10px;z-index:100000;pointer-events:none;max-height:30vh;overflow:auto;padding:5px;display:none;';
+        document.body.appendChild(overlay);
+      }
+      overlay.innerText = logs.join('\n');
+    }
+
+    window.showDiag = () => {
+      const overlay = document.getElementById('diag-overlay');
+      if (overlay) overlay.style.display = 'block';
+    };
+
+    async function apiRequest(endpoint, options = {}) {
+      let response;
+
+      try {
+        response = await fetch(endpoint, {
+          ...options,
+          credentials: 'same-origin',
+          cache: 'no-store',
+          headers: {
+            ...(options.headers || {}),
+            ...(options.body ? { 'Content-Type': 'application/json' } : {})
+          }
+        });
+      } catch (error) {
+        throw new Error(
+          'Serverga ulanib bo‘lmadi. node server.js ishlayotganini tekshiring.'
+        );
+      }
+
+      let data;
+
+      try {
+        data = await response.json();
+      } catch {
+        throw new Error('Serverdan noto‘g‘ri javob olindi.');
+      }
+
+      if (!response.ok || data.success === false) {
+        if (response.status === 401) {
+          throw new Error('Sessiya tugagan yoki ma’lumotlar noto‘g‘ri.');
+        }
+
+        throw new Error(
+          data.message || `Server xatosi: HTTP ${response.status}`
+        );
+      }
+
+      return data;
+    }
+
+    async function loadModules() {
+      if (modules) return modules;
+
+      diagLog('Loading modules...');
+      showAuthMessage('Ilova komponentlari yuklanmoqda...');
+
+      try {
+        const v = Date.now();
+        const results = await Promise.all([
+          import(`/client/sidebar/sidebar.js?v=${v}`).catch(e => { diagLog('Error loading sidebar', e.message); throw e; }),
+          import(`/client/components/Navbar.js?v=${v}`).catch(e => { diagLog('Error loading navbar', e.message); throw e; }),
+          import(`/client/chat/chat.js?v=${v}`).catch(e => { diagLog('Error loading chat', e.message); throw e; }),
+          import(`/client/tools/tools.js?v=${v}`).catch(e => { diagLog('Error loading tools', e.message); throw e; }),
+          import(`/client/subjects/subjects.js?v=${v}`).catch(e => { diagLog('Error loading subjects', e.message); throw e; }),
+          import(`/client/mentor/mentor.js?v=${v}`).catch(e => { diagLog('Error loading mentor', e.message); throw e; }),
+          import(`/client/community/community.js?v=${v}`).catch(e => { diagLog('Error loading community', e.message); throw e; }),
+          import(`/client/eilist/eilist.js?v=${v}`).catch(e => { diagLog('Error loading eilist', e.message); throw e; }),
+          import(`/client/admin/admin.js?v=${v}`).catch(e => { diagLog('Error loading admin', e.message); throw e; }),
+          import(`/client/settings/settings.js?v=${v}`).catch(e => { diagLog('Error loading settings', e.message); throw e; }),
+          import(`/client/utils/tilt.js?v=${v}`).catch(e => { diagLog('Error loading tilt', e.message); return {}; })
+        ]);
+
+        diagLog('Modules loaded successfully');
+
+        modules = {
+          renderSidebar: results[0].renderSidebar,
+          renderNavbar: results[1].renderNavbar,
+          renderChat: results[2].renderChat,
+          renderTools: results[3].renderTools,
+          renderSubjects: results[4].renderSubjects,
+          renderMentor: results[5].renderMentor,
+          renderCommunity: results[6].renderCommunity,
+          renderEilist: results[7].renderEilist,
+          renderAdmin: results[8].renderAdmin,
+          renderSettings: results[9].renderSettings,
+          initSpotlightAndTilt: results[10]?.initSpotlightAndTilt
+        };
+
+        const coreFunctions = ['renderSidebar', 'renderNavbar', 'renderChat', 'renderTools', 'renderSubjects', 'renderMentor', 'renderCommunity', 'renderEilist', 'renderAdmin', 'renderSettings'];
+        for (const name of coreFunctions) {
+          if (typeof modules[name] !== 'function') {
+            diagLog(`Function ${name} not found in modules`);
+            throw new Error(`${name} funksiyasi topilmadi.`);
+          }
+        }
+
+        return modules;
+      } catch (error) {
+        diagLog('Module load failed', error.message);
+        throw error;
+      }
+    }
+
+    async function loadApplicationData() {
+      try {
+        const result = await apiRequest('/api/data');
+        const data = result.data || {};
+
+        Object.assign(appData, {
+          ...data,
+          subjects: Array.isArray(data.subjects) ? data.subjects : [],
+          tools: Array.isArray(data.tools) ? data.tools : [],
+          library: Array.isArray(data.library) ? data.library : []
+        });
+      } catch (error) {
+        console.warn('[DATA LOAD]', error);
+      }
+    }
+
+    async function startApplication(user) {
+      if (appStarted || appStarting) return;
+
+      diagLog('Starting application for user', user.id || user.email);
+      appStarting = true;
+      currentUser = user;
+      showAuthMessage('Gulasal AI ishga tushmoqda...');
+
+      try {
+        const ui = await loadModules();
+
+        diagLog('Fetching app data...');
+        await loadApplicationData();
+
+        diagLog('Rendering components...');
+        ui.renderNavbar('navbar-container', handleGlobalSearch, currentUser, switchView);
+
+        ui.renderSidebar(
+          'sidebar-container',
+          activeTab,
+          switchView,
+          currentUser
+        );
+
+        switchView('chat');
+
+        // LUXURY UPGRADE: Initialize 3D Spotlight Tilt & Effects
+        if (typeof ui.initSpotlightAndTilt === 'function') {
+          ui.initSpotlightAndTilt();
+        }
+
+        diagLog('Application initialized');
+        document.body.classList.add('authenticated');
+        appStarted = true;
+
+        showAuthMessage('');
+        console.log('[APP] Gulasal AI ishga tushdi.', user);
+
+      } catch (error) {
+        diagLog('App start error', error.message);
+        console.error('[APP START ERROR]', error);
+
+        document.body.classList.remove('authenticated');
+
+        showAuthMessage(
+          'Ilovani ishga tushirishda xatolik: ' + error.message,
+          true
+        );
+      } finally {
+        appStarting = false;
+      }
+    }
+
+    function setGoogleButtonLoading(isLoading) {
+      const btn = document.getElementById('google-glass-btn');
+      if (!btn) return;
+      if (isLoading) {
+        btn.classList.add('is-loading');
+        btn.disabled = true;
+      } else {
+        btn.classList.remove('is-loading');
+        btn.disabled = false;
+      }
+    }
+
+    async function handleGoogleCredential(response) {
+      try {
+        if (!response?.credential) {
+          throw new Error('Google hisob ma’lumotlari olinmadi.');
+        }
+
+        showAuthMessage('Google hisobingiz tekshirilmoqda...');
+        setGoogleButtonLoading(true);
+
+        const result = await apiRequest('/api/auth/google', {
+          method: 'POST',
+          body: JSON.stringify({
+            credential: response.credential
+          })
+        });
+
+        if (!result.user) {
+          throw new Error(
+            result.message || 'Foydalanuvchi aniqlanmadi.'
+          );
+        }
+
+        await startApplication(result.user);
+
+      } catch (error) {
+        console.error('[GOOGLE LOGIN ERROR]', error);
+        showAuthMessage(error.message, true);
+      } finally {
+        setGoogleButtonLoading(false);
+      }
+    }
+
+    async function handleGoogleAccessToken(accessToken) {
+      try {
+        if (!accessToken) {
+          throw new Error('Google ruxsat kodi olinmadi.');
+        }
+
+        showAuthMessage('Google hisobingiz tekshirilmoqda...');
+        setGoogleButtonLoading(true);
+
+        const result = await apiRequest('/api/auth/google', {
+          method: 'POST',
+          body: JSON.stringify({
+            access_token: accessToken
+          })
+        });
+
+        if (!result.user) {
+          throw new Error(
+            result.message || 'Foydalanuvchi aniqlanmadi.'
+          );
+        }
+
+        await startApplication(result.user);
+
+      } catch (error) {
+        console.error('[GOOGLE ACCESS TOKEN ERROR]', error);
+        showAuthMessage(error.message, true);
+      } finally {
+        setGoogleButtonLoading(false);
+      }
+    }
+
+    let tokenClient = null;
+
+    function initGoogleTokenClient() {
+      if (window.google?.accounts?.oauth2?.initTokenClient) {
+        try {
+          tokenClient = window.google.accounts.oauth2.initTokenClient({
+            client_id: GOOGLE_CLIENT_ID,
+            scope: 'email profile openid',
+            callback: async (tokenResponse) => {
+              if (tokenResponse?.error) {
+                console.warn('[GOOGLE TOKEN CLIENT ERROR]', tokenResponse);
+                if (tokenResponse.error !== 'popup_closed_by_user') {
+                  showAuthMessage('Google orqali kirishda xatolik: ' + (tokenResponse.error_description || tokenResponse.error), true);
+                } else {
+                  showAuthMessage('Google oynasi yopildi.');
+                }
+                setGoogleButtonLoading(false);
+                return;
+              }
+
+              if (tokenResponse?.access_token) {
+                await handleGoogleAccessToken(tokenResponse.access_token);
+              }
+            },
+            error_callback: (err) => {
+              console.error('[GOOGLE OAUTH ERROR]', err);
+              setGoogleButtonLoading(false);
+              showAuthMessage('Google xizmati bilan ulanishda xatolik yuz berdi: ' + (err.message || err.type || ''), true);
+              const fallbackContainer = document.getElementById('google-fallback-container');
+              if (fallbackContainer) fallbackContainer.style.display = 'flex';
+            }
+          });
+          return true;
+        } catch (e) {
+          console.warn('[INIT TOKEN CLIENT ERROR]', e);
+          return false;
+        }
+      }
+      return false;
+    }
+
+    function initializeGoogle(forceRender = false) {
+      const gsiAvailable = Boolean(window.google?.accounts);
+      if (!gsiAvailable) {
+        return false;
+      }
+
+      // 1. Initialize OAuth2 Token Client for custom button
+      initGoogleTokenClient();
+
+      // 2. Initialize Identity Services for One Tap and official button
+      if (window.google?.accounts?.id) {
+        try {
+          window.google.accounts.id.initialize({
+            client_id: GOOGLE_CLIENT_ID,
+            callback: handleGoogleCredential,
+            auto_select: false,
+            cancel_on_tap_outside: true
+          });
+
+          const googleButton = document.getElementById('google-signin-button');
+          if (googleButton && (!googleInitialized || forceRender)) {
+            googleButton.innerHTML = '';
+            window.google.accounts.id.renderButton(
+              googleButton,
+              {
+                type: 'standard',
+                theme: 'filled_black',
+                size: 'large',
+                shape: 'pill',
+                width: 280,
+                text: 'continue_with',
+                locale: 'uz'
+              }
+            );
+          }
+
+          googleInitialized = true;
+          console.log('[GOOGLE] Google tizimi tayyor.');
+          return true;
+        } catch (error) {
+          console.error('[GOOGLE INIT ERROR]', error);
+          return false;
+        }
+      }
+
+      return false;
+    }
+
+    async function triggerGoogleLogin() {
+      if (appStarted || appStarting) return;
+
+      const isRawIp = Boolean(window.location.hostname.match(/^\d+\.\d+\.\d+\.\d+$/) && window.location.hostname !== '127.0.0.1');
+      if (isRawIp) {
+        showAuthMessage(`Google OAuth xavfsizlik siyosati IP manzil (${window.location.origin}) orqali kirishni taqiqlaydi. Iltimos, kompyuterda http://localhost:3000 orqali kiring yoki «Mehmon sifatida kirish»dan foydalaning.`, true);
+        return;
+      }
+
+      setGoogleButtonLoading(true);
+      showAuthMessage('Google hisobingiz yuklanmoqda...');
+
+      // Ensure Token Client is initialized
+      if (!tokenClient && window.google?.accounts?.oauth2) {
+        initGoogleTokenClient();
+      }
+
+      if (tokenClient) {
+        try {
+          tokenClient.requestAccessToken({ prompt: 'select_account' });
+          return;
+        } catch (err) {
+          console.warn('[REQUEST ACCESS TOKEN FAILED]', err);
+        }
+      }
+
+      // Fallback: try One Tap prompt
+      if (window.google?.accounts?.id?.prompt) {
+        window.google.accounts.id.prompt((notification) => {
+          console.log('[GSI NOTIFICATION]', notification);
+          if (notification.isNotDisplayed()) {
+            const reason = notification.getNotDisplayedReason();
+            console.warn('[GSI NOT DISPLAYED]', reason);
+            setGoogleButtonLoading(false);
+            showAuthMessage('Google tizimi bu sahifada faollashtirilmadi (' + reason + '). Rasmiy tugmadan foydalaning.', true);
+            const fallbackContainer = document.getElementById('google-fallback-container');
+            if (fallbackContainer) fallbackContainer.style.display = 'flex';
+          } else if (notification.isSkippedMoment()) {
+            setGoogleButtonLoading(false);
+          }
+        });
+        return;
+      }
+
+      setGoogleButtonLoading(false);
+      showAuthMessage('Google kutubxonasi hali yuklanmadi. Birozdan so‘ng qayta bosing.', true);
+    }
+
+    async function enterAsGuest() {
+      if (appStarted || appStarting) return;
+
+      guestButton.disabled = true;
+      guestButton.classList.add('is-loading');
+      showAuthMessage('');
+
+      try {
+        const result = await apiRequest('/api/auth/guest', {
+          method: 'POST',
+          body: JSON.stringify({})
+        });
+
+        if (!result.user) {
+          throw new Error('Mehmon sessiyasi yaratilmadi.');
+        }
+
+        await startApplication(result.user);
+
+      } catch (error) {
+        console.error('[GUEST ERROR]', error);
+        showAuthMessage(error.message, true);
+        guestButton.disabled = false;
+        guestButton.classList.remove('is-loading');
+      } finally {
+        if (!appStarted) {
+          guestButton.disabled = false;
+          guestButton.classList.remove('is-loading');
+        }
+      }
+    }
+
+    if (guestButton) {
+      guestButton.addEventListener('click', enterAsGuest);
+    }
+
+    const googleGlassBtn = document.getElementById('google-glass-btn');
+    if (googleGlassBtn) {
+      googleGlassBtn.addEventListener('click', triggerGoogleLogin);
+      googleGlassBtn.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          triggerGoogleLogin();
+        }
+      });
+    }
+
+    async function checkExistingSession() {
+      try {
+        const result = await apiRequest('/api/auth/session');
+        // QAT'IY QOIDA: Sahifaga kirganda avtomatik ilovaga o'tib ketilmaydi!
+        // Foydalanuvchi doimo Intro sahifasini ko'radi va «Boshlash»ni o'zi bosadi.
+      } catch (error) {
+        console.info('[SESSION]', error.message);
+      }
+    }
+
+    function switchView(viewId, initialData = null) {
+      if (!modules) {
+        throw new Error('Ilova modullari hali yuklanmagan.');
+      }
+
+      if (!allowedViews.includes(viewId)) {
+        viewId = 'chat';
+      }
+
+      // Faqat bahtiermustafoev1974@gmail.com uchun admin paneli ochiladi
+      if (viewId === 'admin' && !currentUser?.isAdmin) {
+        viewId = 'chat';
+      }
+
+      activeTab = viewId;
+
+      modules.renderSidebar(
+        'sidebar-container',
+        activeTab,
+        switchView,
+        currentUser
+      );
+
+      if (viewId === 'chat') {
+        modules.renderChat('view-container', initialData || '');
+      } else if (viewId === 'subjects') {
+        modules.renderSubjects(
+          'view-container',
+          appData.subjects,
+          prompt => switchView('chat', prompt)
+        );
+      } else if (viewId === 'tools') {
+        modules.renderTools('view-container');
+      } else if (viewId === 'mentor') {
+        modules.renderMentor('view-container');
+      } else if (viewId === 'community') {
+        modules.renderCommunity('view-container');
+      } else if (viewId === 'eilist') {
+        modules.renderEilist('view-container');
+      } else if (viewId === 'settings') {
+        modules.renderSettings('view-container');
+      } else if (viewId === 'admin') {
+        modules.renderAdmin('view-container', () => switchView('community'));
+      }
+    }
+
+    function handleGlobalSearch(query) {
+      const q = String(query || '').toLowerCase().trim();
+      if (!q) return;
+
+      const subjects = appData.subjects || [];
+
+      const matched = subjects.find(subject => {
+        const name = String(
+          subject.name || subject.title || subject.label || ''
+        ).toLowerCase();
+
+        const description = String(
+          subject.description || subject.desc || ''
+        ).toLowerCase();
+
+        const modulesList = Array.isArray(subject.modules)
+          ? subject.modules
+          : [];
+
+        const topics = Array.isArray(subject.topics)
+          ? subject.topics
+          : [];
+
+        return (
+          name.includes(q) ||
+          description.includes(q) ||
+          modulesList.some(item =>
+            String(item).toLowerCase().includes(q)
+          ) ||
+          topics.some(item =>
+            String(item).toLowerCase().includes(q)
+          )
+        );
+      });
+
+      if (matched) {
+        switchView('subjects');
+      } else {
+        switchView('chat', query);
+      }
+    }
+
+    async function loadAuthConfig() {
+      try {
+        const res = await apiRequest('/api/auth/config');
+        if (res?.googleClientId) {
+          GOOGLE_CLIENT_ID = res.googleClientId;
+          console.log('[OAUTH] Google Client ID sinxronlandi.');
+        }
+      } catch (err) {
+        console.warn('[AUTH CONFIG]', err.message);
+      }
+    }
+
+    async function startGoogleInitialization() {
+      await loadAuthConfig();
+      if (initializeGoogle()) return;
+
+      googleWait = setInterval(() => {
+        if (initializeGoogle()) {
+          clearInterval(googleWait);
+          googleWait = null;
+          clearTimeout(googleTimeout);
+          googleTimeout = null;
+        }
+      }, 300);
+
+      googleTimeout = setTimeout(() => {
+        if (googleWait) {
+          clearInterval(googleWait);
+          googleWait = null;
+        }
+
+        if (!googleInitialized) {
+          console.warn('[GOOGLE] Google kutubxonasi vaqtida javob bermadi.');
+        }
+      }, 15000);
+    }
+
+    /* ========================================================
+       4. CINEMATIC INTRO: PARTICLES & PARALLAX
+    ======================================================== */
+    function initIntroCanvas() {
+      const canvas = document.getElementById('intro-particles-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      const onResize = () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      };
+      window.addEventListener('resize', onResize);
+
+      const count = window.innerWidth < 600 ? 32 : 65;
+      const particles = [];
+      const colors = [
+        'rgba(167, 139, 250, ',
+        'rgba(236, 141, 245, ',
+        'rgba(103, 213, 255, ',
+        'rgba(255, 255, 255, '
+      ];
+
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          size: Math.random() * 2.2 + 0.6,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: -Math.random() * 0.45 - 0.12,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          alpha: Math.random() * 0.7 + 0.25,
+          pulse: Math.random() * 0.015 + 0.005,
+          dir: Math.random() > 0.5 ? 1 : -1
+        });
+      }
+
+      const introEl = document.getElementById('cinematic-intro');
+      let animId = null;
+
+      function loop() {
+        if (!introEl || introEl.classList.contains('intro-hidden') || document.body.classList.contains('authenticated')) {
+          cancelAnimationFrame(animId);
+          return;
+        }
+
+        ctx.clearRect(0, 0, width, height);
+
+        for (let i = 0; i < particles.length; i++) {
+          const p = particles[i];
+          p.x += p.vx;
+          p.y += p.vy;
+
+          p.alpha += p.pulse * p.dir;
+          if (p.alpha > 0.85) p.dir = -1;
+          else if (p.alpha < 0.2) p.dir = 1;
+
+          if (p.y < -10) {
+            p.y = height + 10;
+            p.x = Math.random() * width;
+          }
+          if (p.x < -10) p.x = width + 10;
+          if (p.x > width + 10) p.x = -10;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.fillStyle = p.color + p.alpha + ')';
+          if (p.size > 1.8) {
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#a78bfa';
+          } else {
+            ctx.shadowBlur = 0;
+          }
+          ctx.fill();
+        }
+
+        animId = requestAnimationFrame(loop);
+      }
+
+      animId = requestAnimationFrame(loop);
+    }
+
+    function initIntroParallax() {
+      const stage = document.getElementById('intro-hero-stage');
+      const intro = document.getElementById('cinematic-intro');
+      if (!stage || !intro) return;
+
+      const onMouseMove = (e) => {
+        if (window.innerWidth < 768) return;
+        const { clientX, clientY } = e;
+        const xOffset = (clientX / window.innerWidth - 0.5) * 2;
+        const yOffset = (clientY / window.innerHeight - 0.5) * 2;
+
+        const rotX = -yOffset * 6.5;
+        const rotY = xOffset * 6.5;
+
+        stage.style.transform = `perspective(1000px) rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg)`;
+      };
+
+      const onMouseLeave = () => {
+        stage.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+      };
+
+      intro.addEventListener('mousemove', onMouseMove);
+      intro.addEventListener('mouseleave', onMouseLeave);
+    }
+
+    /* ========================================================
+       5. CINEMATIC INTRO & AUTH STRICT NAVIGATION & FORMS
+    ======================================================== */
+    function initIntroAndAuth() {
+      const introEl = document.getElementById('cinematic-intro');
+      const authScreenEl = document.getElementById('auth-screen');
+      const startBtn = document.getElementById('intro-start-btn');
+      const backBtn = document.getElementById('auth-back-intro');
+
+      // TABS & VIEWS
+      const tabLoginBtn = document.getElementById('tab-login-btn');
+      const tabRegisterBtn = document.getElementById('tab-register-btn');
+      const viewLogin = document.getElementById('auth-view-login');
+      const viewRegister = document.getElementById('auth-view-register');
+      const switchToRegisterBtn = document.getElementById('switch-to-register-btn');
+      const switchToLoginBtn = document.getElementById('switch-to-login-btn');
+
+      // FORMS
+      const loginForm = document.getElementById('email-login-form');
+      const registerForm = document.getElementById('email-register-form');
+      const googleBtnReg = document.getElementById('google-glass-btn-reg');
+
+      function switchAuthTab(mode = 'login') {
+        const isRegister = mode === 'register';
+        if (tabLoginBtn) tabLoginBtn.classList.toggle('active', !isRegister);
+        if (tabRegisterBtn) tabRegisterBtn.classList.toggle('active', isRegister);
+        if (viewLogin) viewLogin.classList.toggle('active', !isRegister);
+        if (viewRegister) viewRegister.classList.toggle('active', isRegister);
+        showAuthMessage('');
+      }
+
+      if (tabLoginBtn) tabLoginBtn.addEventListener('click', () => switchAuthTab('login'));
+      if (tabRegisterBtn) tabRegisterBtn.addEventListener('click', () => switchAuthTab('register'));
+      if (switchToRegisterBtn) switchToRegisterBtn.addEventListener('click', () => switchAuthTab('register'));
+      if (switchToLoginBtn) switchToLoginBtn.addEventListener('click', () => switchAuthTab('login'));
+
+      // STRICT STATE: Initially guarantee Intro is active and Auth is completely hidden
+      if (!document.body.classList.contains('authenticated')) {
+        if (introEl) introEl.classList.remove('intro-hidden');
+        if (authScreenEl) authScreenEl.classList.remove('auth-visible');
+        if (window.location.hash) {
+          try {
+            history.replaceState({ screen: 'intro' }, '', window.location.pathname);
+          } catch {}
+        }
+      }
+
+      function openAuthScreen(mode = 'login') {
+        switchAuthTab(mode);
+        if (startBtn) startBtn.classList.add('is-activating');
+        
+        setTimeout(() => {
+          if (introEl) introEl.classList.add('intro-hidden');
+          if (authScreenEl) {
+            authScreenEl.classList.add('auth-visible');
+            initializeGoogle(true); // Render Google button dynamically with full container width
+          }
+          try {
+            history.pushState({ screen: 'auth', mode }, '', '#auth');
+          } catch {}
+        }, 180);
+      }
+
+      function returnToIntro() {
+        if (authScreenEl) authScreenEl.classList.remove('auth-visible');
+        if (introEl) {
+          introEl.classList.remove('intro-hidden');
+          if (startBtn) startBtn.classList.remove('is-activating');
+          initIntroCanvas(); // re-activate particle loop
+        }
+        try {
+          if (window.location.hash) {
+            history.replaceState({ screen: 'intro' }, '', window.location.pathname);
+          }
+        } catch {}
+      }
+
+      // 1. «Kirish» tugmalari
+      document.querySelectorAll('#intro-nav-login-btn').forEach(btn => {
+        btn.addEventListener('click', () => openAuthScreen('login'));
+      });
+
+      // 2. «Ro‘yxatdan o‘tish» va «Boshlash» tugmalari (ALOHIDA RO'YXATDAN O'TISH)
+      document.querySelectorAll('#intro-nav-register-btn, #intro-start-btn, #intro-bottom-cta-btn').forEach(btn => {
+        btn.addEventListener('click', () => openAuthScreen('register'));
+      });
+
+      // Footer havolalari
+      document.querySelectorAll('.footer-link-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const text = btn.textContent.toLowerCase();
+          openAuthScreen(text.includes('ro‘yxat') || text.includes('royxat') ? 'register' : 'login');
+        });
+      });
+
+      // 3. EMAIL ORQALI KIRISH FORMASI (LOGIN)
+      if (loginForm) {
+        loginForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const emailInput = document.getElementById('login-email');
+          const passInput = document.getElementById('login-password');
+          const submitBtn = document.getElementById('login-submit-btn');
+
+          const email = emailInput?.value.trim();
+          const password = passInput?.value;
+
+          if (!email || !password) {
+            showAuthMessage('Email va parolni kiriting.', true);
+            return;
+          }
+
+          if (submitBtn) submitBtn.disabled = true;
+          showAuthMessage('Kirilmoqda...');
+
+          try {
+            const res = await apiRequest('/api/auth/login', {
+              method: 'POST',
+              body: JSON.stringify({ email, password })
+            });
+
+            if (res && res.user) {
+              await startApplication(res.user);
+            } else {
+              showAuthMessage(res?.message || 'Email yoki parol noto‘g‘ri.', true);
+            }
+          } catch (err) {
+            showAuthMessage(err.message || 'Kirishda xatolik yuz berdi.', true);
+          } finally {
+            if (submitBtn) submitBtn.disabled = false;
+          }
+        });
+      }
+
+      // 4. EMAIL ORQALI RO‘YXATDAN O‘TISH FORMASI (REGISTER - ALOHIDA)
+      if (registerForm) {
+        registerForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const nameInput = document.getElementById('register-name');
+          const emailInput = document.getElementById('register-email');
+          const passInput = document.getElementById('register-password');
+          const submitBtn = document.getElementById('register-submit-btn');
+
+          const name = nameInput?.value.trim();
+          const email = emailInput?.value.trim();
+          const password = passInput?.value;
+
+          if (!name || name.length < 2) {
+            showAuthMessage('Ismingizni to‘liq kiriting.', true);
+            return;
+          }
+          if (!email || !email.includes('@')) {
+            showAuthMessage('To‘g‘ri email manzilini kiriting.', true);
+            return;
+          }
+          if (!password || password.length < 8) {
+            showAuthMessage('Parol kamida 8 ta belgidan iborat bo‘lishi kerak.', true);
+            return;
+          }
+
+          if (submitBtn) submitBtn.disabled = true;
+          showAuthMessage('Hisobingiz yaratilmoqda...');
+
+          try {
+            const res = await apiRequest('/api/auth/register', {
+              method: 'POST',
+              body: JSON.stringify({ name, email, password })
+            });
+
+            if (res && res.user) {
+              await startApplication(res.user);
+            } else {
+              showAuthMessage(res?.message || 'Ro‘yxatdan o‘tishda xatolik yuz berdi.', true);
+            }
+          } catch (err) {
+            showAuthMessage(err.message || 'Ro‘yxatdan o‘tishda xatolik yuz berdi.', true);
+          } finally {
+            if (submitBtn) submitBtn.disabled = false;
+          }
+        });
+      }
+
+      // Google tugmasi register ko'rinishi uchun ham ulandi
+      if (googleBtnReg) {
+        googleBtnReg.addEventListener('click', triggerGoogleLogin);
+      }
+
+      // 5. Apple-style silliq scroll havolalari (Smooth scrolling)
+      if (introEl) {
+        introEl.querySelectorAll('a[href^="#landing-"]').forEach(anchor => {
+          anchor.addEventListener('click', (e) => {
+            const href = anchor.getAttribute('href');
+            if (href && href.startsWith('#')) {
+              e.preventDefault();
+              const targetEl = introEl.querySelector(href);
+              if (targetEl) {
+                targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }
+          });
+        });
+      }
+
+      // 6. «← Asosiy sahifa» orqaga qaytish tugmasi
+      if (backBtn) {
+        backBtn.addEventListener('click', returnToIntro);
+      }
+
+      // 7. Brauzer va mobil qurilmaning orqaga/oldinga tugmasi (History navigation)
+      window.addEventListener('popstate', (e) => {
+        if (!document.body.classList.contains('authenticated')) {
+          if (e.state?.screen === 'auth' || window.location.hash === '#auth') {
+            if (introEl) introEl.classList.add('intro-hidden');
+            if (authScreenEl) {
+              authScreenEl.classList.add('auth-visible');
+              switchAuthTab(e.state?.mode || 'login');
+              initializeGoogle(true);
+            }
+          } else {
+            returnToIntro();
+          }
+        }
+      });
+    }
+
+    /* GLOBAL ERROR MONITORING */
+    window.addEventListener('error', event => {
+      diagLog('Global Error', event.message);
+      console.error('[GLOBAL ERROR]', event.error || event.message);
+
+      if (!appStarted) {
+        showAuthMessage(
+          'JavaScript xatosi: ' + (event.message || 'Noma’lum xato'),
+          true
+        );
+        window.showDiag();
+      }
+    });
+
+    window.addEventListener('unhandledrejection', event => {
+      diagLog('Unhandled Rejection', event.reason?.message || String(event.reason));
+      console.error('[PROMISE ERROR]', event.reason);
+
+      if (!appStarted) {
+        showAuthMessage(
+          'Ilova xatosi: ' +
+          (event.reason?.message || String(event.reason)),
+          true
+        );
+        window.showDiag();
+      }
+    });
+
+    // INITIALIZE SYSTEMS
+    initIntroCanvas();
+    initIntroParallax();
+    initIntroAndAuth();
+    startGoogleInitialization();
+    checkExistingSession();
+    import('/client/utils/tilt.js').then(m => m.initSpotlightAndTilt?.()).catch(() => {});
+
+    // TELEGRAM WEBAPP AUTO-SETUP
+    if (window.Telegram?.WebApp) {
+      try {
+        const tg = window.Telegram.WebApp;
+        tg.ready();
+        tg.expand();
+        if (tg.initDataUnsafe?.user) {
+          console.log('[TELEGRAM WEBAPP USER]', tg.initDataUnsafe.user);
+          window._tgUser = tg.initDataUnsafe.user;
+        }
+      } catch (e) {
+        console.warn('[TG WEBAPP INIT WARN]', e);
+      }
+    }
+
+    // PWA SERVICE WORKER REGISTRATION
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(reg => {
+          console.log('[PWA] Service Worker faol:', reg.scope);
+        }).catch(err => {
+          console.warn('[PWA] Service Worker xatosi:', err);
+        });
+      });
+    }
+
+  </script>
+
+</body>
+</html>

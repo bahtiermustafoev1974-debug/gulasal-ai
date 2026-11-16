@@ -1,0 +1,299 @@
+{
+  "profile": null,
+  "history": [
+    {
+      "id": "fb5b685a-8c46-4352-a5d0-6c4ddb27932b",
+      "title": "admin",
+      "messages": [
+        {
+          "role": "user",
+          "content": "admin",
+          "imageUrl": null,
+          "timestamp": "2026-11-13T19:44:48.319Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Iltimos, savolingizni yoki soʻrovingizni aniqroq ifodalab berishingizni soʻrayman. Sizga qanday yordam bera olishimni bilish uchun batafsil ma’lumot kerak.",
+          "timestamp": "2026-11-13T19:44:48.319Z"
+        }
+      ],
+      "createdAt": "2026-11-13T19:44:47.284Z",
+      "updatedAt": "2026-11-13T19:44:48.319Z"
+    },
+    {
+      "id": "4338207f-b684-45b5-bc34-93fb0e3a60db",
+      "title": "adm",
+      "messages": [
+        {
+          "role": "user",
+          "content": "adm",
+          "imageUrl": null,
+          "timestamp": "2026-11-13T19:44:42.070Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Assalomu alaykum! Sizga qanday yordam bera olishimni aniqroq bilishim uchun, “adm” bilan bog‘liq qaysi mavzu yoki savolingiz borligini biroz batafsilroq tushuntirib bera olasizmi? Masalan, admin paneli, Linux‑dagi `adm` foydalanuvchi, yoki boshqa biror tizim haqida so‘rayotgan bo‘lsangiz, shu haqida ma’lumotingizni qo‘shsangiz, sizga aniq va foydali javob bera olaman.   \n\nSizning javobingizni kutaman.",
+          "timestamp": "2026-11-13T19:44:42.070Z"
+        }
+      ],
+      "createdAt": "2026-11-13T19:44:40.404Z",
+      "updatedAt": "2026-11-13T19:44:42.070Z"
+    },
+    {
+      "id": "e95f5c5c-9bf6-4b2b-93bc-42f7165c9b41",
+      "title": "Menga Informatika va IT fanining asosiy tushunchal",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga Informatika va IT fanining asosiy tushunchalari, muhim mavzulari va misollari bo‘yicha yordam ber. Mavzuni sodda va tushunarli qilib tushuntir.",
+          "timestamp": "2026-11-13T15:32:35.994Z"
+        },
+        {
+          "role": "assistant",
+          "content": "**Informatika va IT fanining asosiy tushunchalari, muhim mavzulari va misollari**  \n*(Sodda, tushunarli va amaliy misollar bilan)*  \n\n---\n\n## 1. Informatika – nima?\n\n- **Informatika** – ma’lumotlarni (informatsiyani) yig‘ish, saqlash, qayta ishlash, uzatish va ulardan foydalanuvchi uchun foydali natijalar olishni o‘rganadigan fan.  \n- **IT (Information Technology)** – bu fan asosida yaratilgan texnologiyalar, qurilmalar, dasturlar va xizmatlarning amaliy qo‘llanilishi.\n\n---\n\n## 2. Asosiy tushunchalar\n\n| Tushuncha | Qisqacha ta’rif | Kundalik hayotdagi misol |\n|-----------|----------------|--------------------------|\n| **Algoritm** | Muayyan muammoni hal qilish uchun aniq, tartiblangan qadamlar ketma‑ketligi. | Pishiriq retsepti – “xamirturushni qo‘sh, 180 °C da 30 daqiqa pishir”. |\n| **Dasturlash tili** | Kompyuterga “nima qilish kerak”ni tushunadigan shaklda yozish tili. | Python, Java, C#, JavaScript. |\n| **Ma’lumot tuzilmalari** | Ma’lumotlarni samarali saqlash va qidirish usullari. | Ro‘yxat (list), stek (stack), daraxt (tree). |\n| **Kompyuter arxitekturasi** | Kompyuter ichidagi apparat (CPU, RAM, qattiq disk) va ularning o‘zaro aloqalari. | “CPU – miyaning, RAM – qisqa muddatli xotira, HDD/SSD – doimiy xotira”. |\n| **Operatsion tizim (OS)** | Kompyuter apparatini boshqaruvchi, dasturlarni ishga tushiruvchi dastur. | Windows, macOS, Linux, Android. |\n| **Tarmoq (Network)** | Kompyuterlar va boshqa qurilmalar orasidagi ma’lumot almashinuvi. | Wi‑Fi, Internet, LAN. |\n| **Ma’lumotlar bazasi (DB)** | Katta hajmdagi ma’lumotlarni strukturalangan shaklda saqlash va boshqarish tizimi. | MySQL, PostgreSQL, MongoDB. |\n| **Kiberxavfsizlik** | Ma’lumotlarni, tizimlarni va tarmoqlarni tahdid va hujumlardan himoya qilish. | Parolni shifrlash, antivirus, firewall. |\n| **Sun’iy intellekt (AI)** | Kompyuterga inson kabi “o‘rganish, qaror qabul qilish, muammo yechish” qobiliyatini berish. | Chatbotlar, tasvir tanib olish, tavsiya tizimlari. |\n| **Bulut hisoblash (Cloud Computing)** | Ma’lumot va dasturlarni internet orqali ijaraga berilgan serverlarda ishlatish. | Google Drive, AWS, Microsoft Azure. |\n\n---\n\n## 3. Muhim mavzular va ularning qisqa tavsifi\n\n### 3.1 Algoritmlar va ularning turlari\n- **Qidiruv algoritmlari** – ma’lumotlar ichida keraklisini topish (lineyar qidiruv, binary qidiruv).  \n- **Saralash algoritmlari** – ma’lumotlarni tartibga solish (bubble sort, quick sort, merge sort).  \n- **Graf algoritmlari** – yo‘llarni topish, tarmoq tahlili (Dijkstra, BFS/DFS).\n\n### 3.2 Dasturlash asoslari\n- **O‘zgaruvchilar, ma’lumot turlari** – son, matn, mantiqiy (int, float, string, bool).  \n- **Shart operatorlari** – `if`, `else`, `switch`.  \n- **Takrorlovchi tsikllar** – `for`, `while`.  \n- **Funksiyalar** – kodni qayta ishlatish va modulga bo‘lish.  \n\n**Misol (Python):**  \n```python\ndef faktorial(n):\n    result = 1\n    for i in range(2, n+1):\n        result *= i\n    return result\n\nprint(faktorial(5))   # 120\n```\n\n### 3.3 Ma’lumot tuzilmalari\n- **Array / List** – bir xil turdagi elementlarning ketma‑ketligi.  \n- **Stack** – “oxirgi kirgan, birinchi chiqadi” (LIFO) printsipi.  \n- **Queue** – “birinchi kirgan, birinchi chiqadi” (FIFO).  \n- **Daraxt (Tree)** – ierarxik ma’lumot, masalan, fayl tizimi.  \n- **Graf (Graph)** – tugunlar va ularga bog‘langan qirralar (tarmoq, ijtimoiy aloqalar).\n\n### 3.4 Kompyuter arxitekturasi\n- **CPU (processor)** – hisoblash, ko‘rsatmalarni bajarish.  \n- **RAM (Random Access Memory)** – vaqtinchalik ma’lumot saqlash, tezkor.  \n- **HDD/SSD** – doimiy saqlash, ma’lumotni uzoq muddat saqlash.  \n- **Boshqaruv birligi (Control Unit)** – ko‘rsatmalarni boshqaradi.  \n\n### 3.5 Operatsion tizimlar\n- **Jarayon (process) va ip (thread)** – dastur bajarilishini boshqarish.  \n- **Fayl tizimi** – ma’lumotlarni fayllar va papkalar shaklida saqlash.  \n- **Xotira boshqaruvi** – virtual xotira, sahifalash (paging).  \n\n### 3.6 Tarmoqlar\n- **OSI modeli** – 7 qatlam: fizikal, data link, network, transport, session, presentation, application.  \n- **IP manzillar** – qurilmalarni tarmoqda identifikatsiya qilish.  \n- **Protokollar** – HTTP, TCP, UDP, DNS, SMTP.  \n\n### 3.7 Ma’lumotlar bazalari\n- **Relatsion DB** – jadval (table) asosida, SQL tilida so‘rovlar.  \n- **NoSQL DB** – hujjat (document), kalit‑qiymat (key‑value) kabi strukturalar.  \n\n**SQL misol (MySQL):**  \n```sql\nSELECT name, age FROM students WHERE grade = 'A';\n```\n\n### 3.8 Kiberxavfsizlik\n- **Kriptografiya** – ma’lumotni shifrlash (AES, RSA).  \n- **Autentifikatsiya** – foydalanuvchini tasdiqlash (parol, biometrik).  \n- **Xavfsizlik devori (firewall)** – tarmoqdan noxush trafikni bloklaydi.  \n\n### 3.9 Sun’iy intellekt va mashina o‘rganish\n- **Nazoratli o‘rganish** – berilgan ma’lumot va natija asosida model yaratish (tasniflash, regressiya).  \n- **Nazoratsiz o‘rganish** – ma’lumot ichidagi tuzilmani topish (klasterlash).  \n- **Deep Learning** – neyron tarmoqlar orqali tasvir, nutq, matnni tahlil qilish.  \n\n### 3.10 Bulut hisoblash\n- **IaaS (Infrastructure as a Service)** – virtual serverlar (AWS EC2).  \n- **PaaS (Platform as a Service)** – dastur yaratish platformalari (Google App Engine).  \n- **SaaS (Software as a Service)** – tayyor dastur xizmatlari (Office 365, Slack).  \n\n---\n\n## 4. Kundalik hayotdagi amaliy misollar\n\n| Mavzu | Amaliy misol | Qanday ishlaydi? |\n|------|--------------|-----------------|\n| **Algoritm** | Navigatsiya (Google Maps) | Eng qisqa yo‘lni hisoblaydi (Dijkstra algoritmi). |\n| **Dasturlash** | Mobil ilova (bank app) | Kotlin/Swift tilida yozilgan, foydalanuvchi ma’lumotlarini serverga yuboradi. |\n| **Ma’lumot tuzilmasi** | Playlist (Spotify) | Ro‘yxat (list) shaklida qo‘shiq tartibi saqlanadi. |\n| **Kompyuter arxitekturasi** | O‘yin kompyuteri | CPU tezligi, RAM hajmi va GPU kuchi o‘yin tezligini belgilaydi. |\n| **Operatsion tizim** | Android telefon | Android OS ilovalarni boshqaradi, fayllarni saqlaydi. |\n| **Tarmoq** | Wi‑Fi router | Qurilmalar IP manzillar orqali bir-biri bilan aloqada bo‘ladi. |\n| **Ma’lumotlar bazasi** | Onlayn do‘kon | Mahsulotlar, mijozlar, buyurtmalar MySQL bazasida saqlanadi. |\n| **Kiberxavfsizlik** | Parol menejeri | Parollar AES‑256 bilan shifrlanadi, foydalanuvchi faqat master parolni eslaydi. |\n| **AI** | Siri yoki Google Assistant | Nutqni tanib, foydalanuvchi so‘roviga javob beradi (NLP texnologiyasi). |\n| **Bulut** | Dropbox | Fayllar internetdagi serverlarda (cloud) saqlanadi, har joydan kirish mumkin. |\n\n---\n\n## 5. Qanday o‘rganish tavsiya etiladi?\n\n1. **Asosiy tushunchalarni mustahkamlang** – algoritm, kod yozish, ma’lumot tuzilmalari.  \n2. **Biror dasturlash tilini chuqur o‘rganing** – Python tavsiya qilinadi, chunki sintaksisi oddiy.  \n3. **Amaliy loyihalar yarating** – veb‑sayt, mobil ilova, kichik ma’lumotlar bazasi.  \n4. **Onlayn kurslar va platformalar** – Coursera, edX, Udemy, Codecademy.  \n5. **Kod yozish jamiyatlariga qo‘shiling** – GitHub, Stack Overflow, lokal meetuplar.  \n6. **Kiberxavfsizlik va AI kabi maxsus yo‘nalishlarga qiziqsangiz, maxsus kurslar va sertifikatlar (e.g., CompTIA Security+, Google AI) oling.**  \n\n---\n\n## 6. Xulosa\n\nInformatika va IT bir-biriga chambarchas bog‘langan sohalar bo‘lib, **algoritmlardan (muammoni qanday hal qilish) to‘liq tizimlar (bulut, tarmoqlar, xavfsizlik)** gacha bo‘lgan keng doirani o‘z ichiga oladi. Har bir konseptni sodda misollar bilan tushunib, amaliy kod yozish orqali mustahkamlash – muvaffaqiyatga erishishning eng samarali yo‘li.\n\n> **Maqsadlar sari birga boramiz!**  \n\nAgar biror mavzu bo‘yicha batafsil misollar, kod yoki qo‘shimcha tavsiyalar kerak bo‘lsa, bemalol so‘rashingiz mumkin. Sizga muvaffaqiyat tilayman!",
+          "timestamp": "2026-11-13T15:32:35.994Z"
+        }
+      ],
+      "createdAt": "2026-11-13T15:32:29.683Z",
+      "updatedAt": "2026-11-13T15:32:35.994Z"
+    },
+    {
+      "id": "50ebe96a-04b9-4875-a5c3-fa1286f8ea11",
+      "title": "Menga bugungi kun uchun reja tuzib ber.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga bugungi kun uchun reja tuzib ber.",
+          "timestamp": "2026-11-13T15:32:22.406Z"
+        },
+        {
+          "role": "assistant",
+          "content": "**Bugungi kuningiz uchun tavsiya etilgan reja**  \n*(Sizning shaxsiy maqsadlaringiz, ish vaqtingiz hamda dam olish ehtiyojlaringizga moslab o‘zgartirishingiz mumkin.)*\n\n| Vaqt                | Faoliyat                                   | Izoh / Tavsiya                                   |\n|---------------------|--------------------------------------------|-------------------------------------------------|\n| **06:30 – 07:00**   | **Uyg‘onish & ertalabgi tayyorgarlik**      | Yengil cho‘zilish, 5‑10 daqiqa nafas mashqlari, suv ichish. |\n| **07:00 – 07:30**   | **Sog‘lom nonushta**                        | Oqsil (yog‘urt, tuxum), murabbo yoki meva, to‘liq donli non. |\n| **07:30 – 08:00**   | **Kun maqsadlarini belgilash**             | “3 ta asosiy vazifa” ro‘yxatini tuzing, ularni prioritetga qarab tartiblang. |\n| **08:00 – 12:00**   | **Ish / o‘qish (blok 1)**                   | • 90 daqiqa fokusli ish <br>• 10 daqiqa qisqa tanaffus (ko‘z dam olish, suv ichish) <br>• 2‑3 marta takrorlang. |\n| **12:00 – 12:30**   | **Jismoniy faollik**                        | Yengil yurish, stretching yoki 15‑minutlik uyda mashq. |\n| **12:30 – 13:00**   | **Tushlik**                                 | Protein, sabzavot, murabbo yoki kartoshka. Suyuqlik ichishni unutmang. |\n| **13:00 – 15:00**   | **Ish / o‘qish (blok 2)**                   | Yuqoridagi “Pomodoro” usulini takrorlang. Eng muhim yoki qiyin vazifani shu blokda yakunlang. |\n| **15:00 – 15:15**   | **Qisqa dam olish**                         | Ko‘z dam olish, ko‘rish, musiqiy tanaffus. |\n| **15:15 – 17:00**   | **Ish / o‘qish (blok 3)**                   | Kichik yoki ijodiy vazifalar, email, yig‘ilishlar. |\n| **17:00 – 18:00**   | **Sport / sog‘lom faoliyat**                | Jismoniy mashq (yugurish, velosiped, sport zal). |\n| **18:00 – 18:30**   | **Sovuq dush / dam olish**                  | Suyuqlik ichish, qisqa meditatsiya (3‑5 daqiqa). |\n| **18:30 – 19:30**   | **Shaxsiy rivojlanish**                     | Kitob o‘qish, onlayn kurs, yangi til o‘rganish yoki hobbi. |\n| **19:30 – 20:00**   | **Kecha ovqat**                             | Yengil, lekin to‘yinganlikni saqlovchi ovqat (masalan, baliq, sabzavot, quinoa). |\n| **20:00 – 21:00**   | **Ijtimoiy yoki dam olish**                 | Oila/do‘stlar bilan suhbat, film/serial, o‘yin. |\n| **21:00 – 21:30**   | **Kechki reja va yoritish**                 | Ertangi kun uchun “to‑do” ro‘yxatini tuzing, asosiy yutuqlarni qayd eting. |\n| **21:30 – 22:00**   | **Tinchlanish**                             | Yengil stretching, chuqur nafas, yorug‘likni kamaytirish. |\n| **22:00**           | **Uyquga tayyorgarlik**                     | Telefon, kompyuter ekranini o‘chiring, 7–8 soat uyquga intiling. |\n\n---\n\n### Rejani moslashtirish bo‘yicha qo‘shimcha tavsiyalar\n\n1. **Prioritetni aniqlang** – Har kuni “uchta eng muhim vazifa”ni belgilash, ularni bajarish motivatsiyani oshiradi.  \n2. **Pomodoro texnikasini qo‘llang** – 25‑30 daqiqa ish, 5 daqiqa tanaffus; har 4‑ta sikldan keyin 15‑30 daqiqa uzunroq dam olish.  \n3. **Suyuqlik ichishni unutmang** – Kun davomida kamida 1,5‑2 litr suv ichish kognitiv faoliyatni barqaror tutadi.  \n4. **Kundalik jurnal** – Kechqurun qisqa jurnal (3‑5 daqiqa) yozib, his-tuyg‘ular, erishilgan natijalar va ertangi kun uchun o‘rganilgan saboqlarni qayd qiling.  \n5. **Moslashuvchanlik** – Agar kutilmagan vazifa yoki uchrashuv bo‘lsa, bloklarni bir-biriga yaqinlashtiring, lekin umumiy balansni (ish‑shaxsiy hayot) saqlashga harakat qiling.\n\nUshbu reja sizga kun davomida energiyani barqaror taqsimlash, vazifalarni samarali bajarish va dam olish vaqtini ham yetarlicha ajratish imkonini beradi. **Maqsadlar sari birga boramiz!**  \n\nAgar kuningizga oid maxsus vazifalar yoki vaqt cheklovlari bo‘lsa, ularni ham kiritib, rejani yanada aniqroq tuzishga yordam bera olaman. Sizga muvaffaqiyat tilayman!",
+          "timestamp": "2026-11-13T15:32:22.406Z"
+        }
+      ],
+      "createdAt": "2026-11-13T15:32:17.762Z",
+      "updatedAt": "2026-11-13T15:32:22.406Z"
+    },
+    {
+      "id": "75dbd028-98eb-4791-8e94-b254709e3429",
+      "title": "Menga bugungi kun uchun reja tuzib ber.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga bugungi kun uchun reja tuzib ber.",
+          "timestamp": "2026-11-11T16:01:26.673Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Assalomu alaykum, siz!  \n\nBugungi kuningizni samarali va muvozanatli o‘tkazish uchun avvalo sizning asosiy maqsadlaringiz, vaqt cheklovlaringiz va qiziqishlaringizni bilish foydali bo‘ladi. Quyidagi savollarga qisqacha javob bersangiz, sizga aniq reja tuzaman:\n\n| Savol | Nima uchun kerak? |\n|------|-------------------|\n| **1. Ish yoki o‘qish rejasi** – bugun qaysi vazifalarni bajarishingiz kerak (masalan, loyiha topshirig‘i, dars tayyorlash, uchrashuv)? | Vazifalarni ustuvorlik bilan joylashtirish. |\n| **2. Vaqt oralig‘i** – ish/ta’limga qancha vaqt ajratasiz (masalan, 8‑10 soat)? | Rejani vaqt bo‘linmalarga bo‘lish. |\n| **3. Jismoniy faoliyat** – sport, yurish, gimnastika kabi harakatlar uchun qancha vaqt ajratasiz? | Sog‘lomlik va energiya darajasini oshirish. |\n| **4. Shaxsiy/ijodiy faoliyat** – kitob o‘qish, musiqa, hobbi, oilaviy vaqt? | Kun oxirida dam olish va motivatsiyani saqlash. |\n| **5. Ovqatlanish va tanaffuslar** – ovqatlanish, qisqa tanaffuslar (Pomodoro usuli) rejalashtirilganmi? | Konsentratsiyani saqlash. |\n| **6. Maxsus vazifalar** – bugun bajarilishi shart bo‘lgan “bir martalik” ishlar (masalan, hujjat topshirish, telefon qo‘ng‘iroqlari)? | Kutilmagan ishlarni ham hisobga olish. |\n\n---\n\n### Misol reja (agar yuqoridagi savollarga javob bersangiz, shu formatda moslashtiraman)\n\n| Vaqt | Faoliyat | Izoh |\n|------|----------|------|\n| 07:00 – 07:30 | Ertalabki uyg‘onish, suv ichish, qisqa cho‘zilish | Energiya darajasini oshirish |\n| 07:30 – 08:00 | Nonushta | Sog‘lom, oqsilga boy |\n| 08:00 – 09:30 | **Ish/ta’lim 1‑chi blok** | Eng muhim vazifa, diqqatni maksimal darajada jamlash |\n| 09:30 – 09:45 | Tanaffus (ko‘zlarni dam olish, 5‑10 daqiqa yurish) | Pomodoro usuli |\n| 09:45 – 11:15 | **Ish/ta’lim 2‑chi blok** | Ikkinchi ustuvor vazifa |\n| 11:15 – 11:30 | Tanaffus (ichimlik, kichik snack) | |\n| 11:30 – 13:00 | **Ish/ta’lim 3‑chi blok** | Qolgan kichik topshiriqlar |\n| 13:00 – 14:00 | Tushlik + qisqa dam olish (kitob, musiqa) | |\n| 14:00 – 15:30 | **Jismoniy faoliyat** – yugurish / sport zal | 30‑40 min, qolgan vaqt so‘nggi mashqlar va stretching |\n| 15:30 – 16:00 | Sovuq dush, dam olish | |\n| 16:00 – 17:30 | **Shaxsiy/ijodiy blok** – kitob o‘qish, hobbi, oilaviy suhbat | |\n| 17:30 – 18:00 | Kechki ovqat tayyorlash | Sog‘lom ovqat |\n| 18:00 – 19:30 | **Kichik ishlar** – email, telefon qo‘ng‘iroqlari, “bir martalik” vazifalar | |\n| 19:30 – 20:00 | Kechki tanaffus – meditatsiya / qisqa meditatsiya (5‑10 min) | |\n| 20:00 – 21:30 | **O‘qish/ta’lim takrorlash** – ertangi kun uchun tayyorgarlik | |\n| 21:30 – 22:00 | Yotishga tayyorgarlik – yengil stretching, diqqatni tinchlantirish | |\n| 22:00 | Uyqu | 7‑8 soat uyqu tavsiya etiladi |\n\n---\n\n### Qanday qilib reja tuzish\n\n1. **Ustuvorlikni aniqlang** – “Muhim‑zarur” matritsasidan (Eisenhower) foydalanib, vazifalarni 4 guruhga bo‘ling.  \n2. **Bloklarga bo‘lish** – har bir blok 60‑90 min, orasida 10‑15 min tanaffus. Bu konsentratsiyani saqlashga yordam beradi.  \n3. **Real vaqt qo‘shing** – har bir vazifa uchun taxminiy vaqtni yozing, lekin biroz “buffer” (5‑10 min) qo‘shing, kutilmagan holatlar uchun.  \n4. **Jismoniy harakat** – kuniga kamida 30 min faol harakat. Bu aqliy samaradorlikni oshiradi.  \n5. **Dam olish** – har 90 min ishdan keyin 10‑15 min tanaffus, kun oxirida esa 30 min dam olish (kitob, musiqa, meditatsiya).  \n6. **Kuzatish va tahlil** – kun oxirida “Nima yaxshi ketdi?”, “Nima o‘zgartirish kerak?” savollariga javob bering, keyingi kun rejasini shu asosda tuzing.\n\n---\n\n**Endi sizdan faqat quyidagi ma’lumotlarni kutaman:**\n\n1. Ish/ta’lim vazifalari (asosiy va kichik).  \n2. Bugun mavjud bo‘ladigan umumiy vaqt (masalan, 8 soat ish, 2 soat o‘qish).  \n3. Jismoniy faoliyatga ajratiladigan vaqt (agar maxsus sport turi bo‘lsa, ayting).  \n4. Shaxsiy yoki oilaviy majburiyatlar (masalan, bolalar bilan vaqt, uy vazifalari).  \n5. Maxsus “bir martalik” vazifalar (telefon qo‘ng‘iroqlari, hujjat topshirish va hokazo).\n\nBu ma’lumotlarni bersangiz, sizga **to‘liq, kun bo‘yi bosqichma‑bosqich reja** tayyorlayman.  \n\nMaqsadlar sari birga boramiz! 🌟",
+          "timestamp": "2026-11-11T16:01:26.673Z"
+        }
+      ],
+      "createdAt": "2026-11-11T16:01:22.417Z",
+      "updatedAt": "2026-11-11T16:01:26.673Z"
+    },
+    {
+      "id": "0f4285ef-333c-4027-81fe-ee32dc774e99",
+      "title": "Menga bugungi kun uchun reja tuzib ber.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga bugungi kun uchun reja tuzib ber.",
+          "timestamp": "2026-11-11T11:53:14.367Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Sizning kun rejangizni maksimal darajada foydali qilish uchun bir necha savolga javob berishingiz kerak:\n\n1. **Asosiy majburiyatlar** – bugun bajarilishi lozim bo‘lgan ish, dars, loyiha yoki uchrashuvlar qaysilar? (vaqtini aniq ko‘rsating, masalan, “9:00‑11:00”)\n2. **Shaxsiy maqsadlar** – sog‘lom turmush tarziga, o‘qishga, kitob o‘qishga yoki yangi ko‘nikma o‘rganishga qancha vaqt ajratmoqchisiz?\n3. **Dam olish va energiya tiklash** – kun davomida tanaffuslar, sport, meditatsiya yoki oilaviy vaqt uchun qaysi soatlar qulay?\n4. **Kutilmagan vaziyatlar** – kutilmagan ish yoki telefon qo‘ng‘iroqlarga qancha “zaxira” vaqt ajratish kerak deb o‘ylaysiz?\n\nBu ma’lumotlarni bersangiz, men sizga aniq, bosqichma‑bosqich reja tuzaman.  \n\nAgar hozircha ma’lum bir ma’lumot yo‘q bo‘lsa, quyidagi umumiy namunaviy reja sizga boshlang‘ich nuqtani beradi (har bir bandni o‘zingizning shaxsiy vaqtlaringizga moslab o‘zgartiring):\n\n| Vaqt (soat) | Faoliyat                         | Izoh / maqsad                                            |\n|------------|----------------------------------|----------------------------------------------------------|\n| 06:30‑07:00| Ertalabki uyg‘onish, suyuqlik ichish | Suv ichish, qisqa stretching                              |\n| 07:00‑07:30| Ertalabki meditatsiya / nafas mashqlari | Diqqatni jamlash, stressni kamaytirish                     |\n| 07:30‑08:00| Yengil nonushta (protein, meva)  | Energiya zaxirasi                                          |\n| 08:00‑09:00| Kichik sport mashg‘uloti (yugurish, yoga) | Jismoniy faollik, qon aylanishini yaxshilash                |\n| 09:00‑12:00| Asosiy ish/ta’lim bloklari (2‑3 pomodoro) | 25 min fokus + 5 min tanaffus, har bir blokdan keyin 10 min yirik tanaffus |\n| 12:00‑12:30| Tushlik                          | Sog‘lom ovqat, qisqa yurish (10‑15 min)                     |\n| 12:30‑13:00| Qisqa dam (kitob o‘qish, musiqa) | Aqliy dam olish                                            |\n| 13:00‑15:00| Ikkinchi ish/ta’lim bloklari (2‑3 pomodoro) | Vazifalarni davom ettirish, muhim uchrashuvlar          |\n| 15:00‑15:15| Kichik tanaffus (suyuqlik, ko‘zlarni dam olish) |\n| 15:15‑16:30| Kichik loyihalar / e‑mail, admin ishlar | Kichik, tez bajariladigan vazifalar                         |\n| 16:30‑17:00| Kun yakunlari, reja tahlili, keyingi kun uchun vazifalar ro‘yxati |\n| 17:00‑19:00| Shaxsiy vaqt (hobi, oilaviy uchrashuv, sport) | Sog‘lom balansni saqlash                                    |\n| 19:00‑20:00| Kechki ovqat                     | Engil, to‘yimli ovqat                                       |\n| 20:00‑21:00| O‘qish / o‘rganish (kitob, kurs, til) | Bilim doirangizni kengaytirish                              |\n| 21:00‑21:30| Kechki dam olish (film, musiqa)   | Tanaffus, kayfiyatni ko‘tarish                              |\n| 21:30‑22:00| Yotoqqa tayyorlanish, meditatsiya | Uyquga tayyorlanish, kunni yakunlash                         |\n| 22:00       | Uyquga yotish                    | Sifatli uyqu (7‑8 soat)                                     |\n\n**Rejani moslashtirish bo‘yicha tavsiyalar:**\n\n- **Pomodoro texnikasini** qo‘llang: 25 min ish → 5 min tanaffus, har 4‑ta pomodorodan keyin 15‑30 min uzoq tanaffus. Bu konsentratsiyani oshiradi.\n- **Prioritetlarni** belgilash: 3 ta “eng muhim” vazifani kun boshida bajarishga harakat qiling (MIT – Most Important Tasks).\n- **Zaxira vaqt**: Kutilmagan telefon, uchrashuv yoki uzoqroq bajariladigan vazifa uchun 30‑60 min zaxira vaqt ajrating.\n- **Suyuqlik va harorat**: Kun davomida kamida 1.5‑2 litr suv ichishni unutmang, ayniqsa sport yoki jismoniy faoliyatdan keyin.\n- **Uyqu gigiyenasi**: Yotoqxona xona harorati 18‑20 °C, ekran vaqtini 30 min oldin to‘xtatish uyqu sifatini yaxshilaydi.\n\nAgar sizning aniq vaqtlaringiz yoki vazifalaringizni bildirgan bo‘lsangiz, men bu jadvalni yanada moslashtirib, har bir blokga konkret vazifalar qo‘shishim mumkin. Sizdan faqat kerakli ma’lumotlarni kutaman.  \n\n**Maqsadlar sari birga boramiz!**",
+          "timestamp": "2026-11-11T11:53:14.367Z"
+        }
+      ],
+      "createdAt": "2026-11-11T11:53:10.326Z",
+      "updatedAt": "2026-11-11T11:53:14.367Z"
+    },
+    {
+      "id": "bef1fed4-07d3-43d7-88ff-ee47b0bd3f63",
+      "title": "Menga Matematika fanining asosiy tushunchalari bo'",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.",
+          "timestamp": "2026-11-11T11:49:32.656Z"
+        },
+        {
+          "role": "assistant",
+          "content": "### Matematika fanining asosiy tushunchalari\n\n#### 1. Sonlar va ularning turlari\n| Son turi | Tavsif | Misollar |\n|----------|-------|----------|\n| **Naturallar (N)** | 1, 2, 3, … – hisoblashda ishlatiladi | 5, 17 |\n| **Butun sonlar (Z)** | …, ‑3, ‑2, ‑1, 0, 1, 2, 3, … | ‑8, 0, 12 |\n| **Rasional sonlar (Q)** | a/b ko‘rinishidagi (b ≠ 0) kasrlar | 3/4, ‑2/5 |\n| **Irratsional sonlar** | Kasr ko‘rinishiga keltirib bo‘lmaydigan | √2, π |\n| **Real sonlar (R)** | Barcha rational + irrational sonlar | –1.5, √3, π |\n| **Kompleks sonlar (C)** | a + bi (i² = ‑1) | 2 + 3i |\n\n#### 2. Arifmetika (asosiy amallar)\n- **Qo‘shish (+)**, **ayirish (‑)**, **ko‘paytirish (×)**, **bo‘lish (÷)**  \n- **Qoldiq (mod)**: a mod b = a‑b·⌊a/b⌋  \n- **Uzluksizlik**: a·(b + c) = a·b + a·c (distributiv qonun)\n\n#### 3. Algebra\n- **O‘zgaruvchilar** (x, y, z) – sonlarni ifodalash uchun ishlatiladi.  \n- **Polinomlar**: aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₁x + a₀  \n- **Funksiyalar**: y = f(x) – har bir x ga bitta y mos keladi.  \n- **Daraxt (equation)**: bir yoki bir nechta o‘zgaruvchini o‘z ichiga olgan tenglama.  \n  - **Chiziqli tenglama**: ax + b = 0 → x = ‑b/a (a ≠ 0)  \n  - **Kvadrat tenglama**: ax² + bx + c = 0 → diskriminant D = b²‑4ac; yechimlar: x = (‑b ± √D)/(2a)\n\n#### 4. Geometriya\n- **Nuqtalar, chiziqlar, tekisliklar** – asosiy elementlar.  \n- **Burchaklar**: o‘tkir (0°–90°), to‘rtburchak (90°), teskari (90°–180°).  \n- **Uchburchaklar**: ichki burchaklar yig‘indisi 180°.  \n- **To‘g‘ri chiziqli shakllar**: kvadrat, to‘rtburchak, romb, parallelogram – perimetr va maydon formulalari:  \n  - Kvadrat: P = 4a, S = a²  \n  - To‘rtburchak: P = 2(a + b), S = ab  \n- **Doira**: radius r, diametr d = 2r, perimetr C = 2πr, maydon S = πr²  \n\n#### 5. Trigonometriya\n- **Sinus, cosinus, tangens** – burchaklarni funksional ifodasi.  \n- **Asosiy formulalar**:  \n  - sin²α + cos²α = 1  \n  - tanα = sinα / cosα  \n- **Burchak o‘lchamlari**: gradus (°) va radian (rad). 180° = π rad.\n\n#### 6. Analitik geometriya\n- **Koordinata tizimi** (x, y).  \n- **Chiziq tenglamasi**: y = mx + b (m – tiklanish, b – y‑kesma).  \n- **Aylananing umumiy tenglamasi**: (x‑x₀)² + (y‑y₀)² = r².\n\n#### 7. Limit va differensial hisob (kalkulus)\n- **Limit**: limₓ→a f(x) = L – funksiyaning a nuqtasiga yaqinlashganda qiymati.  \n- **Differensial**: f'(x) = lim_{h→0} [f(x+h)‑f(x)]/h – funksiyaning x nuqtasidagi teginishning y‑koordinatasi.  \n- **Integral**: ∫ f(x) dx – maydon, anti‑differensial.  \n- **Fundamental teorem**: ∫_a^b f'(x) dx = f(b)‑f(a).\n\n#### 8. Probabilistika (ehtimollik)\n- **Ehtimollik**: P(A) = n(A) / n(S) (mos keladigan natijalar soni / umumiy natijalar soni).  \n- **Mustaqil voqealar**: P(A∩B) = P(A)·P(B).  \n- **Shartli ehtimollik**: P(A|B) = P(A∩B) / P(B).  \n- **O‘rtacha (expected value)**: E(X) = Σ x·P(X=x).  \n\n#### 9. Statistikalar\n- **Markaziy tendensiya**:  \n  - **O‘rtacha (mean)**: \\(\\bar{x}= \\frac{1}{n}\\sum_{i=1}^{n}x_i\\)  \n  - **Median** – tartiblangan ma’lumotning o‘rtasidagi qiymat.  \n  - **Mod** – eng ko‘p takrorlangan qiymat.  \n- **Tarqalish**:  \n  - **Dispersiya (variance)**: σ² = \\(\\frac{1}{n}\\sum (x_i‑\\bar{x})^2\\)  \n  - **Standart og‘ish (standard deviation)**: σ = √σ²  \n\n#### 10. Kombinatorika\n- **Permutatsiyalar**: n! – n elementning tartibli joylashishi.  \n- **Kombinatsiyalar**: C(n,k) = n! / (k!(n‑k)!) – n elementdan k tasini tanlash usuli (tartib hisobga olinmaydi).  \n\n---\n\n### Qanday foydalanish mumkin?\n- **Masala yechishda**: avvalo berilgan ma’lumotni “sonlar, funksiyalar, geometrik shakl” kabi guruhga ajrating.  \n- **Formulalarni yodlash**: formulani misol bilan birga yozish, keyin o‘zingiz yechib ko‘ring.  \n- **Amaliy mashqlar**: har bir bo‘limdan kamida 5 ta turli darajadagi masalani yeching – bu tushunchalarni mustahkamlaydi.  \n\nAgar ma’lum bir bo‘lim (masalan, kvadrat tenglamalar yoki integral hisob) bo‘yicha batafsil misollar yoki qo‘shimcha tushuntirish kerak bo‘lsa, xabar bering – sizga shu yo‘nalishda chuqurroq yordam beraman.  \n\n**Maqsadlar sari birga boramiz!**",
+          "timestamp": "2026-11-11T11:49:32.656Z"
+        }
+      ],
+      "createdAt": "2026-11-11T11:49:28.473Z",
+      "updatedAt": "2026-11-11T11:49:32.656Z"
+    },
+    {
+      "id": "3ce40ac0-2784-4389-be6d-b2bbe91e630c",
+      "title": "salom mening kun tartibim qanday bugun kun uchun",
+      "messages": [
+        {
+          "role": "user",
+          "content": "salom mening kun tartibim qanday bugun kun uchun",
+          "timestamp": "2026-11-11T11:37:42.120Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Kun tartibini tuzish – kunni samarali va tinch o'tkazishning asosiy vositasi. Sizga umumiy struktura taklif qilaman, keyin esa uni sizning shaxsiy ehtiyojlaringizga moslashtirish uchun bir necha savollar beraman.\n\n---\n\n## 1. Umumiy kun tartibi (8‑12 soatli ish/kunduzgi rejim)\n\n| Vaqt                | Faoliyat                              | Qisqa tavsiya |\n|---------------------|---------------------------------------|----------------|\n| 06:00‑06:30         | Yengil jismoniy mashqlar / cho‘kish    | 5‑10 daqiqa cho‘kish, 10‑15 daq. stretching |\n| 06:30‑07:00         | Suv ichish, yengil nonushta            | Protein, meva, yong‘oq |\n| 07:00‑07:30         | Kun rejasini ko‘rib chiqish            | Asosiy vazifalar, prioritetlar |\n| 07:30‑09:30         | Eng muhim ish / o‘qish                 | “Deep work” – bildirishnomalarni o‘chirib, konsentratsiya |\n| 09:30‑09:45         | Qisqa tanaffus (coffee/tea)            | Ko‘zlaringizni dam oldiring |\n| 09:45‑11:45         | Ikkinchi blok (loyiha, uchrashuv)      | Vazifalarni kichik qadamlar bilan yakunlang |\n| 11:45‑12:30         | Ovqatlanish, dam olish                 | Yengil salat, sabzavot, oqsil |\n| 12:30‑14:30         | Yengil ishlar / ma’muriy topshiriqlar   | Email, hujjatlarni tekshirish |\n| 14:30‑14:45         | Qisqa tanaffus (yurish)                | 5‑10 daqiqa atrofga chiqing |\n| 14:45‑16:30         | Qolgan vazifalar / o‘qish/ijtimoiy media| Prioritet bo‘lmagan, lekin kerakli ishlar |\n| 16:30‑17:00         | Kundalik hisobot, kechikishlarni tahlil| Ertangi kun uchun “to‑do list” tuzing |\n| 17:00‑18:00         | Jismoniy faoliyat (sport, yurish)     | Kardio yoki kuch mashqlari |\n| 18:00‑19:00         | Kechki ovqat, oilaviy vaqt             | Telefonni cheklash, suhbat |\n| 19:00‑20:30         | Shaxsiy rivojlanish (kitob, kurs, hobbi) | O‘qish, onlayn kurs, musiqa |\n| 20:30‑21:00         | Tinchlanish, meditatsiya               | Nafas olish mashqlari, yengil cho‘kish |\n| 21:00‑22:00         | Yotoqga tayyorlanish, yengil kitob      | Ekrandan uzoqroq, uyqu ritmini barqarorlashtirish |\n| 22:00               | Uyqu                                   | 7‑8 soat uyqu tavsiya etiladi |\n\n---\n\n## 2. Sizga moslashtirish uchun savollar\n\n1. **Erta uyg‘onishni xohlaysizmi?** (06:00‑07:00 oralig‘ida)  \n2. **Bugun qanday asosiy vazifalar (ish, o‘qish, loyiha) mavjud?**  \n3. **Kun davomida qancha vaqt jismoniy mashg‘ulotga ajrata olasiz?**  \n4. **Ovqatlanish vaqtlaringiz qayerda joylashgan?** (masalan, 12:00‑13:00 yoki 13:00‑14:00)  \n5. **Kun oxirida dam olish yoki o‘qish uchun alohida vaqt kerakmi?**  \n\nBu savollarga javob berganingizdan so‘ng, men sizning shaxsiy kun tartibingizni yanada aniqroq shakllantiraman.  \n\n---\n\n## 3. Tuzilgan reja bilan qanday ishlash kerak\n\n1. **Prioritetni belgilang** – “Ishni boshlashdan oldin 3 ta eng muhim vazifani yozing”.\n2. **Bloklarda ishlang** – har bir blokni 90‑120 daqiqa qilib belgilab, ortasida 10‑15 daqiqa tanaffus qiling.\n3. **Kichik maqsadlar** – katta vazifani 2‑3 ta kichik bosqichga bo‘ling, har birini bajarishdan keyin “tanaffus” qiling.\n4. **Kuzatish** – har kuni 5 daqiqa “What went well / What can improve” yozing, bu kelajakda rejalashtirishni osonlashtiradi.\n5. **Flexibil bo‘ling** – kutilmagan vazifa yoki uchrashuv kelganda, eng kam prioritetli blokni keyinga suring, lekin umumiy vaqtni saqlab qolishga harakat qiling.\n\n---\n\n**Keyingi qadam:** Iltimos, yuqoridagi savollarga javob bering, shunda men sizga maxsus, sizning kuningizga mos keladigan jadvalni tayyorlay olaman.  \n\nMaqsadlar sari birga boramiz.",
+          "timestamp": "2026-11-11T11:37:42.120Z"
+        }
+      ],
+      "createdAt": "2026-11-11T11:37:38.545Z",
+      "updatedAt": "2026-11-11T11:37:42.120Z"
+    },
+    {
+      "id": "101f4169-f76c-47b5-9c8a-e3b185018f85",
+      "title": "Maqsadlarimga erishish uchun yordam ber.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Maqsadlarimga erishish uchun yordam ber.",
+          "timestamp": "2026-11-11T11:04:23.554Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Albatta, maqsadlaringizga erishish uchun birgalikda aniq reja tuzamiz. Quyidagi bosqichlar sizga yo‘l-yo‘riq bo‘la oladi:\n\n### 1. Maqsadlaringizni aniqlashtiring\n- **Nima**ni yutuq deb hisoblaysiz? (masalan: “yil oxiriga 5 kg vazn kamaytirish”, “yangi dasturlash tilini o‘rganish”, “ish joyida rahbarlik lavozimiga ko‘tarilish”)\n- **Nima uchun** bu maqsad muhim? (shaxsiy motivatsiya, sog‘liq, karyera, moliya va hokazo)\n\n> **Amal:** Bir varaqga yoki raqamli hujjatga *“Maqsad – ___; Nima uchun – ___”* degan jadvalni tuzing.\n\n### 2. Maqsadlarni SMART formatiga o‘tkazing\n| Kriteriya | Savol | Misol |\n|----------|-------|-------|\n| **Specific** (Aniq) | Nima qilish kerak? | “Har hafta 3 marta 30 daqiqaga yugurish.” |\n| **Measurable** (O‘lchanadigan) | Qachon muvaffaqiyatni bilasiz? | “30 kun ichida 5 kg yo‘qotish.” |\n| **Achievable** (Erishish mumkin) | Resurslar va vaqt yetarlimi? | “Mavjud vaqt jadvali: haftada 5 soat.” |\n| **Relevant** (Mos) | Bu maqsad boshqa maqsadlaringizga xizmat qiladimi? | “Yugurish sog‘liqni yaxshilashga yordam beradi.” |\n| **Time‑bound** (Muddatli) | Qachongacha bajariladi? | “30 kun ichida.” |\n\n> **Amal:** Har bir maqsadingizni yuqoridagi jadvalga moslab qayta yozing.\n\n### 3. Kichik qadamlar (milestones) belgilang\n- **Katta maqsad** → **1‑oylik** → **1‑haftalik** → **kunlik** vazifalar.\n- Har bir kichik qadamni aniq “kim, nima, qachon, qanday” shaklida yozing.\n\n> **Misol:**  \n  - Katta maqsad: “3 oy ichida ingliz tilini B1 darajasiga ko‘tarish.”  \n  - 1‑oylik: “Har kuni 30 minut grammatikani o‘rganish + 2 soat audio‑materialni tinglash.”  \n  - 1‑haftalik: “Dushanba‑juma har kuni 30 minut Duolingo, shanba kuniga 1 soat video dars.”  \n  - Kundalik: “Ertalab 7:00‑da 30 minut o‘qish, tunda 20 minut qayta ko‘rib chiqish.”\n\n### 4. Vaqt‑taqsimot jadvali (time‑boxing) tuzing\n1. **Kunlik**: 1‑2 soat “yadro” vazifalarga (eng muhim).\n2. **Blok**: 30‑45 minlik bloklar, oralarida 5‑10 minlik tanaffus.\n3. **Hafta oxiri**: natijalarni ko‘rib chiqish, reja tuzatish.\n\n> **Amal:** Google Calendar, Notion yoki oddiy jurnalga blokli vaqtni kiriting.\n\n### 5. Monitoring va tahlil\n- **Kundalik jurnal**: bajarilgan vazifalar, qiyinchiliklar, his‑tuylari.\n- **Haftalik tekshiruv**: bajarilgan milestonelarni % ko‘rinishida yozish.\n- **Oylik baholash**: maqsadga qancha yaqinlashgansiz, nimani o‘zgartirish kerak.\n\n> **Amal:** Har kuni kechqurun 5 daqiqaga “Bugun nimalar qildim?” degan qisqa yozuv qiling.\n\n### 6. Motivatsiya va barqarorlik\n- **Vizual motivator**: “vision board” (rasm, so‘z, maqsad kartochkasi) yasang.\n- **Kichik mukofotlar**: har bir kichik qadamni bajarishdan so‘ng o‘zingizga yoqimli kichik sovg‘a (masalan: sevimli serialni 30 minut tomosha qilish).\n- **Hamjamiyat**: maqsadingizga o‘xshash insonlar bilan guruh yoki mentor toping; ular qo‘llab‑quvvatlaydi va mas'uliyatni oshiradi.\n\n### 7. Qiyinchiliklarni boshqarish strategiyalari\n| Qiyinchilik | Yondashuv |\n|------------|----------|\n| Vaqt yetishmasligi | “Yo‘qolgan” vazifalarni “keyingi 24 soat” blokiga qo‘shish, “non‑essential” vazifalarni kamaytirish |\n| Motivatsiya pasayishi | “Nima uchun” savolini qayta o‘ylash, motivatsion sitatlar yoki videolar ko‘rish |\n| O‘rganish to‘xtashi | “Pomodoro” (25 min ish, 5 min tanaffus) usulini sinab ko‘ring, turli manbalarni aralashtiring |\n\n---\n\n## Sizdan kerakli ma’lumotlar\n1. **Maqsadlaringiz** (1‑3 ta asosiy) – aniq tavsifi.  \n2. **Mavjud vaqt** (haftada necha soat) – har bir maqsadga qancha vaqt ajrata olasiz?  \n3. **Resurslar** (kitoblar, kurslar, trener, dastur) – hozirda qanday vositalarga egasiz?  \n4. **Maqsadga erishishdagi eng katta to‘siq** – sizni to‘xtatadigan narsa nima deb hisoblaysiz?\n\nUshbu ma’lumotlarni bera olasizmi? Shunda sizga maxsus reja ishlab chiqamiz. \n\n“Maqsadlar sari birga boramiz.”",
+          "timestamp": "2026-11-11T11:04:23.554Z"
+        }
+      ],
+      "createdAt": "2026-11-11T11:04:19.555Z",
+      "updatedAt": "2026-11-11T11:04:23.554Z"
+    },
+    {
+      "id": "0d7a586e-e6e5-4756-97e8-4e1bd20af555",
+      "title": "Menga bugungi kun uchun reja tuzib ber.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga bugungi kun uchun reja tuzib ber.",
+          "timestamp": "2026-11-11T10:15:22.881Z"
+        },
+        {
+          "role": "assistant",
+          "content": "**Bugungi kun uchun taklif qilingan reja (09:00–22:00)**  \n\n| Vaqt | Faoliyat | Qisqa tavsiya |\n|------|----------|----------------|\n| 09:00 – 09:15 | Kunni boshlash, qisqa meditatsiya yoki nafas mashg‘uloti | 5‑minutlik chuqur nafas olish, kun maqsadlarini ko‘zdan kechiring |\n| 09:15 – 10:30 | Eng muhim ish (yoki loyiha) | “Deep work” usulini qo‘llang: telefon, emailni o‘chirib, 90 minut davomida diqqatni biror vazifaga qarating |\n| 10:30 – 10:45 | Qisqa tanaffus | Ko‘zlaringizni damlang, suyuq ichimlik iching, bir necha oyoq harakati qiling |\n| 10:45 – 12:00 | Ikkinchi muhim vazifa yoki kunlik yig‘ilish | Agar yig‘ilish bo‘lsa, asosiy nuqtalarni oldindan yozib, so‘rovnoma savollarini tayyorlang |\n| 12:00 – 13:00 | Ovqatlanish & dam olish | Sog‘lom ovqat (protein, sabzavot, uglevod) tanlang, qisqa yurish (10‑15 min) qiling |\n| 13:00 – 14:30 | Kichik yoki ijodiy vazifa | Masalan, maqola yozish, kod yozish, dizayn yaratish – energiya hali yuqori |\n| 14:30 – 14:45 | Qisqa tanaffus | Ko‘z mashqlari (20‑20‑20 qoidasi) va suv ichish |\n| 14:45 – 16:00 | Elektron pochta, telefon, kunlik hisobot | 30 min ichida barcha xabarlarni ko‘rib chiqing, qolganini keyingi kunga orqaga suring |\n| 16:00 – 16:30 | Fizik mashq | 20‑30 min kardio (yugurish, velosiped) yoki uyda tezkor fitnes (push‑up, squat) |\n| 16:30 – 17:30 | O‘qish yoki yangi ko‘nikma o‘rganish | Kitob, kurs, tutorial – 1 soat ichida kichik bo‘limni yakunlang |\n| 17:30 – 18:00 | Qayta ko‘rib chiqish, kunlik jurnal | Ertangi kun uchun 2‑3 asosiy vazifani belgilang, his-tuyg‘ularingizni qisqacha yozing |\n| 18:00 – 19:30 | Shaxsiy vaqt / oilaviy dam | Ovqat tayyorlash, birga suhbatlashish, sevimli serial yoki musiqaga quloq tutish |\n| 19:30 – 20:30 | Yengil ish yoki hobbi | Masalan, rasm chizish, kod sinovi, til o‘rganish – ijodiy energiyani ishlating |\n| 20:30 – 21:00 | Kechki tanaffus, choy yoki sog‘lom ichimlik | Telefonni “Do Not Disturb” rejimiga o‘tkazing |\n| 21:00 – 22:00 | Yotishga tayyorlanish | Yengil stretching, 5‑10 minut meditatsiya, ekran vaqtini 30 min oldin to‘xtating |\n| 22:00 | Uyqu | 7‑8 soat sifatli uyquga e'tibor bering |\n\n### Rejani moslashtirish bo‘yicha tavsiyalar\n1. **Vaqt zonalari** – agar sizning ish soatingiz boshqacha bo‘lsa, bloklarni o‘zingizga mos ravishda siljiting.  \n2. **Prioritet** – kunning birinchi 2‑3 bloki eng yuqori prioritetli vazifalarga bag‘ishlanadi; bu energiya darajasini maksimal foydali ishlashga yo‘naltiradi.  \n3. **Pomodoro usuli** – 25 min ish + 5 min tanaffus formatini ham sinab ko‘ring; bu fokusni saqlashga yordam beradi.  \n4. **Flex‑time** – agar kutilmagan vazifa yoki uchrashuv yuz bersa, 30 min “buffer” (zaxira) vaqtini ajrating – reja o‘zgarmas holda qoladi.  \n\nAgar sizning alohida maqsadlaringiz (masalan, imtihon tayyorgarligi, loyiha deadline, sog‘liqni yaxshilash) bo‘lsa, shu maqsadlarga mos ravishda vaqt bloklarini qayta taqsimlashga yordam bera olaman. Savollaringiz yoki qo‘shimcha ehtiyojlaringiz bo‘lsa, ayting.  \n\n**Maqsadlar sari birga boramiz!**",
+          "timestamp": "2026-11-11T10:15:22.881Z"
+        },
+        {
+          "role": "user",
+          "content": "1",
+          "timestamp": "2026-11-11T11:03:55.380Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Iltimos, savolingiz yoki murojaatingizni batafsilroq yozib berasizmi? Sizga aniq va foydali javob bera olishim uchun qo‘shimcha ma’lumot kerak.",
+          "timestamp": "2026-11-11T11:03:55.380Z"
+        }
+      ],
+      "createdAt": "2026-11-11T10:15:19.209Z",
+      "updatedAt": "2026-11-11T11:03:55.380Z"
+    },
+    {
+      "id": "3b7b943e-76e7-4f0c-bdef-b0f3d4d07835",
+      "title": "salom",
+      "messages": [
+        {
+          "role": "user",
+          "content": "salom",
+          "timestamp": "2026-11-11T10:14:56.479Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Assalomu alaykum, sizga qanday yordam bera olishimni aytsangiz.",
+          "timestamp": "2026-11-11T10:14:56.479Z"
+        },
+        {
+          "role": "user",
+          "content": "sen kimsan",
+          "timestamp": "2026-11-11T10:15:04.207Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Men Gulasal AI – sizga har xil savollarga javob berish, muammolarni birga yechish, dasturlashda kod yozish, matematika va mantiqiy masalalarni bosqichma‑bosqich tushuntirish, hamda kunlik hayotingizda foydali maslahatlar berish uchun yaratilgan aqlli, bilimli va samimiy shaxsiy yordamchiman. Savollaringizni diqqat bilan tahlil qilib, aniq, tushunarli va mazmunli javoblar berishga intilaman. Maqsadlar sari birga boramiz!",
+          "timestamp": "2026-11-11T10:15:04.207Z"
+        }
+      ],
+      "createdAt": "2026-11-11T10:14:55.741Z",
+      "updatedAt": "2026-11-11T10:15:04.207Z"
+    },
+    {
+      "id": "f0735c8d-657b-49ba-8464-576d693e10f9",
+      "title": "Menga Matematika fanining asosiy tushunchalari bo'",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.",
+          "timestamp": "2026-11-11T10:14:42.644Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Matematika – sonlar, shakllar, tuzilmalar va ularning o‘rtasidagi munosabatlarni o‘rganadigan fan. Asosiy tushunchalar bir necha keng yo‘nalishga bo‘linadi. Quyida ularning qisqacha tavsifi va misollar keltiriladi.\n\n---\n\n## 1. Sonlar va ularning turlari  \n| Turi | Tavsifi | Misol |\n|------|---------|-------|\n| **Natural (tabiiy) sonlar** | 1, 2, 3, … – hisoblashda ishlatiladi | 7 |\n| **Butun (integer) sonlar** | …, −2, −1, 0, 1, 2, … | –5 |\n| **Rasional sonlar** | a/b (a, b butun, b≠0) | 3/4, ‑2/5 |\n| **Irrasional sonlar** | kasr ko‘rinishida ifodalanmaydigan, ammo haqiqiy sonlar | √2, π |\n| **Real sonlar** | rational + irrational sonlar hamma | 0.75, ‑π |\n| **Kompleks sonlar** | a + bi (a, b real, i²=–1) | 2 + 3i |\n\n### Asosiy amallar\n- **Qo‘shish, ayirish** – birinchi darajali (lineer) operatsiyalar.  \n- **Ko‘paytirish, bo‘lish** – distributivlik, assotsiativlik, kommutativlik xususiyatlari bilan ishlaydi.  \n- **Maqsadli (exponent) va ildiz** – potensial va radikal shakllar.  \n\n---\n\n## 2. Algebra  \n- **O‘zgaruvchilar** (x, y) – sonlarning o‘rnini egallaydi.  \n- **Ifodalar** – o‘zgaruvchilar va sonlar aralashmasi (2x + 5).  \n- **Tenglamalar** – ikki ifodaning tengligi (3x – 2 = 7).  \n- **Funksiya** – har bir kirish (argument) uchun bitta chiqish (natija) belgilaydi: f(x)=x² + 1.  \n- **Polinomlar** – bir nechta monom (xⁿ) yig‘indisi (x³‑4x²+5).  \n- **Raqamli (numerik) metodlar** – tenglamalarni yaqinlashgan yechimlari (Newton‑Raphson, iterativ usullar).\n\n### Misol: Kvadrat tenglama  \n\\(ax^2+bx+c=0\\) → diskriminant \\(D=b^2-4ac\\)  \n- D>0 → ikkita haqiqiy ildiz,  \n- D=0 → bitta takroriy ildiz,  \n- D<0 → ikki kompleks ildiz.\n\n---\n\n## 3. Geometriya  \n- **Düzgün (planar) geometriya** – nuqta, chiziq, burchak, uchburchak, to‘rtburchak, doira.  \n- **Euclid geometriyasi** – parallel chiziqlar postulatiga asoslangan.  \n- **Analitik geometriya** – koordinatalar yordamida shakllarni tavsiflaydi (y = mx + b).  \n- **Trigonometriya** – burchaklar va uchburchakning katet, gipotenuza o‘rtasidagi munosabatlar (sin, cos, tan).  \n- **Solishtirma (solid) geometriya** – hajm, yuzalar (kub, sfera, konus).\n\n### Misol: Uchburchakning Pifagor teoremasi  \n\\(a^2 + b^2 = c^2\\) (to‘g‘ri burchakli uchburchakda gipotenuzaning kvadrati katetlarning kvadratlari yig‘indisiga teng).\n\n---\n\n## 4. Analiz (Calculus)  \n- **Differensial hisob** – funksiya o‘zgarishini o‘rganadi, hosila (f′(x)).  \n- **Integral hisob** – funksiya ostidagi maydon, integral (∫f(x)dx).  \n- **Limit** – x→a ga yaqinlashganda funksiyaning qiymati (limₓ→a f(x)).  \n- **Seriyalar va ketma‑ketliklar** – sonlar yig‘indisi (geometrik, harmonik seriyalar).  \n\n### Misol: Hosila hisoblash  \n\\(f(x)=3x^2-5x+2\\) → \\(f'(x)=6x-5\\).\n\n---\n\n## 5. Statistik va ehtimollik  \n- **Ma'lumotlar to‘plami** – o‘rtacha (mean), median, moda, dispersiya, standart og‘ish.  \n- **Ehtimollik** – hodisaning sodir bo‘lish ehtimoli P(A)=|A|/|Ω| (bir xil ehtimollik modeli).  \n- **Binomial, Poisson, Normal taqsimotlar** – turli tajriba turlariga mos keladi.  \n- **Hipoteza tekshirish** – p‑qiymat, ishonchlilik intervali.  \n\n### Misol: Oddiy ehtimollik  \nBir qopda 3 qizil, 2 ko‘k, 5 yashil rangdagi sharlar bor. Tasodifiy tanlangan sharning qizil bo‘lish ehtimoli:  \n\\(P(\\text{qizil}) = \\frac{3}{3+2+5}= \\frac{3}{10}=0.3\\).\n\n---\n\n## 6. Mantiq va to‘plam nazariyasi  \n- **To‘plam** – elementlar jamlanishi (A ⊂ B, A ∪ B, A ∩ B).  \n- **Mantiq ifodalari** – “va” (∧), “yoki” (∨), “emas” (¬), “implicatsiya” (→).  \n- **Formal isbotlar** – induksiya, kontrapozitsiya, qiyosiy isbot.  \n\n---\n\n## 7. Matematikaga oid qo‘shimcha yo‘nalishlar  \n| Yo‘nalish | Qisqacha tavsif |\n|----------|----------------|\n| **Diskret matematika** | Graf nazariyasi, kombinatorika, algoritmlar. |\n| **Matematik analiz** | Funksiyalar, seriyalar, Fourier tahlili. |\n| **Differensial tenglamalar** | Dinamik tizimlar, fizika, muhandislik. |\n| **Numerik metodlar** | Kompyuterda aniq yechim topish o‘rniga yaqinlashgan yechimlar. |\n| **Topologiya** | “Uzluksiz deformatsiya” (yig‘ish, egri) tasavvuri. |\n\n---\n\n## 8. Qanday davom etish mumkin?  \n1. **Maqsadni aniqlang** – imtihon tayyorligi, loyiha, kundalik hayotda qo‘llash.  \n2. **Asosiy bo‘limlarga bo‘ling** – har bir bo‘limni alohida o‘rganish (masalan, algebra → tenglamalar → funksiyalar).  \n3. **Misollar yeching** – nazariyani amalda qo‘llash orqali tushuncha mustahkam bo‘ladi.  \n4. **Nazariyani qayta ko‘rib chiqing** – muhim formulalar va teoremalarni qisqa qaydlarda yozib oling.  \n5. **Savollar bering** – qayerda qiyinchilik bo‘lsa, shu bo‘limga alohida e’tibor qiling.\n\nAgar sizga ma’lum bir bo‘lim (masalan, differensial tenglamalar, kombinatorika yoki ehtimollik) bo‘yicha chuqurroq tushuntirish yoki misollar kerak bo‘lsa, aniq savolingizni bildiring – shu yo‘nalishda batafsil yordam beraman.  \n\n**Maqsadlar sari birga boramiz!**",
+          "timestamp": "2026-11-11T10:14:42.644Z"
+        }
+      ],
+      "createdAt": "2026-11-11T10:14:38.215Z",
+      "updatedAt": "2026-11-11T10:14:42.644Z"
+    },
+    {
+      "id": "6e12961a-a5df-49f6-bd4b-bb5e2e8cda40",
+      "title": "Menga Matematika fanining asosiy tushunchalari bo'",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.",
+          "timestamp": "2026-11-10T18:32:35.432Z"
+        },
+        {
+          "role": "assistant",
+          "content": "**Matematika fanining asosiy tushunchalari**\n\n| Bo‘lim | Muhim tushunchalar | Qisqacha izoh |\n|-------|-------------------|----------------|\n| **1. Sonlar nazariyasi** | • **Natural (natural) sonlar** – 1, 2, 3, … <br>• **Butun (integer) sonlar** – …, ‑2, ‑1, 0, 1, 2, … <br>• **Rasional sonlar** – a/b (a, b ∈ Z, b ≠ 0) <br>• **Irrazional sonlar** – kvadrat ildiz 2, π kabi ifodalanmaydigan sonlar <br>• **Real sonlar** – barcha racional va irrazional sonlar birga | Sonlar turini bilish algebraik ifodalar va tenglamalarni yechishda asos. |\n| **2. Algebra** | • **O‘zgaruvchi (variable)** – qiymati o‘zgartirilishi mumkin bo‘lgan belgilar (x, y…) <br>• **Ifoda (expression)** – o‘zgaruvchilar, sonlar va amallar (+, ‑, ·, /) kombinatsiyasi <br>• **Tenglama (equation)** – biror ifodaning ikki tomonining tengligi (ax + b = 0) <br>• **Funksiya** – har bir kirish (argument) qiymatiga bitta chiqish (natija) belgilash <br>• **Polinom** – darajali ko‘paytmalar yig‘indisi (x³ + 2x ‑ 5) <br>• **Ko‘paytma, qo‘shma, bo‘linma** – algebraik amallar | Algebra sonlar va funksiyalar orasidagi munosabatlarni tahlil qilishga imkon beradi. |\n| **3. Geometriya** | • **Nuqtalar, chiziqlar, tekisliklar** – asosiy elementlar <br>• **Burchaklar** – o‘tkazilgan chiziqlar orasidagi burchak, o‘lchov (gradus) <br>• **Uchburchak, to‘rtburchak, doira** – asosiy shakllar, ularning xususiyatlari (perimetr, yuz) <br>• **Trigonometriya** – burchaklar va uchburchak tomonlari orasidagi nisbatlar (sin, cos, tan) <br>• **Koordinata tekisligi** – (x, y) nuqtalar, chiziq tenglamalari <br>• **Transformatsiyalar** – translatsiya, aylantirish, o‘lcham o‘zgartirish (skalalar) | Geometriya fazoviy tasavvurni rivojlantiradi, chizmalar va modellar yaratishda qo‘llanadi. |\n| **4. Analiz (Hisoblash)** | • **Limit** – funksiya qiymatining x yaqinlashganda qanday bo‘lishini tavsiflaydi <br>• **Derivativ (türev)** – funksiyaning o‘zgarish tezligini (egri chiziqning teginishi) o‘lchaydi <br>• **Integral** – funksiyaning maydonini (yig‘indisini) hisoblaydi <br>• **Differensial tenglamalar** – derivativlar bilan ifodalangan tenglamalar <br>• **Seriyalar, ketma‑ketliklar** – sonlarning limitlari va yig‘indilari | Analiz dinamik hodisalar, optimallashtirish va fizika‑muhandislik masalalarida asosiy vosita. |\n| **5. Statistik va ehtimollik** | • **Ma’lumot to‘plami (sample)**, **populyatsiya** <br>• **O‘rtacha, median, moda** – markaziy tendensiya o‘lchovlari <br>• **Dispersiya, standart og‘ish** – tarqalish ko‘rsatkichlari <br>• **Ehtimollik (probability)** – voqea sodir bo‘lish ehtimoli (P) <br>• **Binomial, normal, Poisson taqsimotlari** <br>• **Hipoteza sinovi, regressiya** | Ma’lumotlarni tahlil qilish, prognozlash va qaror qabul qilishda qo‘llaniladi. |\n| **6. Mantiq va kombinatorika** | • **Mantiqiy ifodalar** – AND, OR, NOT, implikatsiya <br>• **Mantiqiy isbotlar** – induksiya, kontradiksiya <br>• **Permutatsiyalar, kombinatsiyalar** – elementlar tartibi va tanlovi <br>• **Graf nazariyasi** – tugunlar (vertices) va qirralar (edges) tarmog‘i | Muammolarni tuzish, algoritmlarni tahlil qilish va kod yozishda muhim. |\n\n---\n\n### Qanday davom etishni xohlaysiz?\n\n1. **Bitta bo‘limni chuqurroq o‘rganish** – masalan, funksiya tushunchasini misollar bilan ko‘rib chiqish.  \n2. **Maqsadli mashqlar** – har bir tushuncha uchun amaliy masalalar.  \n3. **Kod bilan misollar** – Python (yoki boshqa til)da algebra yoki statistik hisoblashlarni qanday amalga oshirishni ko‘rish.  \n\nSizga qaysi yo‘nalishda ko‘proq yordam kerak? Sizning ehtiyojlaringizga mos ravishda materialni tayyorlayman.",
+          "timestamp": "2026-11-10T18:32:35.432Z"
+        }
+      ],
+      "createdAt": "2026-11-10T18:32:32.022Z",
+      "updatedAt": "2026-11-10T18:32:35.432Z"
+    },
+    {
+      "id": "46457b27-72bd-4da9-8acd-9aa6e353961f",
+      "title": "Menga Fizika fanining asosiy tushunchalari bo'yich",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Menga Fizika fanining asosiy tushunchalari bo'yicha yordam ber.",
+          "timestamp": "2026-11-10T18:23:07.432Z"
+        },
+        {
+          "role": "assistant",
+          "content": "**Fizika fanining asosiy tushunchalari**  \n\n### 1. Mexanika (Harakat va kuchlar)\n| Tushuncha | Ta’rifi | Muhim formulalar |\n|----------|----------|------------------|\n| **Mass** | Jismning miqdori, harakatga qarshi qarshilik ko‘rsatuvchi miqdor. | \\( m \\) |\n| **Kuvvat (Force)** | Jismga ta’sir qiluvchi mexanik ta’sir, harakatni o‘zgartiradi. | \\( \\vec{F}=m\\vec{a} \\) |\n| **Tezlik (Velocity)** | Vaqt birligi ichida o‘tgan masofa, yo‘nalish bilan birga. | \\( \\vec{v}= \\dfrac{d\\vec{r}}{dt} \\) |\n| **Tezlanish (Acceleration)** | Tezlikning vaqt bo‘yicha o‘zgarishi. | \\( \\vec{a}= \\dfrac{d\\vec{v}}{dt} \\) |\n| **Energiya** | Harakat yoki holatga qarab saqlanadigan miqdor. | Kinetik: \\(E_k=\\frac12mv^2\\); Potensial: \\(E_p=mgh\\) |\n| **Kuvvatning saqlanishi** | Tizimga tashqi ta’sir yo‘q bo‘lsa, umumiy mexanik energiya (kinetik + potensial) doimiy qoladi. | \\(E_{k1}+E_{p1}=E_{k2}+E_{p2}\\) |\n\n### 2. Termodinamika (Issiqlik va energiya o‘tishi)\n| Tushuncha | Ta’rifi |\n|----------|----------|\n| **Temperatura** | Molekulalarning o‘rtacha kinetik energiyasining o‘lchovi. |\n| **Issiqlik (Q)** | Bir tizimdan ikkinchisiga energiya o‘tishi. |\n| **Ichki energiya (U)** | Tizim ichidagi barcha molekular harakat va o‘zaro ta’sirlarning umumiy energiyasi. |\n| **Birlamchi qonun** | Energiya saqlanishi: \\(\\Delta U = Q - W\\) (ish bajarilganida energiya tizimga kiradi). |\n| **Ikkinchi qonun** | Entropiya oshadi: yopiq tizimda umumiy entropiya doim oshadi. |\n| **Ideal gaz qonuni** | \\(PV=nRT\\) – bosim, hajm, temperatura va mol miqdori o‘rtasidagi bog‘lanish. |\n\n### 3. Elektromagnetizm (Zaryad, maydon, to‘kilish)\n| Tushuncha | Ta’rifi | Muhim formulalar |\n|----------|----------|------------------|\n| **Zaryad (q)** | Elektron yoki proton kabi elementar zarrachalarning elektr xususiyati. | \\(q = \\pm e\\) |\n| **Elektrostatik maydon (E)** | Zaryadlar atrofida yaratiladigan kuch maydoni. | \\(\\vec{E} = \\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{r^2}\\hat{r}\\) |\n| **Magnetik maydon (B)** | Harakatlanuvchi zaryad yoki magnitning yaratgan maydon. | \\(\\vec{B} = \\dfrac{\\mu_0}{4\\pi}\\dfrac{q\\vec{v}\\times\\hat{r}}{r^2}\\) |\n| **Ohm qonuni** | Tok, kuchlanish, qarshilik o‘rtasidagi bog‘lanish. | \\(V = IR\\) |\n| **Faraday induksiyasi** | O‘zgaruvchan magnetik maydon induksiya kuchlanishini yaratadi. | \\(\\mathcal{E} = -\\dfrac{d\\Phi_B}{dt}\\) |\n| **Maxwell tenglamalari** | Elektromagnit to‘lqinlarning nazariy asosini tashkil etadi (elektrostatik, magnetostatik, induksiya, to‘lqinlar). |\n\n### 4. Optika (Yorug‘lik va uning xossalari)\n| Tushuncha | Ta’rifi |\n|----------|----------|\n| **Yorug‘likning to‘lqin tabiat** | Interferensiya, diffraksiya, polarlash kabi hodisalar to‘lqinlar orqali tushuntiriladi. |\n| **Yorug‘likning zarrachaviy tabiat** (fotonlar) | Fotoelektrik effekt, komptons effekt – fotonlar energiyasi \\(E = h\\nu\\). |\n| **Snell qonuni** | Yoritilgan muhitda sinish burchagi. |\n| **Lenses (lentalar)** | Fokal nuqta, tasvirni yaratish. |\n| **Dispersion** | To‘lqin uzunligiga qarab refraksiya koeffitsientining o‘zgarishi (spectrum yaratadi). |\n\n### 5. Zamonaviy fizika (Relativistik va kvant mexanikasi)\n| Tushuncha | Ta’rifi |\n|----------|----------|\n| **Nisbiylik nazariyasi** (Einstein) | Harakatda bo‘lgan jismlarning vaqt, uzunlik, massa o‘zgarishi. \\(E=mc^2\\) formulasi energiyaning massaga tengligini ifodalaydi. |\n| **Kvant mexanikasi** | Atom va subatom darajadagi zarrachalarning to‘lqin‑zarracha dualiteti, ehtimollik asosida tavsifi. |\n| **Heisenberg noaniqlik prinsipi** | Bir vaqtning o‘zida zarrachaning pozitsiya va impulsini aniq o‘lchash mumkin emas. |\n| **Schrödinger tenglamasi** | Kvant holatlarning vaqt va fazoda tarqalishini tavsiflaydi. |\n| **Standart Model** | Elementar zarrachalar va ularning o‘zaro ta’sirini birlashtiruvchi nazariya. |\n\n---\n\n#### Qanday foydalanish mumkin?\n1. **Mavzuni tanlang** – masalan, “harakat qonunlari” yoki “elektromagnit to‘lqinlar”.  \n2. **Formulalarni yodlang** va misollar orqali amaliy yechimlarni ko‘rib chiqing.  \n3. **Eksperiment yoki ilova** (masalan, Arduino bilan sensorlar, ya da Simulinkda mexanik modellash) orqali nazariyani mustahkamlang.  \n\nAgar qaysi bo‘lim bo‘yicha chuqurroq misollar, mashqlar yoki dasturlash loyihalari kerak bo‘lsa, iltimos, aniqroq so‘rov bering.  \n\n**Maqsadlar sari birga boramiz!**",
+          "timestamp": "2026-11-10T18:23:07.432Z"
+        }
+      ],
+      "createdAt": "2026-11-10T18:23:03.690Z",
+      "updatedAt": "2026-11-10T18:23:07.432Z"
+    },
+    {
+      "id": "878b0525-d58b-4b00-9a2f-87df8be4c028",
+      "title": "slom",
+      "messages": [
+        {
+          "role": "user",
+          "content": "slom",
+          "timestamp": "2026-11-10T18:05:47.558Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Assalomu alaykum! Qanday yordam kerakligini batafsil ayta olasizmi? Sizning savolingizga aniq javob bera olishim uchun ma’lumotingizni kutaman.",
+          "timestamp": "2026-11-10T18:05:47.558Z"
+        }
+      ],
+      "createdAt": "2026-11-10T18:05:46.335Z",
+      "updatedAt": "2026-11-10T18:05:47.558Z"
+    }
+  ],
+  "createdAt": "2026-11-10T18:05:47.559Z",
+  "updatedAt": "2026-11-13T19:44:48.330Z"
+}

@@ -1,0 +1,3350 @@
+{
+  "users": {
+    "guest_7f739fe1-a7dc-4148-84af-7bc86fd33e8c": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-13": {
+          "date": "2026-11-13",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-13_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-13T17:52:43.087Z"
+            },
+            {
+              "id": "lesson_2026-11-13_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-13T17:52:43.095Z"
+            },
+            {
+              "id": "lesson_2026-11-13_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-13T17:52:43.104Z"
+            },
+            {
+              "id": "lesson_2026-11-13_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-13_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 3,
+          "percentage": 60,
+          "updatedAt": "2026-11-13T17:52:43.104Z"
+        },
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T19:46:43.887Z"
+        }
+      }
+    },
+    "google_115401282415026396030": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-13": {
+          "date": "2026-11-13",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-13_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-13_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-13_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-13_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-13_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T18:07:01.896Z"
+        },
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T19:08:00.135Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.022Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.794Z"
+        }
+      }
+    },
+    "guest_7ecbf90e-99bc-45bb-82ff-38d301e302b0": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T19:03:02.457Z"
+        }
+      }
+    },
+    "guest_bbb8628c-1837-41d3-9d69-b122892eb4d5": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T19:19:16.057Z"
+        }
+      }
+    },
+    "guest_dad6918e-1d82-4536-aea8-a188f42a968e": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T19:43:20.809Z"
+        }
+      }
+    },
+    "guest_b0129af5-a1a9-43c7-af23-cf77426a927e": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T20:35:08.456Z"
+        }
+      }
+    },
+    "guest_5f73ebf6-f5a1-490e-b2ac-205506a5132f": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-13T20:55:03.752Z"
+        }
+      }
+    },
+    "guest_6c4decc7-3618-4c7c-a2b9-44625d15439e": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T07:47:36.234Z"
+        }
+      }
+    },
+    "google_109714818977347266867": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T09:29:00.847Z"
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T09:29:02.565Z"
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T09:29:04.552Z"
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T09:29:03.513Z"
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T09:29:01.997Z"
+            }
+          ],
+          "total": 5,
+          "completed": 5,
+          "percentage": 100,
+          "updatedAt": "2026-11-14T09:29:04.552Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T15:27:18.915Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.797Z"
+        }
+      }
+    },
+    "test_user_2": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T08:02:11.216Z"
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 1,
+          "percentage": 20,
+          "updatedAt": "2026-11-14T08:02:11.216Z"
+        }
+      }
+    },
+    "guest_148a8a28-50cb-4436-92eb-209f4bfd566f": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T08:06:55.382Z"
+        }
+      }
+    },
+    "guest_6eac9d25-acb0-4c2d-bc8b-5310807250ed": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": true,
+              "completedAt": "2026-11-14T08:07:07.831Z"
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 1,
+          "percentage": 20,
+          "updatedAt": "2026-11-14T08:07:07.832Z"
+        }
+      }
+    },
+    "guest_b77db2c4-432d-44bd-8f87-a05af1e279fe": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T09:26:26.223Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:54:54.521Z"
+        }
+      }
+    },
+    "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T09:34:54.055Z"
+        }
+      }
+    },
+    "user_ca2d5cb1-569b-4271-9128-31e2d8ead386": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T10:04:09.489Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.010Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.751Z"
+        }
+      }
+    },
+    "user_55f939f7-dee9-4267-9b4e-4a1780be36db": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T10:04:09.495Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:46:28.376Z"
+        }
+      }
+    },
+    "guest_6250dabb-96a5-4055-8d32-b150d2491865": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T10:07:37.548Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.077Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.799Z"
+        }
+      }
+    },
+    "guest_07bc9da4-1008-4dac-90f2-0de206efed7d": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T10:23:42.229Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.094Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.801Z"
+        }
+      }
+    },
+    "guest_6142d452-2158-4ad5-a45a-ec9d29c19761": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T10:50:26.582Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.118Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.803Z"
+        }
+      }
+    },
+    "guest_28185be0-95c6-4da3-b33f-7b5ac4ad8318": {
+      "currentDate": "2026-11-14",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T13:08:50.215Z"
+        }
+      }
+    },
+    "guest_df6d9c63-2766-422b-8305-56131283c08d": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T13:12:00.714Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.131Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.806Z"
+        }
+      }
+    },
+    "guest_demo_user": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T16:34:10.734Z"
+        },
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.147Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.810Z"
+        }
+      }
+    },
+    "guest_general": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-14": {
+          "date": "2026-11-14",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-14_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-14_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-14T16:51:49.394Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:42:18.366Z"
+        }
+      }
+    },
+    "guest_271f8368-35a7-4f98-bbee-dfd0274352fa": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-15": {
+          "date": "2026-11-15",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-15_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-15_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-15T17:23:36.186Z"
+        },
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.814Z"
+        }
+      }
+    },
+    "guest_babb6c6d-2228-450e-a718-f8d400b7c71d": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:32:26.819Z"
+        }
+      }
+    },
+    "guest_0886f920-d59d-4539-b358-6ef71c24181a": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:45:54.868Z"
+        }
+      }
+    },
+    "guest_89b4852c-1cd6-4d24-919d-5d08d78ca25c": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T06:46:28.388Z"
+        }
+      }
+    },
+    "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T11:18:07.624Z"
+        }
+      }
+    },
+    "test_user_01": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T12:36:56.438Z"
+        }
+      }
+    },
+    "test_user_02": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T12:36:56.447Z"
+        }
+      }
+    },
+    "guest_0274e152-632e-4284-b95b-0a6acf4cbdd7": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T14:58:19.428Z"
+        }
+      }
+    },
+    "guest_e03ab6a0-75d1-4779-b152-61f554a881e1": {
+      "currentDate": "2026-11-16",
+      "days": {
+        "2026-11-16": {
+          "date": "2026-11-16",
+          "lessons": [
+            {
+              "id": "lesson_2026-11-16_1",
+              "subject": "Matematika",
+              "icon": "📐",
+              "title": "Kvadrat tenglamalar va diskriminant formulasi",
+              "description": "Nazariya, formulalar va 5 ta amaliy misol tahlili",
+              "duration": "25 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_2",
+              "subject": "Informatika va IT",
+              "icon": "💻",
+              "title": "JavaScript funksiyalari va asinxron dasturlash",
+              "description": "Promises, async/await va amaliy kod mashqi",
+              "duration": "30 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_3",
+              "subject": "Ingliz tili (IELTS)",
+              "icon": "🌍",
+              "title": "IELTS Academic Writing Task 2 strukturasi",
+              "description": "Insho kirish qismi va asosiy argumentlar tahlili",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_4",
+              "subject": "Fizika",
+              "icon": "⚡",
+              "title": "Nyutonning ikkinchi qonuni va dinamika",
+              "description": "Kuch, massa va tezlanish bog‘liqligi",
+              "duration": "20 daqiqa",
+              "completed": false,
+              "completedAt": null
+            },
+            {
+              "id": "lesson_2026-11-16_5",
+              "subject": "Ona tili va Adabiyot",
+              "icon": "📜",
+              "title": "Murakkab qo‘shma gaplar tahlili va orfografiya",
+              "description": "Grammatik qoidalar va matn ustida amaliy tahlil",
+              "duration": "15 daqiqa",
+              "completed": false,
+              "completedAt": null
+            }
+          ],
+          "total": 5,
+          "completed": 0,
+          "percentage": 0,
+          "updatedAt": "2026-11-16T16:28:30.565Z"
+        }
+      }
+    }
+  }
+}

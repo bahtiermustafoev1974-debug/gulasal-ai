@@ -1,0 +1,47 @@
+[
+  {
+    "id": "user_ca2d5cb1-569b-4271-9128-31e2d8ead386",
+    "type": "account",
+    "name": "Gulasal Test Foydalanuvchi",
+    "email": "tester_1794593853442@gulasal.ai",
+    "passwordHash": "73fd4ad1f86bddbe79e0cc560235813c5a1badd67a75a2eef86b75b6d2d82e261aa2bb24007b0cf16e0c86b4078d482bcbc2b0180815986ec838fc5c7255a5aa",
+    "passwordSalt": "0d1a0286fd891423c03187429ab1755c",
+    "picture": "",
+    "createdAt": "2026-11-13T18:17:33.531Z"
+  },
+  {
+    "id": "google_115401282415026396030",
+    "type": "google",
+    "name": "Бахтиер Мустафоев",
+    "email": "bahtiermustafoev1974@gmail.com",
+    "role": "admin",
+    "isAdmin": true,
+    "passwordHash": "a3ca7329eb12f80a83660f8c889b52100b7b7e9c12d5ef0d0f30d89e6cfe172e51ccbc45feab99df8de418a7b61e61dcb52aed9e1b6f05bae45ee406e5663bc6",
+    "passwordSalt": "66221a13085117be9d23b11dfe6fbaa8",
+    "picture": "https://lh3.googleusercontent.com/a-/ALV-UjX2TvE_rJZmO05NAEfS5AQHrtHrLhB7_5C-PSPLtxKRcfMlUDE7t9rBhLPo1A-NyWGZakddcgEikW4BmvIC5NmelyVmVAiX5CKjyGW7Cn-KIhrax9nFtxbPfsQuxGdYzf5fvvvTEZNa0T_JFcP2pf_wfTuIY2jNvJncsz20ZRJSK_mSNrI6g08PK17rOXFO05Up2Seub3CXYGrJ5kI-moTE55WiEyGslYgGF2kz1Yywz47QOHrqK0dx74jBieeUiCPgXr8getzDkBKOhGN_lIcJa6RvdhpggdX7oJ0Xut4zsDige9ykI03NZb1mPyR6H1s8ZIBBEcZuQiVJU2MkO0QlwrXqrmQkM53fF9K_L1y0t38NKDTnPhHg5hyHeO-Vcgr_qEXuu2p8GnL4w5VDP-jyvanZN06Bf1l8Tduvdf0Nu37sqi_khe7avhuV3n58iTRY-WPGtof93wkrzLBpIfO3zpfSytWQh-O-Q8XgjQgVW8ClvDcDg28Z4FFxL430Dc7wTW7g1-wQWvxV0wCAoXHnErksLzqsT-kGuk7LX_fc1gaWXgbAdpTHg-YyQg04RuSya09J-R3iO03ktWZvImafNV1b-LSYcdoNBXXqHAIx9Lk-KljUbjbbsbIDRBZoXcDuc_4_Okmk_x4-9hLCLRg2Uwx55bbRgHUvkxgEGhIrGtMsIxqg3zcEd8SOccnmcvMkCeG_IbJfqO2Gg8oaKplPSE6x9NFsjrO_zl_9rSDZia6upY99ip8H16ElEThTTuFrJbTAIqg3LtTZGplvrDOXtqXgpy1PSxHHjIWPIxUWOIVhIvydVskfOF61LpsQ-O2cJa0wtohtxuqe6iVFrc7Alk3nAwCIcC6Jt68_BdKRqGRhHtu_ilKcQqup1Um6yY-931fCPb0Zd9HrNLXk-2_b5QdcUs4WsgweN9ELu5vr8sumil2fINrhNFt6w2BVDsdHSiZe_FjerwoTIK3n3iXpCcwHZQiuDl06J4mK-0KHhb8t6t84DQRN-A3I3XmeikPyra0APh1UNzE1r0iepQu95PYpPc7uY1aZpxfjvsLe3AqC_40X7KSg=s96-c",
+    "createdAt": "2026-11-13T18:30:33.744Z",
+    "lastActiveAt": "2026-11-16T16:28:28.556Z"
+  },
+  {
+    "id": "google_109714818977347266867",
+    "type": "google",
+    "name": "maruf narimonov",
+    "email": "marufnarimonov1808@gmail.com",
+    "picture": "https://lh3.googleusercontent.com/a/ACg8ocIGp02QfNQDHV5DIHetAOvz3-pN0I4Qf8c_gGKzBXWYusxrzaSv=s96-c",
+    "isAdmin": false,
+    "createdAt": "2026-11-14T10:05:43.109Z",
+    "lastActiveAt": "2026-11-16T16:27:49.959Z"
+  },
+  {
+    "id": "user_55f939f7-dee9-4267-9b4e-4a1780be36db",
+    "type": "account",
+    "name": "maruf",
+    "email": "bahtiermustafoev1974@gmail.com",
+    "role": "admin",
+    "isAdmin": true,
+    "passwordHash": "a3ca7329eb12f80a83660f8c889b52100b7b7e9c12d5ef0d0f30d89e6cfe172e51ccbc45feab99df8de418a7b61e61dcb52aed9e1b6f05bae45ee406e5663bc6",
+    "passwordSalt": "66221a13085117be9d23b11dfe6fbaa8",
+    "picture": "",
+    "createdAt": "2026-11-13T18:30:33.744Z"
+  }
+]

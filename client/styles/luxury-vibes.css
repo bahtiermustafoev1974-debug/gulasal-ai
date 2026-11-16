@@ -1,0 +1,215 @@
+/* =========================================================
+   GULASAL AI — LUXURY INTERACTIVE MOUSE SPOTLIGHT & SPECULAR VIBES
+   60fps Motion • Electric Indigo & Cyber Cyan • Minimalist Precision
+========================================================= */
+
+/* ---------------------------------------------------------
+   1. GLOBAL FLOATING MOUSE-FOLLOWING SPOTLIGHT AURA
+--------------------------------------------------------- */
+.gulasal-mouse-spotlight {
+  position: fixed;
+  top: -250px;
+  left: -250px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.18) 0%,
+    rgba(6, 182, 212, 0.10) 35%,
+    rgba(168, 85, 247, 0.05) 60%,
+    transparent 75%
+  );
+  filter: blur(45px);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+
+/* ---------------------------------------------------------
+   2. CARD-LEVEL INTERACTIVE BORDER SPECULAR SHEEN
+--------------------------------------------------------- */
+.auth-glass-card,
+.auth-card-circular,
+.admin-stat-card,
+.admin-actions-card,
+.intro-feature-pill,
+.intro-cta-btn,
+.landing-primary-btn,
+.bento-card,
+.mentor-stat-box,
+.story-ielts-feature-card,
+.final-cta-card,
+.landing-mockup-frame,
+.nav-link,
+.ga-suggestions button,
+.curriculum-topic-card,
+.curriculum-lesson-row,
+.tool-card,
+.sidebar-support-btn,
+.sidebar-pwa-install-btn,
+.user-profile {
+  position: relative;
+  overflow: visible !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+/* 2.1 LUMINOUS DUAL-COLOR SPECULAR BORDER (ELECTRIC INDIGO & CYBER CYAN) */
+.auth-glass-card::before,
+.auth-card-circular::before,
+.admin-stat-card::before,
+.admin-actions-card::before,
+.bento-card::before,
+.mentor-stat-box::before,
+.story-ielts-feature-card::before,
+.final-cta-card::before,
+.ga-suggestions button::before,
+.curriculum-topic-card::before,
+.curriculum-lesson-row::before,
+.tool-card::before,
+.sidebar-support-btn::before,
+.sidebar-pwa-install-btn::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: radial-gradient(
+    280px circle at var(--mouse-x, -200px) var(--mouse-y, -200px),
+    rgba(99, 102, 241, 0.85) 0%,
+    rgba(6, 182, 212, 0.60) 35%,
+    rgba(168, 85, 247, 0.25) 55%,
+    transparent 75%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 10;
+}
+
+/* 2.2 CARD SURFACE LIQUID SHEEN (REACTIVE GLOW UNDER POINTER) */
+.auth-glass-card::after,
+.admin-stat-card::after,
+.admin-actions-card::after,
+.ga-suggestions button::after,
+.curriculum-topic-card::after,
+.curriculum-lesson-row::after,
+.tool-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    220px circle at var(--mouse-x, -200px) var(--mouse-y, -200px),
+    rgba(99, 102, 241, 0.14) 0%,
+    rgba(6, 182, 212, 0.08) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 4;
+}
+
+/* HOVER / ACTIVE TILT STATES */
+.has-tilt-active::before {
+  opacity: 1;
+}
+
+.has-tilt-active::after {
+  opacity: 1;
+}
+
+.has-tilt-active {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45), 0 0 25px rgba(99, 102, 241, 0.15) !important;
+}
+
+/* Inner elements subtle 3D pop */
+.auth-glass-card.has-tilt-active .card-inner-glass,
+.admin-stat-card.has-tilt-active .admin-stat-icon-wrap,
+.ga-suggestions button.has-tilt-active span {
+  transform: translateZ(8px);
+  transition: transform 0.2s ease;
+}
+
+/* ---------------------------------------------------------
+   3. CHAT ACTIONS BAR (COPY & REGENERATE)
+--------------------------------------------------------- */
+.ga-msg-actions-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ga-msg-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  color: #cbd5e1;
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.ga-msg-action-btn:hover {
+  background: rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.4);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* ---------------------------------------------------------
+   4. TOUCH DEVICES / MOBILE LIGHTWEIGHT MODE
+--------------------------------------------------------- */
+@media (hover: none), (pointer: coarse) {
+  .gulasal-mouse-spotlight {
+    display: none !important;
+  }
+
+  .auth-glass-card,
+  .auth-card-circular,
+  .admin-stat-card,
+  .admin-actions-card,
+  .intro-feature-pill,
+  .ga-suggestions button,
+  .curriculum-topic-card,
+  .curriculum-lesson-row,
+  .tool-card {
+    transform: none !important;
+  }
+
+  .auth-glass-card::before,
+  .auth-card-circular::before,
+  .admin-stat-card::before,
+  .ga-suggestions button::before,
+  .curriculum-topic-card::before,
+  .curriculum-lesson-row::before,
+  .tool-card::before,
+  .auth-glass-card::after,
+  .admin-stat-card::after,
+  .ga-suggestions button::after {
+    display: none !important;
+  }
+
+  .auth-glass-card:active,
+  .admin-stat-card:active,
+  .ga-suggestions button:active {
+    transform: scale(0.985) !important;
+    transition: transform 0.1s ease !important;
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "guest_general": {
+    "currentLessonIndex": 0,
+    "history": {
+      "2026-11-13": {
+        "lessonId": "eilist_day_1",
+        "vocabulary": false,
+        "grammar": false,
+        "reading": false,
+        "listening": true,
+        "listeningScore": 6,
+        "listeningTotal": 6,
+        "completed": false,
+        "completedAt": null
+      },
+      "2026-11-14": {
+        "lessonId": "eilist_day_1",
+        "vocabulary": true,
+        "grammar": false,
+        "reading": false,
+        "listening": true,
+        "listeningScore": 6,
+        "listeningTotal": 6,
+        "completed": false,
+        "completedAt": null
+      }
+    },
+    "stats": {
+      "totalCompleted": 0,
+      "streakDays": 1,
+      "averageScore": 100,
+      "testsTaken": 2
+    }
+  },
+  "guest_9d5b30ec-cabc-4dd6-8752-dc002c05aa97": {
+    "currentLessonIndex": 0,
+    "history": {
+      "2026-11-14": {
+        "lessonId": "eilist_day_1",
+        "vocabulary": false,
+        "grammar": false,
+        "reading": false,
+        "listening": true,
+        "listeningScore": 6,
+        "listeningTotal": 6,
+        "completed": false,
+        "completedAt": null
+      }
+    },
+    "stats": {
+      "totalCompleted": 0,
+      "streakDays": 1,
+      "averageScore": 100,
+      "testsTaken": 1
+    }
+  },
+  "google_109714818977347266867": {
+    "currentLessonIndex": 0,
+    "history": {
+      "2026-11-14": {
+        "lessonId": "eilist_day_1",
+        "vocabulary": false,
+        "grammar": false,
+        "reading": false,
+        "listening": true,
+        "listeningScore": 1,
+        "listeningTotal": 6,
+        "completed": false,
+        "completedAt": null
+      },
+      "2026-11-16": {
+        "lessonId": "eilist_day_1",
+        "vocabulary": false,
+        "grammar": false,
+        "reading": false,
+        "listening": true,
+        "listeningScore": 0,
+        "listeningTotal": 6,
+        "completed": false,
+        "completedAt": null
+      }
+    },
+    "stats": {
+      "totalCompleted": 0,
+      "streakDays": 1,
+      "averageScore": 4,
+      "testsTaken": 5
+    }
+  }
+}

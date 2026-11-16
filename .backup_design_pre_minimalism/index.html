@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#06050e">
+  <meta name="description" content="Gulasal AI — Maqsadlar sari birga boramiz.">
+  <title>Gulasal AI — Shaxsiy sun’iy intellekt</title>
+
+  <!-- PWA & MOBILE SUPPORT -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/svg+xml" href="/public/icon-192.svg">
+  <link rel="apple-touch-icon" href="/public/icon-192.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Gulasal AI">
+
+  <!-- TELEGRAM WEBAPP SDK -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/client/styles/main.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/mentor/mentor.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/community/community.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/eilist/eilist.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/admin/admin.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/styles/cinematic-intro.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/styles/luxury-vibes.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/styles/curriculum.css?v=20261114_01">
+  <link rel="stylesheet" href="/client/styles/premium-features.css?v=20261114_01">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+      min-height: 100%;
+      margin: 0;
+      background: #06050e;
+    }
+
+    body {
+      color: #faf7ff;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* MAIN APP CONTAINER */
+    #app {
+      min-height: 100vh;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    body.authenticated #app {
+      opacity: 1;
+      visibility: visible;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========================================================
+       1. ULTRA-PREMIUM CINEMATIC INTRO EXPERIENCE
+  ======================================================== -->
+  <div id="cinematic-intro">
+    <canvas id="intro-particles-canvas" class="intro-aurora-canvas"></canvas>
+    <div class="intro-aurora-mesh"></div>
+    <div class="intro-grid-pattern"></div>
+
+    <div class="intro-hero-stage" id="intro-hero-stage">
+      <div class="intro-pill-badge">
+        <span class="intro-pill-sparkle">✦</span>
+        <span>Kelajak Ta’limi & AI Ekosistemasi</span>
+      </div>
+
+      <div class="intro-logo-container">
+        <div class="intro-orbit-ring"></div>
+        <div class="intro-orbit-ring-two"></div>
+        <div class="intro-glass-emblem">
+          <div class="intro-logo-glow-glow"></div>
+          <span>✦</span>
+        </div>
+      </div>
+
+      <h1 class="intro-brand-title">GULASAL <span>AI</span></h1>
+      <p class="intro-tagline">Bilim sari yangi imkoniyatlar</p>
+      <p class="intro-subtext">Learn smarter. Grow faster. Achieve more.</p>
+
+      <div class="intro-features-row">
+        <div class="intro-feature-pill">✦ Raqamli Avlod Qizlari</div>
+        <div class="intro-feature-pill">◈ Shaxsiy AI Mentor</div>
+        <div class="intro-feature-pill">🎧 IELTS Listening & Tillar</div>
+      </div>
+
+      <div class="intro-cta-wrap">
+        <button id="intro-start-btn" class="intro-cta-btn" type="button">
+          <span>Boshlash</span>
+          <span class="intro-cta-arrow">→</span>
+        </button>
+        <div class="intro-cta-aura"></div>
+      </div>
+
+      <div class="intro-bottom-meta">
+        <span class="intro-status-live">Tizim faol</span>
+        <span>•</span>
+        <span>v5.0 Cinematic</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       2. AUTHENTICATION SCREEN — SPECIAL PREMIUM GLASS CARDS
+  ======================================================== -->
+  <section id="auth-screen">
+    <div class="auth-card-circular">
+      <button id="auth-back-intro" class="auth-back-btn" type="button" title="Intro sahifasiga qaytish">
+        ← Intro
+      </button>
+
+      <!-- TITLE -->
+      <div class="auth-header-circular">
+        <div class="auth-logo-badge-mini">✦</div>
+        <h1 class="auth-title-circular">Xush kelibsiz</h1>
+        <p class="auth-subtitle-circular">Bilim sari yangi imkoniyatlar • Davom etish variantini tanlang</p>
+      </div>
+
+      <!-- TWO LARGE MODERN INTERACTIVE GLASS CARD BUTTONS -->
+      <div class="auth-glass-cards-row">
+        <!-- 1. GOOGLE LOGIN GLASS CARD -->
+        <button class="auth-glass-card google-glass-card" id="google-glass-btn" type="button" title="Google bilan davom etish">
+          <div class="card-glow-aura google-aura"></div>
+          <div class="card-inner-glass">
+            <div class="card-icon-wrap">
+              <svg class="google-brand-svg" width="34" height="34" viewBox="0 0 48 48">
+                <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+                <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+                <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+                <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+                <path fill="none" d="M0 0h48v48H0z"/>
+              </svg>
+            </div>
+            <div class="card-text-wrap">
+              <span class="card-title">Google bilan davom etish</span>
+              <span class="card-desc">Google hisobingiz orqali xavfsiz kirish</span>
+            </div>
+            <span class="card-arrow">→</span>
+          </div>
+        </button>
+
+        <!-- Official Google Sign-In Fallback Button (visible if popup blocked or for direct GSI) -->
+        <div id="google-fallback-container" class="google-fallback-container" style="display: none;">
+          <div id="google-signin-button"></div>
+        </div>
+
+        <!-- DELICATE 'YOKI' DIVIDER -->
+        <div class="auth-divider-yoki">
+          <span class="divider-line"></span>
+          <span class="divider-text">YOKI</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <!-- 2. GUEST LOGIN GLASS CARD -->
+        <button id="guest-button" class="auth-glass-card guest-glass-card" type="button" title="Mehmon sifatida kirish">
+          <div class="card-glow-aura guest-aura"></div>
+          <div class="card-inner-glass">
+            <div class="card-icon-wrap guest-icon-wrap">
+              <svg class="guest-svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="card-text-wrap">
+              <span class="card-title">Mehmon sifatida kirish</span>
+              <span class="card-desc">Ro‘yxatdan o‘tmasdan tezkor kirish</span>
+            </div>
+            <span class="card-arrow">→</span>
+          </div>
+        </button>
+      </div>
+
+      <div id="auth-message" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       3. MAIN APPLICATION INTERFACE
+  ======================================================== -->
+  <div id="app">
+    <aside class="sidebar" id="sidebar-container"></aside>
+    <div id="sidebar-backdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+
+    <div class="main-wrapper">
+      <header class="navbar" id="navbar-container"></header>
+
+      <main class="view-container" id="view-container">
+        <div class="app-loading">
+          <div class="loading-icon">✦</div>
+          <h2>Gulasal AI</h2>
+          <p>Sun’iy intellekt ishga tushmoqda...</p>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- GOOGLE IDENTITY SERVICES -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <!-- APPLICATION ARCHITECTURE & INTERACTIONS -->
+  <script type="module">
+    import { ThemeManager } from '/client/utils/themeManager.js';
+    try { ThemeManager.init(); } catch (e) {}
+
+    let GOOGLE_CLIENT_ID =
+      '299782937916-r3l418dr3h1ku0941ue2urk4gru3cjqo.apps.googleusercontent.com';
+
+    const authMessage = document.getElementById('auth-message');
+    const guestButton = document.getElementById('guest-button');
+    const googleButton = document.getElementById('google-signin-button');
+
+    const appData = {
+      system: {},
+      stats: {},
+      subjects: [],
+      tools: [],
+      library: []
+    };
+
+    const allowedViews = ['chat', 'subjects', 'tools', 'mentor', 'community', 'eilist', 'settings', 'admin'];
+
+    let activeTab = 'chat';
+    let appStarted = false;
+    let appStarting = false;
+    let googleInitialized = false;
+    let modules = null;
+    let currentUser = null;
+    let googleWait = null;
+    let googleTimeout = null;
+
+    function showAuthMessage(message = '', isError = false) {
+      if (!authMessage) return;
+      authMessage.textContent = message;
+      authMessage.style.color = isError ? '#ff9caa' : '#a993ff';
+      if (message) console.log(`[AUTH MSG] ${message}`);
+    }
+
+    // DIAGNOSTIC LOGGING FOR MOBILE
+    const logs = [];
+    function diagLog(msg, data) {
+      const logMsg = `[DIAG] ${msg} ${data ? JSON.stringify(data) : ''}`;
+      console.log(logMsg);
+      logs.push(logMsg);
+      if (logs.length > 20) logs.shift();
+      
+      let overlay = document.getElementById('diag-overlay');
+      if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.id = 'diag-overlay';
+        overlay.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:rgba(0,0,0,0.85);color:white;font-size:10px;z-index:100000;pointer-events:none;max-height:30vh;overflow:auto;padding:5px;display:none;';
+        document.body.appendChild(overlay);
+      }
+      overlay.innerText = logs.join('\n');
+    }
+
+    window.showDiag = () => {
+      const overlay = document.getElementById('diag-overlay');
+      if (overlay) overlay.style.display = 'block';
+    };
+
+    async function apiRequest(endpoint, options = {}) {
+      let response;
+
+      try {
+        response = await fetch(endpoint, {
+          ...options,
+          credentials: 'same-origin',
+          cache: 'no-store',
+          headers: {
+            ...(options.headers || {}),
+            ...(options.body ? { 'Content-Type': 'application/json' } : {})
+          }
+        });
+      } catch (error) {
+        throw new Error(
+          'Serverga ulanib bo‘lmadi. node server.js ishlayotganini tekshiring.'
+        );
+      }
+
+      let data;
+
+      try {
+        data = await response.json();
+      } catch {
+        throw new Error('Serverdan noto‘g‘ri javob olindi.');
+      }
+
+      if (!response.ok || data.success === false) {
+        if (response.status === 401) {
+          throw new Error('Sessiya tugagan yoki ma’lumotlar noto‘g‘ri.');
+        }
+
+        throw new Error(
+          data.message || `Server xatosi: HTTP ${response.status}`
+        );
+      }
+
+      return data;
+    }
+
+    async function loadModules() {
+      if (modules) return modules;
+
+      diagLog('Loading modules...');
+      showAuthMessage('Ilova komponentlari yuklanmoqda...');
+
+      try {
+        const v = Date.now();
+        const results = await Promise.all([
+          import(`/client/sidebar/sidebar.js?v=${v}`).catch(e => { diagLog('Error loading sidebar', e.message); throw e; }),
+          import(`/client/components/Navbar.js?v=${v}`).catch(e => { diagLog('Error loading navbar', e.message); throw e; }),
+          import(`/client/chat/chat.js?v=${v}`).catch(e => { diagLog('Error loading chat', e.message); throw e; }),
+          import(`/client/tools/tools.js?v=${v}`).catch(e => { diagLog('Error loading tools', e.message); throw e; }),
+          import(`/client/subjects/subjects.js?v=${v}`).catch(e => { diagLog('Error loading subjects', e.message); throw e; }),
+          import(`/client/mentor/mentor.js?v=${v}`).catch(e => { diagLog('Error loading mentor', e.message); throw e; }),
+          import(`/client/community/community.js?v=${v}`).catch(e => { diagLog('Error loading community', e.message); throw e; }),
+          import(`/client/eilist/eilist.js?v=${v}`).catch(e => { diagLog('Error loading eilist', e.message); throw e; }),
+          import(`/client/admin/admin.js?v=${v}`).catch(e => { diagLog('Error loading admin', e.message); throw e; }),
+          import(`/client/settings/settings.js?v=${v}`).catch(e => { diagLog('Error loading settings', e.message); throw e; }),
+          import(`/client/utils/tilt.js?v=${v}`).catch(e => { diagLog('Error loading tilt', e.message); return {}; })
+        ]);
+
+        diagLog('Modules loaded successfully');
+
+        modules = {
+          renderSidebar: results[0].renderSidebar,
+          renderNavbar: results[1].renderNavbar,
+          renderChat: results[2].renderChat,
+          renderTools: results[3].renderTools,
+          renderSubjects: results[4].renderSubjects,
+          renderMentor: results[5].renderMentor,
+          renderCommunity: results[6].renderCommunity,
+          renderEilist: results[7].renderEilist,
+          renderAdmin: results[8].renderAdmin,
+          renderSettings: results[9].renderSettings,
+          initSpotlightAndTilt: results[10]?.initSpotlightAndTilt
+        };
+
+        const coreFunctions = ['renderSidebar', 'renderNavbar', 'renderChat', 'renderTools', 'renderSubjects', 'renderMentor', 'renderCommunity', 'renderEilist', 'renderAdmin', 'renderSettings'];
+        for (const name of coreFunctions) {
+          if (typeof modules[name] !== 'function') {
+            diagLog(`Function ${name} not found in modules`);
+            throw new Error(`${name} funksiyasi topilmadi.`);
+          }
+        }
+
+        return modules;
+      } catch (error) {
+        diagLog('Module load failed', error.message);
+        throw error;
+      }
+    }
+
+    async function loadApplicationData() {
+      try {
+        const result = await apiRequest('/api/data');
+        const data = result.data || {};
+
+        Object.assign(appData, {
+          ...data,
+          subjects: Array.isArray(data.subjects) ? data.subjects : [],
+          tools: Array.isArray(data.tools) ? data.tools : [],
+          library: Array.isArray(data.library) ? data.library : []
+        });
+      } catch (error) {
+        console.warn('[DATA LOAD]', error);
+      }
+    }
+
+    async function startApplication(user) {
+      if (appStarted || appStarting) return;
+
+      diagLog('Starting application for user', user.id || user.email);
+      appStarting = true;
+      currentUser = user;
+      showAuthMessage('Gulasal AI ishga tushmoqda...');
+
+      try {
+        const ui = await loadModules();
+
+        diagLog('Fetching app data...');
+        await loadApplicationData();
+
+        diagLog('Rendering components...');
+        ui.renderNavbar('navbar-container', handleGlobalSearch, currentUser, switchView);
+
+        ui.renderSidebar(
+          'sidebar-container',
+          activeTab,
+          switchView,
+          currentUser
+        );
+
+        switchView('chat');
+
+        // LUXURY UPGRADE: Initialize 3D Spotlight Tilt & Effects
+        if (typeof ui.initSpotlightAndTilt === 'function') {
+          ui.initSpotlightAndTilt();
+        }
+
+        diagLog('Application initialized');
+        document.body.classList.add('authenticated');
+        appStarted = true;
+
+        showAuthMessage('');
+        console.log('[APP] Gulasal AI ishga tushdi.', user);
+
+      } catch (error) {
+        diagLog('App start error', error.message);
+        console.error('[APP START ERROR]', error);
+
+        document.body.classList.remove('authenticated');
+
+        showAuthMessage(
+          'Ilovani ishga tushirishda xatolik: ' + error.message,
+          true
+        );
+      } finally {
+        appStarting = false;
+      }
+    }
+
+    function setGoogleButtonLoading(isLoading) {
+      const btn = document.getElementById('google-glass-btn');
+      if (!btn) return;
+      if (isLoading) {
+        btn.classList.add('is-loading');
+        btn.disabled = true;
+      } else {
+        btn.classList.remove('is-loading');
+        btn.disabled = false;
+      }
+    }
+
+    async function handleGoogleCredential(response) {
+      try {
+        if (!response?.credential) {
+          throw new Error('Google hisob ma’lumotlari olinmadi.');
+        }
+
+        showAuthMessage('Google hisobingiz tekshirilmoqda...');
+        setGoogleButtonLoading(true);
+
+        const result = await apiRequest('/api/auth/google', {
+          method: 'POST',
+          body: JSON.stringify({
+            credential: response.credential
+          })
+        });
+
+        if (!result.user) {
+          throw new Error(
+            result.message || 'Foydalanuvchi aniqlanmadi.'
+          );
+        }
+
+        await startApplication(result.user);
+
+      } catch (error) {
+        console.error('[GOOGLE LOGIN ERROR]', error);
+        showAuthMessage(error.message, true);
+      } finally {
+        setGoogleButtonLoading(false);
+      }
+    }
+
+    async function handleGoogleAccessToken(accessToken) {
+      try {
+        if (!accessToken) {
+          throw new Error('Google ruxsat kodi olinmadi.');
+        }
+
+        showAuthMessage('Google hisobingiz tekshirilmoqda...');
+        setGoogleButtonLoading(true);
+
+        const result = await apiRequest('/api/auth/google', {
+          method: 'POST',
+          body: JSON.stringify({
+            access_token: accessToken
+          })
+        });
+
+        if (!result.user) {
+          throw new Error(
+            result.message || 'Foydalanuvchi aniqlanmadi.'
+          );
+        }
+
+        await startApplication(result.user);
+
+      } catch (error) {
+        console.error('[GOOGLE ACCESS TOKEN ERROR]', error);
+        showAuthMessage(error.message, true);
+      } finally {
+        setGoogleButtonLoading(false);
+      }
+    }
+
+    let tokenClient = null;
+
+    function initGoogleTokenClient() {
+      if (window.google?.accounts?.oauth2?.initTokenClient) {
+        try {
+          tokenClient = window.google.accounts.oauth2.initTokenClient({
+            client_id: GOOGLE_CLIENT_ID,
+            scope: 'email profile openid',
+            callback: async (tokenResponse) => {
+              if (tokenResponse?.error) {
+                console.warn('[GOOGLE TOKEN CLIENT ERROR]', tokenResponse);
+                if (tokenResponse.error !== 'popup_closed_by_user') {
+                  showAuthMessage('Google orqali kirishda xatolik: ' + (tokenResponse.error_description || tokenResponse.error), true);
+                } else {
+                  showAuthMessage('Google oynasi yopildi.');
+                }
+                setGoogleButtonLoading(false);
+                return;
+              }
+
+              if (tokenResponse?.access_token) {
+                await handleGoogleAccessToken(tokenResponse.access_token);
+              }
+            },
+            error_callback: (err) => {
+              console.error('[GOOGLE OAUTH ERROR]', err);
+              setGoogleButtonLoading(false);
+              showAuthMessage('Google xizmati bilan ulanishda xatolik yuz berdi: ' + (err.message || err.type || ''), true);
+              const fallbackContainer = document.getElementById('google-fallback-container');
+              if (fallbackContainer) fallbackContainer.style.display = 'flex';
+            }
+          });
+          return true;
+        } catch (e) {
+          console.warn('[INIT TOKEN CLIENT ERROR]', e);
+          return false;
+        }
+      }
+      return false;
+    }
+
+    function initializeGoogle(forceRender = false) {
+      const gsiAvailable = Boolean(window.google?.accounts);
+      if (!gsiAvailable) {
+        return false;
+      }
+
+      // 1. Initialize OAuth2 Token Client for custom button
+      initGoogleTokenClient();
+
+      // 2. Initialize Identity Services for One Tap and official button
+      if (window.google?.accounts?.id) {
+        try {
+          window.google.accounts.id.initialize({
+            client_id: GOOGLE_CLIENT_ID,
+            callback: handleGoogleCredential,
+            auto_select: false,
+            cancel_on_tap_outside: true
+          });
+
+          const googleButton = document.getElementById('google-signin-button');
+          if (googleButton && (!googleInitialized || forceRender)) {
+            googleButton.innerHTML = '';
+            window.google.accounts.id.renderButton(
+              googleButton,
+              {
+                type: 'standard',
+                theme: 'filled_black',
+                size: 'large',
+                shape: 'pill',
+                width: 280,
+                text: 'continue_with',
+                locale: 'uz'
+              }
+            );
+          }
+
+          googleInitialized = true;
+          console.log('[GOOGLE] Google tizimi tayyor.');
+          return true;
+        } catch (error) {
+          console.error('[GOOGLE INIT ERROR]', error);
+          return false;
+        }
+      }
+
+      return false;
+    }
+
+    async function triggerGoogleLogin() {
+      if (appStarted || appStarting) return;
+
+      const isRawIp = Boolean(window.location.hostname.match(/^\d+\.\d+\.\d+\.\d+$/) && window.location.hostname !== '127.0.0.1');
+      if (isRawIp) {
+        showAuthMessage(`Google OAuth xavfsizlik siyosati IP manzil (${window.location.origin}) orqali kirishni taqiqlaydi. Iltimos, kompyuterda http://localhost:3000 orqali kiring yoki «Mehmon sifatida kirish»dan foydalaning.`, true);
+        return;
+      }
+
+      setGoogleButtonLoading(true);
+      showAuthMessage('Google hisobingiz yuklanmoqda...');
+
+      // Ensure Token Client is initialized
+      if (!tokenClient && window.google?.accounts?.oauth2) {
+        initGoogleTokenClient();
+      }
+
+      if (tokenClient) {
+        try {
+          tokenClient.requestAccessToken({ prompt: 'select_account' });
+          return;
+        } catch (err) {
+          console.warn('[REQUEST ACCESS TOKEN FAILED]', err);
+        }
+      }
+
+      // Fallback: try One Tap prompt
+      if (window.google?.accounts?.id?.prompt) {
+        window.google.accounts.id.prompt((notification) => {
+          console.log('[GSI NOTIFICATION]', notification);
+          if (notification.isNotDisplayed()) {
+            const reason = notification.getNotDisplayedReason();
+            console.warn('[GSI NOT DISPLAYED]', reason);
+            setGoogleButtonLoading(false);
+            showAuthMessage('Google tizimi bu sahifada faollashtirilmadi (' + reason + '). Rasmiy tugmadan foydalaning.', true);
+            const fallbackContainer = document.getElementById('google-fallback-container');
+            if (fallbackContainer) fallbackContainer.style.display = 'flex';
+          } else if (notification.isSkippedMoment()) {
+            setGoogleButtonLoading(false);
+          }
+        });
+        return;
+      }
+
+      setGoogleButtonLoading(false);
+      showAuthMessage('Google kutubxonasi hali yuklanmadi. Birozdan so‘ng qayta bosing.', true);
+    }
+
+    async function enterAsGuest() {
+      if (appStarted || appStarting) return;
+
+      guestButton.disabled = true;
+      guestButton.classList.add('is-loading');
+      showAuthMessage('');
+
+      try {
+        const result = await apiRequest('/api/auth/guest', {
+          method: 'POST',
+          body: JSON.stringify({})
+        });
+
+        if (!result.user) {
+          throw new Error('Mehmon sessiyasi yaratilmadi.');
+        }
+
+        await startApplication(result.user);
+
+      } catch (error) {
+        console.error('[GUEST ERROR]', error);
+        showAuthMessage(error.message, true);
+        guestButton.disabled = false;
+        guestButton.classList.remove('is-loading');
+      } finally {
+        if (!appStarted) {
+          guestButton.disabled = false;
+          guestButton.classList.remove('is-loading');
+        }
+      }
+    }
+
+    if (guestButton) {
+      guestButton.addEventListener('click', enterAsGuest);
+    }
+
+    const googleGlassBtn = document.getElementById('google-glass-btn');
+    if (googleGlassBtn) {
+      googleGlassBtn.addEventListener('click', triggerGoogleLogin);
+      googleGlassBtn.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          triggerGoogleLogin();
+        }
+      });
+    }
+
+    async function checkExistingSession() {
+      try {
+        const result = await apiRequest('/api/auth/session');
+        // QAT'IY QOIDA: Sahifaga kirganda avtomatik ilovaga o'tib ketilmaydi!
+        // Foydalanuvchi doimo Intro sahifasini ko'radi va «Boshlash»ni o'zi bosadi.
+      } catch (error) {
+        console.info('[SESSION]', error.message);
+      }
+    }
+
+    function switchView(viewId, initialData = null) {
+      if (!modules) {
+        throw new Error('Ilova modullari hali yuklanmagan.');
+      }
+
+      if (!allowedViews.includes(viewId)) {
+        viewId = 'chat';
+      }
+
+      // Faqat bahtiermustafoev1974@gmail.com uchun admin paneli ochiladi
+      if (viewId === 'admin' && !currentUser?.isAdmin) {
+        viewId = 'chat';
+      }
+
+      activeTab = viewId;
+
+      modules.renderSidebar(
+        'sidebar-container',
+        activeTab,
+        switchView,
+        currentUser
+      );
+
+      if (viewId === 'chat') {
+        modules.renderChat('view-container', initialData || '');
+      } else if (viewId === 'subjects') {
+        modules.renderSubjects(
+          'view-container',
+          appData.subjects,
+          prompt => switchView('chat', prompt)
+        );
+      } else if (viewId === 'tools') {
+        modules.renderTools('view-container');
+      } else if (viewId === 'mentor') {
+        modules.renderMentor('view-container');
+      } else if (viewId === 'community') {
+        modules.renderCommunity('view-container');
+      } else if (viewId === 'eilist') {
+        modules.renderEilist('view-container');
+      } else if (viewId === 'settings') {
+        modules.renderSettings('view-container');
+      } else if (viewId === 'admin') {
+        modules.renderAdmin('view-container', () => switchView('community'));
+      }
+    }
+
+    function handleGlobalSearch(query) {
+      const q = String(query || '').toLowerCase().trim();
+      if (!q) return;
+
+      const subjects = appData.subjects || [];
+
+      const matched = subjects.find(subject => {
+        const name = String(
+          subject.name || subject.title || subject.label || ''
+        ).toLowerCase();
+
+        const description = String(
+          subject.description || subject.desc || ''
+        ).toLowerCase();
+
+        const modulesList = Array.isArray(subject.modules)
+          ? subject.modules
+          : [];
+
+        const topics = Array.isArray(subject.topics)
+          ? subject.topics
+          : [];
+
+        return (
+          name.includes(q) ||
+          description.includes(q) ||
+          modulesList.some(item =>
+            String(item).toLowerCase().includes(q)
+          ) ||
+          topics.some(item =>
+            String(item).toLowerCase().includes(q)
+          )
+        );
+      });
+
+      if (matched) {
+        switchView('subjects');
+      } else {
+        switchView('chat', query);
+      }
+    }
+
+    async function loadAuthConfig() {
+      try {
+        const res = await apiRequest('/api/auth/config');
+        if (res?.googleClientId) {
+          GOOGLE_CLIENT_ID = res.googleClientId;
+          console.log('[OAUTH] Google Client ID sinxronlandi.');
+        }
+      } catch (err) {
+        console.warn('[AUTH CONFIG]', err.message);
+      }
+    }
+
+    async function startGoogleInitialization() {
+      await loadAuthConfig();
+      if (initializeGoogle()) return;
+
+      googleWait = setInterval(() => {
+        if (initializeGoogle()) {
+          clearInterval(googleWait);
+          googleWait = null;
+          clearTimeout(googleTimeout);
+          googleTimeout = null;
+        }
+      }, 300);
+
+      googleTimeout = setTimeout(() => {
+        if (googleWait) {
+          clearInterval(googleWait);
+          googleWait = null;
+        }
+
+        if (!googleInitialized) {
+          console.warn('[GOOGLE] Google kutubxonasi vaqtida javob bermadi.');
+        }
+      }, 15000);
+    }
+
+    /* ========================================================
+       4. CINEMATIC INTRO: PARTICLES & PARALLAX
+    ======================================================== */
+    function initIntroCanvas() {
+      const canvas = document.getElementById('intro-particles-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      const onResize = () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      };
+      window.addEventListener('resize', onResize);
+
+      const count = window.innerWidth < 600 ? 32 : 65;
+      const particles = [];
+      const colors = [
+        'rgba(167, 139, 250, ',
+        'rgba(236, 141, 245, ',
+        'rgba(103, 213, 255, ',
+        'rgba(255, 255, 255, '
+      ];
+
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          size: Math.random() * 2.2 + 0.6,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: -Math.random() * 0.45 - 0.12,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          alpha: Math.random() * 0.7 + 0.25,
+          pulse: Math.random() * 0.015 + 0.005,
+          dir: Math.random() > 0.5 ? 1 : -1
+        });
+      }
+
+      const introEl = document.getElementById('cinematic-intro');
+      let animId = null;
+
+      function loop() {
+        if (!introEl || introEl.classList.contains('intro-hidden') || document.body.classList.contains('authenticated')) {
+          cancelAnimationFrame(animId);
+          return;
+        }
+
+        ctx.clearRect(0, 0, width, height);
+
+        for (let i = 0; i < particles.length; i++) {
+          const p = particles[i];
+          p.x += p.vx;
+          p.y += p.vy;
+
+          p.alpha += p.pulse * p.dir;
+          if (p.alpha > 0.85) p.dir = -1;
+          else if (p.alpha < 0.2) p.dir = 1;
+
+          if (p.y < -10) {
+            p.y = height + 10;
+            p.x = Math.random() * width;
+          }
+          if (p.x < -10) p.x = width + 10;
+          if (p.x > width + 10) p.x = -10;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.fillStyle = p.color + p.alpha + ')';
+          if (p.size > 1.8) {
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#a78bfa';
+          } else {
+            ctx.shadowBlur = 0;
+          }
+          ctx.fill();
+        }
+
+        animId = requestAnimationFrame(loop);
+      }
+
+      animId = requestAnimationFrame(loop);
+    }
+
+    function initIntroParallax() {
+      const stage = document.getElementById('intro-hero-stage');
+      const intro = document.getElementById('cinematic-intro');
+      if (!stage || !intro) return;
+
+      const onMouseMove = (e) => {
+        if (window.innerWidth < 768) return;
+        const { clientX, clientY } = e;
+        const xOffset = (clientX / window.innerWidth - 0.5) * 2;
+        const yOffset = (clientY / window.innerHeight - 0.5) * 2;
+
+        const rotX = -yOffset * 6.5;
+        const rotY = xOffset * 6.5;
+
+        stage.style.transform = `perspective(1000px) rotateX(${rotX.toFixed(2)}deg) rotateY(${rotY.toFixed(2)}deg)`;
+      };
+
+      const onMouseLeave = () => {
+        stage.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+      };
+
+      intro.addEventListener('mousemove', onMouseMove);
+      intro.addEventListener('mouseleave', onMouseLeave);
+    }
+
+    /* ========================================================
+       5. CINEMATIC INTRO & AUTH STRICT NAVIGATION & FORMS
+    ======================================================== */
+    function initIntroAndAuth() {
+      const introEl = document.getElementById('cinematic-intro');
+      const authScreenEl = document.getElementById('auth-screen');
+      const startBtn = document.getElementById('intro-start-btn');
+      const backBtn = document.getElementById('auth-back-intro');
+
+      // STRICT STATE: Initially guarantee Intro is active and Auth is completely hidden
+      if (!document.body.classList.contains('authenticated')) {
+        if (introEl) introEl.classList.remove('intro-hidden');
+        if (authScreenEl) authScreenEl.classList.remove('auth-visible');
+        if (window.location.hash) {
+          try {
+            history.replaceState({ screen: 'intro' }, '', window.location.pathname);
+          } catch {}
+        }
+      }
+
+      function openAuthScreen() {
+        if (startBtn) startBtn.classList.add('is-activating');
+        
+        setTimeout(() => {
+          if (introEl) introEl.classList.add('intro-hidden');
+          if (authScreenEl) {
+            authScreenEl.classList.add('auth-visible');
+            initializeGoogle(true); // Render Google button dynamically with full container width
+          }
+          try {
+            history.pushState({ screen: 'auth' }, '', '#auth');
+          } catch {}
+        }, 180);
+      }
+
+      function returnToIntro() {
+        if (authScreenEl) authScreenEl.classList.remove('auth-visible');
+        if (introEl) {
+          introEl.classList.remove('intro-hidden');
+          if (startBtn) startBtn.classList.remove('is-activating');
+          initIntroCanvas(); // re-activate particle loop
+        }
+        try {
+          if (window.location.hash) {
+            history.replaceState({ screen: 'intro' }, '', window.location.pathname);
+          }
+        } catch {}
+      }
+
+      // 1. «Boshlash» bosilgandagina autentifikatsiyaga o'tiladi
+      if (startBtn) {
+        startBtn.addEventListener('click', openAuthScreen);
+      }
+
+      // 2. «← Intro» orqaga qaytish tugmasi
+      if (backBtn) {
+        backBtn.addEventListener('click', returnToIntro);
+      }
+
+      // 3. Brauzer va mobil qurilmaning orqaga/oldinga tugmasi (History navigation)
+      window.addEventListener('popstate', (e) => {
+        if (!document.body.classList.contains('authenticated')) {
+          if (e.state?.screen === 'auth' || window.location.hash === '#auth') {
+            if (introEl) introEl.classList.add('intro-hidden');
+            if (authScreenEl) {
+              authScreenEl.classList.add('auth-visible');
+              initializeGoogle(true);
+            }
+          } else {
+            returnToIntro();
+          }
+        }
+      });
+    }
+
+    /* GLOBAL ERROR MONITORING */
+    window.addEventListener('error', event => {
+      diagLog('Global Error', event.message);
+      console.error('[GLOBAL ERROR]', event.error || event.message);
+
+      if (!appStarted) {
+        showAuthMessage(
+          'JavaScript xatosi: ' + (event.message || 'Noma’lum xato'),
+          true
+        );
+        window.showDiag();
+      }
+    });
+
+    window.addEventListener('unhandledrejection', event => {
+      diagLog('Unhandled Rejection', event.reason?.message || String(event.reason));
+      console.error('[PROMISE ERROR]', event.reason);
+
+      if (!appStarted) {
+        showAuthMessage(
+          'Ilova xatosi: ' +
+          (event.reason?.message || String(event.reason)),
+          true
+        );
+        window.showDiag();
+      }
+    });
+
+    // INITIALIZE SYSTEMS
+    initIntroCanvas();
+    initIntroParallax();
+    initIntroAndAuth();
+    startGoogleInitialization();
+    checkExistingSession();
+    import('/client/utils/tilt.js').then(m => m.initSpotlightAndTilt?.()).catch(() => {});
+
+    // TELEGRAM WEBAPP AUTO-SETUP
+    if (window.Telegram?.WebApp) {
+      try {
+        const tg = window.Telegram.WebApp;
+        tg.ready();
+        tg.expand();
+        if (tg.initDataUnsafe?.user) {
+          console.log('[TELEGRAM WEBAPP USER]', tg.initDataUnsafe.user);
+          window._tgUser = tg.initDataUnsafe.user;
+        }
+      } catch (e) {
+        console.warn('[TG WEBAPP INIT WARN]', e);
+      }
+    }
+
+    // PWA SERVICE WORKER REGISTRATION
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(reg => {
+          console.log('[PWA] Service Worker faol:', reg.scope);
+        }).catch(err => {
+          console.warn('[PWA] Service Worker xatosi:', err);
+        });
+      });
+    }
+
+    // PWA INSTALL PROMPT
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      window._deferredInstallPrompt = e;
+      const installBtn = document.getElementById('pwa-install-app-btn');
+      if (installBtn) installBtn.style.display = 'inline-flex';
+    });
+  </script>
+
+</body>
+</html>

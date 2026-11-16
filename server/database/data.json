@@ -1,0 +1,248 @@
+{
+  "system": {
+    "name": "USTOZ-AI",
+    "version": "2.0.0",
+    "tagline": "O'zbekistonning milliy sun'iy intellekt ta'lim platformasi",
+    "status": "Online",
+    "uptime": "99.9%"
+  },
+  "stats": {
+    "totalStudents": 1540,
+    "interactiveLessons": 128,
+    "totalSubjects": 40,
+    "aiAnswersGiven": 14200,
+    "activeCourses": 18
+  },
+  "subjects": [
+    {
+      "id": "math",
+      "name": "Matematika",
+      "icon": "📐",
+      "topics": 24,
+      "method": "Interaktiv formulalar va vizual isbotlar",
+      "opportunity": "Bosqichma-bosqich yechim va amaliy mashqlar",
+      "progress": 82,
+      "description": "Algebra, geometriya, trigonometriya va oliy matematika asoslari",
+      "modules": [
+        "Kvadrat tenglamalar",
+        "Trigonometrik ayniyatlar",
+        "Hosilalar va Integrallar",
+        "Stereometriya"
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Fizika",
+      "icon": "⚡",
+      "topics": 18,
+      "method": "Amaliy modellashtirish va virtual laboratoriya",
+      "opportunity": "Fizik qonunlar tahlili va formulalar amaliyoti",
+      "progress": 68,
+      "description": "Mexanika, termodinamika, elektrodinamika va kvant fizikasi",
+      "modules": [
+        "Nyuton qonunlari",
+        "Kinetik va potensial energiya",
+        "Om qonuni",
+        "Optika asoslari"
+      ]
+    },
+    {
+      "id": "informatics",
+      "name": "Informatika va IT",
+      "icon": "💻",
+      "topics": 28,
+      "method": "Jonli kod yozish va amaliy loyihalar",
+      "opportunity": "Real loyihalar ustida ishlash va kod tahlili",
+      "progress": 96,
+      "description": "Python, JavaScript, algoritmlar, web dasturlash va ma'lumotlar bazasi",
+      "modules": [
+        "Python asoslari",
+        "Algoritmlar va ma'lumotlar tuzilmalari",
+        "Frontend HTML/CSS/JS",
+        "SQL va NoSQL"
+      ]
+    },
+    {
+      "id": "english",
+      "name": "Ingliz tili (IELTS)",
+      "icon": "🌍",
+      "topics": 30,
+      "method": "AI Speaking Club va interaktiv grammatika",
+      "opportunity": "Band 7.5+ tayyorgarligi va jonli suhbat mashqlari",
+      "progress": 90,
+      "description": "IELTS Band 7+, Grammar, Academic Writing, Speaking Club",
+      "modules": [
+        "Grammar Mastery",
+        "IELTS Writing Task 1 & 2",
+        "Listening Strategies",
+        "Vocabulary 3000"
+      ]
+    },
+    {
+      "id": "uzbek",
+      "name": "Ona tili va Adabiyot",
+      "icon": "📜",
+      "topics": 22,
+      "method": "Tahliliy matnlar va insho san'ati",
+      "opportunity": "Mumtoz asarlar tahlili va orfografik savodxonlik",
+      "progress": 74,
+      "description": "Morfemika, sintaksis, orfografiya, mumtoz va zamonaviy adabiyot",
+      "modules": [
+        "Morfemika va so'z yasalishi",
+        "Murakkab qo'shma gaplar",
+        "Alisher Navoiy ijodi",
+        "Insho yozish san'ati"
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Kimyo",
+      "icon": "🧪",
+      "topics": 16,
+      "method": "3D molekulyar strukturalar va reaksiyalar",
+      "opportunity": "Virtual kimyoviy tajribalar va reaksiyalar balansi",
+      "progress": 52,
+      "description": "Organik va anorganik kimyo, reaksiyalar balansi va laboratoriya",
+      "modules": [
+        "Mendeleyev davriy jadvali",
+        "Kimyoviy bog'lanishlar",
+        "Eritmalar konsentratsiyasi",
+        "Uglevodorodlar"
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biologiya",
+      "icon": "🧬",
+      "topics": 20,
+      "method": "Mikroolam vizualizatsiyasi va 3D anatomiya",
+      "opportunity": "Genetika va inson fiziologiyasi bo‘yicha interaktiv darslar",
+      "progress": 60,
+      "description": "Sitologiya, genetika, odam anatomiyasi va ekologiya",
+      "modules": [
+        "Hujayra tuzilishi",
+        "Mendel qonunlari",
+        "DNK va RNK",
+        "Odam fiziologiyasi"
+      ]
+    },
+    {
+      "id": "history",
+      "name": "Tarix (O‘zbekiston va Jahon)",
+      "icon": "🏛️",
+      "topics": 25,
+      "method": "Xronologik xaritalar va tarixiy manbalar tahlili",
+      "opportunity": "Tarixiy sanalar, shaxslar va davlatlar tarixi",
+      "progress": 70,
+      "description": "Qadimgi dunyo, O‘rta asrlar, Amir Temur davri va Yangi O‘zbekiston tarixi",
+      "modules": [
+        "Qadimgi sivilizatsiyalar",
+        "Temuriylar renessansi",
+        "Jadidlar harakati",
+        "Yangi O‘zbekiston taraqqiyoti"
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geografiya va Tabiatshunoslik",
+      "icon": "🗺️",
+      "topics": 20,
+      "method": "Interaktiv xaritalar va virtual geologik modellar",
+      "opportunity": "Materiklar, iqlim mintaqalari va O‘zbekiston iqtisodiy geografiyasi",
+      "progress": 65,
+      "description": "Tabiiy geografiya, jahon mamlakatlari va O‘zbekiston tabiiy boyliklari",
+      "modules": [
+        "Litosfera va Gidrosfera",
+        "O‘zbekiston tabiiy geografiyasi",
+        "Jahon mamlakatlari iqtisodiyoti",
+        "Ekologiya va barqaror rivojlanish"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "math-solver",
+      "name": "AI Formula Yechuvchi",
+      "desc": "Tenglamalar, hosilalar va murakkab formulalarni bosqichma-bosqich yechish",
+      "icon": "🧮",
+      "category": "Aniq fanlar",
+      "placeholder": "Misol: 2x^2 + 5x - 3 = 0 yoki integrallar..."
+    },
+    {
+      "id": "essay-check",
+      "name": "Insho va Matn Tekshiruvchi",
+      "desc": "O'zbek va ingliz tillarida matn orfografiyasi, uslubi va tuzilishini tahlil qilish",
+      "icon": "✍️",
+      "category": "Tillar",
+      "placeholder": "Tekshirilishi kerak bo'lgan insho yoki matningizni kiriting..."
+    },
+    {
+      "id": "code-helper",
+      "name": "AI Kod Yordamchisi",
+      "desc": "Python, JavaScript, C++ kodlarini tahlil qilish, xatolarni tuzatish va tushuntirish",
+      "icon": "⚙️",
+      "category": "IT",
+      "placeholder": "Kodingizni yoki vazifa shartini yozing..."
+    },
+    {
+      "id": "quiz-generator",
+      "name": "Test va Savol Generator",
+      "desc": "Istalgan mavzu bo'yicha 5 ta test savoli va to'g'ri javoblar izohini yaratish",
+      "icon": "📝",
+      "category": "Ta'lim",
+      "placeholder": "Mavzuni kiriting (masalan: O'zbekiston tarixi, Fotosintez)..."
+    }
+  ],
+  "library": [
+    {
+      "id": "l1",
+      "title": "Matematika 10-11 Darslik",
+      "category": "Darslik",
+      "author": "M. Mirzaahmedov",
+      "size": "14.2 MB",
+      "downloads": 1450,
+      "pages": 320,
+      "description": "Umumiy o'rta ta'lim maktablarining 10-11-sinflari uchun mo'ljallangan darslik."
+    },
+    {
+      "id": "l2",
+      "title": "Python Asoslari va Algoritmlar",
+      "category": "IT",
+      "author": "Anvar Narzullaev",
+      "size": "8.5 MB",
+      "downloads": 3600,
+      "pages": 280,
+      "description": "Dasturlash asoslari, sintaksis, funksiyalar va amaliy loyihalar."
+    },
+    {
+      "id": "l3",
+      "title": "English Grammar in Use",
+      "category": "Tillar",
+      "author": "Raymond Murphy",
+      "size": "22.1 MB",
+      "downloads": 5200,
+      "pages": 390,
+      "description": "Ingliz tili grammatikasini o'rganuvchilar uchun dunyodagi eng mashhur qo'llanma."
+    },
+    {
+      "id": "l4",
+      "title": "Fizika Masalalar To'plami",
+      "category": "Fan",
+      "author": "I. Karimov",
+      "size": "11.0 MB",
+      "downloads": 980,
+      "pages": 240,
+      "description": "Fizika fanidan olimpiada va DTM testlariga tayyorlanish uchun masalalar."
+    },
+    {
+      "id": "l5",
+      "title": "O'zbek Tili Morfemika va Orfografiya",
+      "category": "Tillar",
+      "author": "N. Mahmudov",
+      "size": "6.8 MB",
+      "downloads": 1820,
+      "pages": 195,
+      "description": "O'zbek adabiy tilining imlo qoidalari va so'z yasalish qonuniyatlari."
+    }
+  ]
+}

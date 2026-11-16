@@ -1,0 +1,26 @@
+{
+  "name": "gulasal-ai",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Gulasal AI — Shaxsiy sun'iy intellekt ta'lim yordamchisi",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "gulasal-ai",
+    "artificial-intelligence",
+    "education",
+    "uzbekistan"
+  ],
+  "author": "Gulasal AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-git": "^1.44.15"
+  }
+}

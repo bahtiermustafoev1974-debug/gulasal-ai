@@ -1,0 +1,230 @@
+{
+  "profiles": {
+    "guest_7f739fe1-a7dc-4148-84af-7bc86fd33e8c": {
+      "userId": "guest_7f739fe1-a7dc-4148-84af-7bc86fd33e8c",
+      "nickname": "Mohira_IT",
+      "bio": "Sun'iy intellekt va Python dasturchisi",
+      "interest": "AI & Data Science",
+      "avatar": "/uploads/f5926398-ce90-4bfb-be60-bae2ef4bf68f.png",
+      "joinedAt": "2026-11-13T17:52:43.136Z",
+      "updatedAt": "2026-11-13T17:52:43.146Z"
+    },
+    "google_115401282415026396030": {
+      "userId": "google_115401282415026396030",
+      "nickname": "Maruf",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "/uploads/c094b967-01da-4ca3-8803-428e76f6bf08.jpg",
+      "joinedAt": "2026-11-13T18:02:46.604Z",
+      "updatedAt": "2026-11-16T12:37:46.560Z",
+      "isAdmin": true,
+      "role": "admin"
+    },
+    "guest_b77db2c4-432d-44bd-8f87-a05af1e279fe": {
+      "userId": "guest_b77db2c4-432d-44bd-8f87-a05af1e279fe",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T18:44:24.713Z",
+      "updatedAt": "2026-11-13T18:44:24.713Z"
+    },
+    "guest_7ecbf90e-99bc-45bb-82ff-38d301e302b0": {
+      "userId": "guest_7ecbf90e-99bc-45bb-82ff-38d301e302b0",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:03:10.121Z",
+      "updatedAt": "2026-11-13T19:03:10.121Z"
+    },
+    "guest_16549f7b-2cff-4762-be9f-e0fd77bdb226": {
+      "userId": "guest_16549f7b-2cff-4762-be9f-e0fd77bdb226",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:13:38.362Z",
+      "updatedAt": "2026-11-13T19:13:38.362Z"
+    },
+    "guest_a14df674-042a-48d8-b2c9-290674ecd8a2": {
+      "userId": "guest_a14df674-042a-48d8-b2c9-290674ecd8a2",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:13:51.735Z",
+      "updatedAt": "2026-11-13T19:13:51.735Z"
+    },
+    "guest_bbb8628c-1837-41d3-9d69-b122892eb4d5": {
+      "userId": "guest_bbb8628c-1837-41d3-9d69-b122892eb4d5",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:19:31.955Z",
+      "updatedAt": "2026-11-13T19:19:31.955Z"
+    },
+    "guest_47098fb7-e2f7-46d3-bd2f-9d3c4ec6659f": {
+      "userId": "guest_47098fb7-e2f7-46d3-bd2f-9d3c4ec6659f",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:29:16.371Z",
+      "updatedAt": "2026-11-13T19:29:16.371Z"
+    },
+    "guest_05c60d8a-141c-409b-9d72-dc40b9743304": {
+      "userId": "guest_05c60d8a-141c-409b-9d72-dc40b9743304",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:29:16.422Z",
+      "updatedAt": "2026-11-13T19:29:16.422Z"
+    },
+    "guest_dad6918e-1d82-4536-aea8-a188f42a968e": {
+      "userId": "guest_dad6918e-1d82-4536-aea8-a188f42a968e",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:29:32.236Z",
+      "updatedAt": "2026-11-13T19:29:32.236Z"
+    },
+    "guest_25000d06-4090-48bf-bd15-c4b00384112e": {
+      "userId": "guest_25000d06-4090-48bf-bd15-c4b00384112e",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:33:46.726Z",
+      "updatedAt": "2026-11-13T19:33:46.726Z"
+    },
+    "guest_4caad6df-dc89-4fd5-835a-b13ab28a5173": {
+      "userId": "guest_4caad6df-dc89-4fd5-835a-b13ab28a5173",
+      "nickname": "Sayt Administratori",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:51:01.773Z",
+      "updatedAt": "2026-11-13T19:51:01.773Z"
+    },
+    "guest_a90d243a-d211-4c24-b918-fd5c2dbad437": {
+      "userId": "guest_a90d243a-d211-4c24-b918-fd5c2dbad437",
+      "nickname": "Sayt Administratori",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T19:51:09.028Z",
+      "updatedAt": "2026-11-13T19:51:09.028Z"
+    },
+    "guest_a029ac8b-9da0-4cd9-89fb-aa00b98aa699": {
+      "userId": "guest_a029ac8b-9da0-4cd9-89fb-aa00b98aa699",
+      "nickname": "Sayt Administratori",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T20:10:22.602Z",
+      "updatedAt": "2026-11-13T20:10:22.602Z"
+    },
+    "guest_0c1a2f8b-2c38-4909-8a5d-e3c86df2db19": {
+      "userId": "guest_0c1a2f8b-2c38-4909-8a5d-e3c86df2db19",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T20:19:28.534Z",
+      "updatedAt": "2026-11-13T20:19:28.534Z"
+    },
+    "google_109714818977347266867": {
+      "userId": "google_109714818977347266867",
+      "nickname": "maruf narimonov",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIGp02QfNQDHV5DIHetAOvz3-pN0I4Qf8c_gGKzBXWYusxrzaSv=s96-c",
+      "joinedAt": "2026-11-13T20:22:02.220Z",
+      "updatedAt": "2026-11-13T20:22:02.220Z"
+    },
+    "guest_b0129af5-a1a9-43c7-af23-cf77426a927e": {
+      "userId": "guest_b0129af5-a1a9-43c7-af23-cf77426a927e",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T20:34:44.832Z",
+      "updatedAt": "2026-11-13T20:34:44.832Z"
+    },
+    "guest_667c9330-794a-4098-b7ec-7ae181607bf2": {
+      "userId": "guest_667c9330-794a-4098-b7ec-7ae181607bf2",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T20:39:06.979Z",
+      "updatedAt": "2026-11-13T20:39:06.979Z"
+    },
+    "guest_cce53c09-0d7d-4ff1-958b-9b79e83e8084": {
+      "userId": "guest_cce53c09-0d7d-4ff1-958b-9b79e83e8084",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T20:49:19.734Z",
+      "updatedAt": "2026-11-13T20:49:19.734Z"
+    },
+    "guest_5f73ebf6-f5a1-490e-b2ac-205506a5132f": {
+      "userId": "guest_5f73ebf6-f5a1-490e-b2ac-205506a5132f",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-13T20:54:57.029Z",
+      "updatedAt": "2026-11-13T20:54:57.029Z"
+    },
+    "guest_6c4decc7-3618-4c7c-a2b9-44625d15439e": {
+      "userId": "guest_6c4decc7-3618-4c7c-a2b9-44625d15439e",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-14T07:47:36.241Z",
+      "updatedAt": "2026-11-14T07:47:36.241Z"
+    },
+    "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b": {
+      "userId": "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-14T09:34:49.409Z",
+      "updatedAt": "2026-11-14T09:34:49.409Z"
+    },
+    "guest_19128acc-371c-4177-8191-f9cd0a8608f8": {
+      "userId": "guest_19128acc-371c-4177-8191-f9cd0a8608f8",
+      "nickname": "Mehmon",
+      "bio": "Raqamli avlod qizlari ta’lim hamjamiyatining faol a’zosi.",
+      "interest": "IT va Dasturlash",
+      "avatar": "",
+      "joinedAt": "2026-11-14T04:34:25.538Z",
+      "updatedAt": "2026-11-14T04:34:25.538Z"
+    }
+  },
+  "messages": [],
+  "directMessages": {
+    "google_109714818977347266867__google_115401282415026396030": [
+      {
+        "id": "da7a9f2f-6771-4fb2-a2d0-7720a5048d1a",
+        "conversationId": "google_109714818977347266867__google_115401282415026396030",
+        "senderId": "google_109714818977347266867",
+        "recipientId": "google_115401282415026396030",
+        "nickname": "maruf narimonov",
+        "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIGp02QfNQDHV5DIHetAOvz3-pN0I4Qf8c_gGKzBXWYusxrzaSv=s96-c",
+        "text": "salom",
+        "imageUrl": null,
+        "timestamp": "2026-11-15T14:59:00.008Z",
+        "read": false
+      }
+    ]
+  }
+}

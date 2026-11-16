@@ -1,0 +1,12 @@
+{
+  "subscribers": [
+    {
+      "userId": "test_student_user",
+      "tgId": 12345678,
+      "firstName": "Marufjon",
+      "username": "maruf_dev",
+      "streakReminderEnabled": true,
+      "linkedAt": "2026-11-14T09:16:06.168Z"
+    }
+  ]
+}

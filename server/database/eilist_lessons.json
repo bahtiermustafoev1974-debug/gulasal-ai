@@ -1,0 +1,385 @@
+[
+  {
+    "id": "eilist_day_1",
+    "day": 1,
+    "unit": "Unit 1: The Weekend & Daily Activities",
+    "source": "Developing Tactics for Listening (Third Edition) • Oxford University Press",
+    "targetBand": "IELTS Band 6.5 - 7.5",
+    "vocabulary": [
+      {
+        "word": "chilly",
+        "pos": "adjective",
+        "phonetic": "/ˈtʃɪli/",
+        "meaning": "Yoqimsiz darajada salqin yoki sovuq (unpleasantly cold)",
+        "example": "The weather was sunny in the morning, but it got a little chilly in the afternoon.",
+        "collocation": "chilly weather / chilly evening"
+      },
+      {
+        "word": "hike",
+        "pos": "verb / noun",
+        "phonetic": "/haɪk/",
+        "meaning": "Tabiatda, tog'da uzoq piyoda yurish (long walk in nature)",
+        "example": "We hiked for about four hours up to the waterfall.",
+        "collocation": "go hiking / mountain hike"
+      },
+      {
+        "word": "waterfall",
+        "pos": "noun",
+        "phonetic": "/ˈwɔːtəfɔːl/",
+        "meaning": "Sharshara (a stream of water falling from a height)",
+        "example": "They stopped to admire the picturesque waterfall near the lake.",
+        "collocation": "spectacular waterfall"
+      },
+      {
+        "word": "stay overnight",
+        "pos": "phrase",
+        "phonetic": "/steɪ ˌəʊvəˈnaɪt/",
+        "meaning": "Tunab qolmoq, kechasi qolmoq",
+        "example": "Did you stay overnight at the campsite or return home?",
+        "collocation": "overnight stay / overnight trip"
+      },
+      {
+        "word": "documentary",
+        "pos": "noun",
+        "phonetic": "/ˌdɒkjuˈmentri/",
+        "meaning": "Hujjatli film (a factual television film)",
+        "example": "He spent the afternoon watching a documentary about ocean life.",
+        "collocation": "nature documentary / historical documentary"
+      },
+      {
+        "word": "picnic lunch",
+        "pos": "noun phrase",
+        "phonetic": "/ˈpɪknɪk lʌntʃ/",
+        "meaning": "Ochiq havoda, tabiat qo'ynida tushlik qilish",
+        "example": "We had a delightful picnic lunch right beside the alpine lake.",
+        "collocation": "have a picnic lunch"
+      },
+      {
+        "word": "laundry",
+        "pos": "noun",
+        "phonetic": "/ˈlɔːndri/",
+        "meaning": "Kirlarni yuvish va yuviladigan kiyimlar",
+        "example": "On Sunday, she caught up on household chores and did her laundry.",
+        "collocation": "do the laundry"
+      },
+      {
+        "word": "unwind",
+        "pos": "verb",
+        "phonetic": "/ʌnˈwaɪnd/",
+        "meaning": "Dam olmoq, charchoqni chiqarmoq (relax after stress)",
+        "example": "Listening to music helps students unwind before IELTS examination day.",
+        "collocation": "unwind after a busy week"
+      }
+    ],
+    "grammar": {
+      "topic": "Past Simple vs Past Continuous in IELTS Speaking & Listening",
+      "summary": "IELTS Speaking Part 2 va Listening testlarida o'tgan zamon voqealarini ifodalash uchun Past Simple (aniq tugallangan ish-harakat) va Past Continuous (jarayonda bo'lgan fondagi ish-harakat) qo'llaniladi.",
+      "rules": [
+        "Past Simple: Aniq vaqtda tugagan voqealar: 'We hiked for four hours and drove back on Saturday.'",
+        "Past Continuous: Boshqa voqea sodir bo'layotganda davom etayotgan harakat: 'While we were hiking, the weather suddenly became chilly.'",
+        "IELTS Band 7+ Connector: 'I was planning to play tennis, but due to torrential rain, we had to call it off.'"
+      ],
+      "quiz": [
+        {
+          "question": "Choose the correct tense: 'While Sarah ______ in the mountains, her friend Daniel called her.'",
+          "options": ["hikes", "was hiking", "is hiking", "hiked"],
+          "correctIndex": 1,
+          "explanation": "'While' bilan ifodalangan davomli jarayon uchun Past Continuous ('was hiking') ishlatiladi."
+        },
+        {
+          "question": "Which sentence demonstrates Band 7+ academic grammar?",
+          "options": [
+            "I had a good weekend and I relaxed.",
+            "Although we initially intended to play tennis, inclement weather compelled us to postpone the match.",
+            "Sunday was raining so we stopped tennis.",
+            "We go hiking yesterday with friends."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Although', 'initially intended', 'inclement weather', 'compelled to postpone' so'zlari akademik darajani ko'rsatadi."
+        }
+      ]
+    },
+    "reading": {
+      "title": "The Science of Weekend Recovery",
+      "passage": "Modern cognitive psychologists emphasize that high-performing students require deliberate mental disengagement during the weekend to sustain academic productivity. According to a landmark study conducted by Oxford researchers, spending as little as two hours in nature—such as hiking in alpine trails or walking by a lake—significantly lowers cortisol levels and restores prefrontal cortex functionality. Furthermore, individuals who balance outdoor recreational physical activity on Saturday with restful indoor restorative tasks on Sunday, such as reading or light domestic chores, display a 34% increase in verbal memory and auditory retention when engaging in language acquisition exercises the following week.",
+      "questions": [
+        {
+          "question": "According to the Oxford study, what effect does spending two hours in nature have?",
+          "options": [
+            "It increases cortisol levels drastically",
+            "It lowers cortisol and restores prefrontal cortex function",
+            "It causes mental fatigue for language learners",
+            "It replaces the need for sleep"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "question": "What percentage increase in verbal memory was observed in individuals with a balanced weekend routine?",
+          "options": ["15%", "25%", "34%", "50%"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    "listening": {
+      "audioUrl": "/audio/tactics_unit1_conversations.wav",
+      "backupAudioUrl": "https://actions.google.com/sounds/v1/ambiences/coffee_shop.ogg",
+      "title": "Tactics for Listening • Unit 1: The Weekend Conversations",
+      "duration": "1:05",
+      "difficulty": "Intermediate / IELTS Band 6.5",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "question": "1. Where did Sarah go on Saturday morning?",
+          "options": [
+            "To the cinema with her family",
+            "To the mountains with university friends",
+            "To a tennis tournament in the city",
+            "To the central library to study"
+          ],
+          "correctAnswer": "To the mountains with university friends",
+          "explanation": "Sarah suhbat boshida: 'I went to the mountains with some friends from university on Saturday morning' deb aytadi."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "question": "2. How long was the hike up to the waterfall?",
+          "options": [
+            "About one hour",
+            "About two and a half hours",
+            "About four hours",
+            "The entire day"
+          ],
+          "correctAnswer": "About four hours",
+          "explanation": "Sarah: 'Yes, we hiked for about four hours up to the waterfall' deb aniq aytadi."
+        },
+        {
+          "id": "q3",
+          "type": "tf",
+          "question": "3. True or False: Sarah and her friends stayed overnight in the mountains.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Sarah: 'No, we drove back on Saturday evening because my friend Daniel had to work early on Sunday' deydi."
+        },
+        {
+          "id": "q4",
+          "type": "mcq",
+          "question": "4. Why did the man cancel his tennis match on Sunday?",
+          "options": [
+            "He felt too ill to play",
+            "It rained on Sunday morning",
+            "Michael forgot to bring his equipment",
+            "The tennis court was closed for renovation"
+          ],
+          "correctAnswer": "It rained on Sunday morning",
+          "explanation": "Erkak: 'I was planning to play tennis with Michael, but it rained on Sunday morning, so we cancelled the match' deydi."
+        },
+        {
+          "id": "q5",
+          "type": "mcq",
+          "question": "5. What documentary did the man watch on television?",
+          "options": [
+            "A documentary about wildlife in Africa",
+            "A documentary about space exploration",
+            "A documentary about ocean life",
+            "A documentary about ancient history"
+          ],
+          "correctAnswer": "A documentary about ocean life",
+          "explanation": "Erkak o'zining yakshanba kuni 'watching a documentary about ocean life on television' qilganini aytadi."
+        },
+        {
+          "id": "q6",
+          "type": "fill",
+          "question": "6. Fill in the blank: 'So on Sunday, I just stayed home, relaxed, read a book, and did my ______.'",
+          "options": [
+            "homework",
+            "laundry",
+            "cooking",
+            "gardening"
+          ],
+          "correctAnswer": "laundry",
+          "explanation": "Sarah yakshanba kuni uyda dam olib, kitob o'qib 'did my laundry' (kirlarini yuvganini) ta'kidlaydi."
+        }
+      ],
+      "transcript": [
+        { "time": "00:00", "speaker": "Audio Introduction", "text": "Developing Tactics for Listening. Third Edition. Unit 1: The Weekend." },
+        { "time": "00:05", "speaker": "Narrator", "text": "Conversation 1." },
+        { "time": "00:08", "speaker": "Man", "text": "So, how was your weekend, Sarah?" },
+        { "time": "00:11", "speaker": "Sarah", "text": "Oh, it was pretty good, thanks. I went to the mountains with some friends from university on Saturday morning." },
+        { "time": "00:18", "speaker": "Man", "text": "Did you go hiking?" },
+        { "time": "00:20", "speaker": "Sarah", "text": "Yes, we hiked for about four hours up to the waterfall. The weather was sunny and clear, although it got a little chilly in the afternoon. Then we had a picnic lunch near the lake." },
+        { "time": "00:32", "speaker": "Man", "text": "That sounds wonderful! Did you stay overnight?" },
+        { "time": "00:36", "speaker": "Sarah", "text": "No, we drove back on Saturday evening because my friend Daniel had to work early on Sunday. So on Sunday, I just stayed home, relaxed, read a book, and did my laundry. How about you? What did you do?" },
+        { "time": "00:49", "speaker": "Man", "text": "Nothing special, really. I was planning to play tennis with Michael, but it rained on Sunday morning, so we cancelled the match. Instead, I spent the afternoon cleaning my apartment and watching a documentary about ocean life on television." },
+        { "time": "01:00", "speaker": "Sarah", "text": "Well, at least you got some rest before another busy week at work!" },
+        { "time": "01:03", "speaker": "Man", "text": "That's true. Now back to the office!" }
+      ]
+    }
+  },
+  {
+    "id": "eilist_day_2",
+    "day": 2,
+    "unit": "Unit 2: Campus Facilities & Academic Study",
+    "source": "Oxford University Academic Listening • Section 2",
+    "targetBand": "IELTS Band 7.0 - 8.0",
+    "vocabulary": [
+      {
+        "word": "facilities",
+        "pos": "noun plural",
+        "phonetic": "/fəˈsɪlətiz/",
+        "meaning": "Imkoniyatlar, qulayliklar va jihozlangan binolar",
+        "example": "The university library provides excellent silent study facilities.",
+        "collocation": "campus facilities / modern facilities"
+      },
+      {
+        "word": "turnstile",
+        "pos": "noun",
+        "phonetic": "/ˈtɜːnstaɪl/",
+        "meaning": "Turniket (bino kirishidagi aylanuvchi to'siq)",
+        "example": "You must scan your student identity card at the electronic turnstiles.",
+        "collocation": "electronic turnstile"
+      },
+      {
+        "word": "prohibited",
+        "pos": "adjective",
+        "phonetic": "/prəˈhɪbɪtɪd/",
+        "meaning": "Taqiqlangan, man etilgan (forbidden by authority)",
+        "example": "Mobile phone calls are strictly prohibited on the second floor.",
+        "collocation": "strictly prohibited"
+      },
+      {
+        "word": "collaborate",
+        "pos": "verb",
+        "phonetic": "/kəˈlæbəreɪt/",
+        "meaning": "Hamkorlikda ishlamoq, birgalikda loyiha qilmoq",
+        "example": "Students can book group study rooms to collaborate on assignments.",
+        "collocation": "collaborate on projects"
+      },
+      {
+        "word": "incur",
+        "pos": "verb",
+        "phonetic": "/ɪnˈkɜː(r)//",
+        "meaning": "(Jarima yoki xarajatga) duchor bo'lmoq",
+        "example": "Overdue library books incur a penalty fee of fifty pence per day.",
+        "collocation": "incur a penalty / incur expenses"
+      }
+    ],
+    "grammar": {
+      "topic": "Passive Voice in Academic & IELTS Listening Section 2",
+      "summary": "IELTS Listening Section 2 (institutsional yo'riqnomalar va ma'ruzalar)da qoidalar va tartiblar Passive Voice orqali ifodalanadi.",
+      "rules": [
+        "Modal Passives: 'Books can be borrowed for up to three weeks.'",
+        "Prohibition Passives: 'Discussions are strictly prohibited on this level.'",
+        "Band 7.5 Structure: 'Students are strongly advised to reserve research cubicles in advance.'"
+      ],
+      "quiz": [
+        {
+          "question": "Transform into passive: 'You must scan your student card at the entrance.'",
+          "options": [
+            "Your student card must be scanned at the entrance.",
+            "You are scan student card.",
+            "Your card has scanned by turnstile.",
+            "Student card scans entrance."
+          ],
+          "correctIndex": 0,
+          "explanation": "Modal passive formulasi: 'must + be + past participle' ('must be scanned')."
+        }
+      ]
+    },
+    "reading": {
+      "title": "Academic Libraries in the Digital Era",
+      "passage": "Contemporary tertiary institutions across the United Kingdom are transforming physical library spaces into multifaceted learning hubs. Although digital repositories now supply over eighty percent of scholarly journal access, physical attendance in university libraries has increased by twenty-two percent over the past triennium. Students consistently report that dedicated silent study zones facilitate deeper concentration and reduce digital multitasking habits induced by remote domestic environments.",
+      "questions": [
+        {
+          "question": "What percentage of scholarly journals are now accessible digitally?",
+          "options": ["22%", "50%", "Over 80%", "100%"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    "listening": {
+      "audioUrl": "/audio/oxford_campus_guide.wav",
+      "backupAudioUrl": "https://actions.google.com/sounds/v1/ambiences/coffee_shop.ogg",
+      "title": "Oxford Campus Guide • Central University Library Orientation",
+      "duration": "1:15",
+      "difficulty": "Academic / IELTS Band 7.0+",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "question": "1. What are the library opening hours from Monday to Friday?",
+          "options": [
+            "9:00 AM to 6:00 PM",
+            "8:00 AM to 10:00 PM",
+            "7:00 AM to Midnight",
+            "Open 24 hours"
+          ],
+          "correctAnswer": "8:00 AM to 10:00 PM",
+          "explanation": "Dr. Margaret Collins: 'From Monday to Friday, opening hours are from 8:00 AM until 10:00 PM' deb e'lon qiladi."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "question": "2. How many desktop computers are available in the ground floor laboratory?",
+          "options": [
+            "Thirty computers",
+            "Fifty computers",
+            "Sixty computers",
+            "Eighty computers"
+          ],
+          "correctAnswer": "Sixty computers",
+          "explanation": "Kutubxonachi laboratoriyada 'sixty desktop computers equipped with high-speed internet' borligini aytadi."
+        },
+        {
+          "id": "q3",
+          "type": "tf",
+          "question": "3. True or False: Group discussions are allowed on the second floor.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": "False",
+          "explanation": "Ikkinchi qavat sokin o'qish uchun: 'Group discussions and mobile phone calls are strictly prohibited on this level' deb ta'kidlanadi."
+        },
+        {
+          "id": "q4",
+          "type": "mcq",
+          "question": "4. How long can undergraduate students borrow books?",
+          "options": [
+            "One week",
+            "Two weeks",
+            "Three weeks",
+            "Five weeks"
+          ],
+          "correctAnswer": "Three weeks",
+          "explanation": "'Books can be borrowed for up to three weeks for undergraduate students, and five weeks for postgraduate researchers.'"
+        },
+        {
+          "id": "q5",
+          "type": "mcq",
+          "question": "5. What is the penalty fee per day for late book returns?",
+          "options": [
+            "Twenty pence",
+            "Fifty pence",
+            "One pound",
+            "Two pounds"
+          ],
+          "correctAnswer": "Fifty pence",
+          "explanation": "'Late returns incur a penalty fee of fifty pence per day.'"
+        }
+      ],
+      "transcript": [
+        { "time": "00:00", "speaker": "Introduction", "text": "Oxford University Campus Guide. Academic Listening Practice. Section 2." },
+        { "time": "00:07", "speaker": "Dr. Collins", "text": "Welcome new international students to the Central University Library tour. My name is Dr. Margaret Collins, and I am the head librarian." },
+        { "time": "00:16", "speaker": "Dr. Collins", "text": "Before we begin our walking tour, let me give you some essential information about our facilities. The library is open seven days a week during term time. From Monday to Friday, opening hours are from 8:00 AM until 10:00 PM. On Saturdays and Sundays, we open at 9:00 AM and close earlier, at 6:00 PM." },
+        { "time": "00:35", "speaker": "Dr. Collins", "text": "Please remember that your university student card functions as your library pass. You must scan it at the electronic turnstiles near the entrance to enter the building." },
+        { "time": "00:46", "speaker": "Dr. Collins", "text": "The ground floor houses the main help desk, self-service checkout machines, and the computer laboratory, which contains sixty desktop computers equipped with high-speed internet and statistical software." },
+        { "time": "00:58", "speaker": "Dr. Collins", "text": "The second floor is dedicated to silent study. Group discussions and mobile phone calls are strictly prohibited on this level. If you need to collaborate on group projects, please book one of our eight study rooms on the third floor through the university mobile app." },
+        { "time": "01:10", "speaker": "Dr. Collins", "text": "Books can be borrowed for up to three weeks for undergraduate students, and five weeks for postgraduate researchers. Late returns incur a penalty fee of fifty pence per day. Thank you for your attention!" }
+      ]
+    }
+  }
+]

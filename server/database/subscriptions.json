@@ -1,0 +1,208 @@
+{
+  "plans": [
+    {
+      "id": "free",
+      "name": "Standart (Bepul)",
+      "price": 0,
+      "period": "Cheksiz",
+      "popular": false,
+      "features": [
+        "Kuniga 2 ta dars o‘rganish",
+        "Dinamik 6 talik mashqlar",
+        "Oddiy AI chat maslahati",
+        "Peshqadamlar jadvali"
+      ]
+    },
+    {
+      "id": "pro_monthly",
+      "name": "PRO VIP (Oylik)",
+      "price": 39000,
+      "priceFormatted": "39 000 so‘m",
+      "period": "1 oy",
+      "popular": true,
+      "badge": "👑 Eng ommabop",
+      "features": [
+        "Barcha fanlar va darslar CHEKSIZ",
+        "📸 Photo Math AI (Kameradan) cheksiz",
+        "🎙️ IELTS Speaking Examiner (Ovozli AI)",
+        "👑 Profilingizda oltin VIP toji",
+        "🎓 QR-kodli Rasmiy Sertifikatlar",
+        "⚡ 2x ko‘proq XP va maxsus ligalar"
+      ]
+    },
+    {
+      "id": "pro_quarterly",
+      "name": "PRO VIP (3 oylik)",
+      "price": 89000,
+      "priceFormatted": "89 000 so‘m",
+      "period": "3 oy",
+      "discount": "25% chegirma",
+      "popular": false,
+      "features": [
+        "Oylik rejadagi barcha imtiyozlar",
+        "3 oy davomida to‘liq kafolatlangan VIP",
+        "28 000 so‘m tejamkorlik",
+        "Shaxsiy AI mentor bilan haftalik reja"
+      ]
+    },
+    {
+      "id": "pro_annual",
+      "name": "PRO VIP (Yillik)",
+      "price": 249000,
+      "priceFormatted": "249 000 so‘m",
+      "period": "1 yil",
+      "discount": "45% chegirma",
+      "popular": false,
+      "features": [
+        "To‘liq 1 yillik barcha imtiyozlar",
+        "Eng arzon narx (oyiga atigi 20 750 so‘m)",
+        "Barcha yangi qo‘shiladigan AI modullar",
+        "Shaxsiy telegram yordamchi VIP guruh"
+      ]
+    }
+  ],
+  "subscriptions": {
+    "user_55f939f7-dee9-4267-9b4e-4a1780be36db": {
+      "userId": "user_55f939f7-dee9-4267-9b4e-4a1780be36db",
+      "planId": "pro_monthly",
+      "planName": "PRO VIP",
+      "status": "active",
+      "provider": "payme",
+      "isVip": true,
+      "activatedAt": "2026-11-14T10:00:00.000Z",
+      "validUntil": "2026-12-14T10:00:00.000Z"
+    },
+    "test_student_user": {
+      "userId": "test_student_user",
+      "planId": "pro_monthly",
+      "planName": "PRO VIP (Oylik)",
+      "status": "active",
+      "isVip": true,
+      "provider": "click",
+      "activatedAt": "2026-11-14T09:16:06.160Z",
+      "validUntil": "2026-12-14T09:16:06.160Z"
+    },
+    "google_109714818977347266867": {
+      "userId": "google_109714818977347266867",
+      "userEmail": "marufnarimonov1808@gmail.com",
+      "planId": "pro",
+      "planName": "PRO Obuna",
+      "isVip": false,
+      "status": "revoked",
+      "duration": 7,
+      "durationLabel": "7 kun",
+      "grantedAt": "2026-11-16T06:47:43.781Z",
+      "grantedBy": "promocode:MUHA",
+      "validUntil": "2026-11-23T06:47:43.779Z",
+      "revokedAt": "2026-11-16T06:53:54.770Z",
+      "revokedBy": "bahtiermustafoev1974@gmail.com"
+    },
+    "google_115401282415026396030": {
+      "userId": "google_115401282415026396030",
+      "planId": "pro_annual",
+      "planName": "PRO VIP (Yillik)",
+      "status": "active",
+      "isVip": true,
+      "provider": "click",
+      "activatedAt": "2026-11-14T09:27:44.701Z",
+      "validUntil": "2027-11-14T09:27:44.701Z"
+    },
+    "guest_6250dabb-96a5-4055-8d32-b150d2491865": {
+      "userId": "guest_6250dabb-96a5-4055-8d32-b150d2491865",
+      "userEmail": "guest_test@gulasal.ai",
+      "planId": "pro",
+      "planName": "PRO Obuna",
+      "isVip": false,
+      "status": "revoked",
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "grantedAt": "2026-11-14T10:04:09.503Z",
+      "grantedBy": "bahtiermustafoev1974@gmail.com",
+      "validUntil": "2026-12-14T10:04:09.503Z",
+      "revokedAt": "2026-11-14T10:04:09.540Z",
+      "revokedBy": "bahtiermustafoev1974@gmail.com"
+    },
+    "guest_07bc9da4-1008-4dac-90f2-0de206efed7d": {
+      "userId": "guest_07bc9da4-1008-4dac-90f2-0de206efed7d",
+      "userEmail": "guest_test@gulasal.ai",
+      "planId": "pro",
+      "planName": "PRO Obuna",
+      "isVip": false,
+      "status": "revoked",
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "grantedAt": "2026-11-14T10:07:37.559Z",
+      "grantedBy": "bahtiermustafoev1974@gmail.com",
+      "validUntil": "2026-12-14T10:07:37.559Z",
+      "revokedAt": "2026-11-14T10:07:37.599Z",
+      "revokedBy": "bahtiermustafoev1974@gmail.com"
+    },
+    "guest_demo_user": {
+      "userId": "guest_demo_user",
+      "userEmail": "3 ta do‘st taklifi (Bepul PRO)",
+      "planId": "pro",
+      "planName": "PRO Obuna",
+      "isVip": true,
+      "status": "active",
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "grantedAt": "2026-11-14T16:23:09.017Z",
+      "grantedBy": "system@gulasal.ai",
+      "validUntil": "2026-12-14T16:23:09.017Z"
+    },
+    "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7": {
+      "userId": "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7",
+      "userEmail": "",
+      "planId": "pro",
+      "planName": "PRO Obuna",
+      "isVip": true,
+      "status": "active",
+      "duration": 7,
+      "durationLabel": "7 kun",
+      "grantedAt": "2026-11-16T11:18:03.265Z",
+      "grantedBy": "promocode:MUHA",
+      "validUntil": "2026-11-23T11:18:03.261Z"
+    }
+  },
+  "orders": [
+    {
+      "orderId": "ORD_1794647766151_0fde2d",
+      "userId": "test_student_user",
+      "planId": "pro_monthly",
+      "planName": "PRO VIP (Oylik)",
+      "amount": 39000,
+      "currency": "UZS",
+      "provider": "click",
+      "status": "completed",
+      "createdAt": "2026-11-14T09:16:06.154Z",
+      "paidAt": "2026-11-14T09:16:06.160Z",
+      "paymentCode": "TX_72b05b9d"
+    },
+    {
+      "orderId": "ORD_1794648233231_49a8fb",
+      "userId": "google_109714818977347266867",
+      "planId": "pro_monthly",
+      "planName": "PRO VIP (Oylik)",
+      "amount": 39000,
+      "currency": "UZS",
+      "provider": "click",
+      "status": "completed",
+      "createdAt": "2026-11-14T09:23:53.232Z",
+      "paidAt": "2026-11-14T09:23:53.239Z",
+      "paymentCode": "TX_49f8780a"
+    },
+    {
+      "orderId": "ORD_1794648464693_b7aebe",
+      "userId": "google_115401282415026396030",
+      "planId": "pro_annual",
+      "planName": "PRO VIP (Yillik)",
+      "amount": 249000,
+      "currency": "UZS",
+      "provider": "click",
+      "status": "completed",
+      "createdAt": "2026-11-14T09:27:44.693Z",
+      "paidAt": "2026-11-14T09:27:44.701Z",
+      "paymentCode": "TX_05448843"
+    }
+  ]
+}

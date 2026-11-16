@@ -1,0 +1,26 @@
+{
+  "promocodes": {
+    "GULASAL2026": {
+      "code": "GULASAL2026",
+      "days": 30,
+      "maxUses": 100,
+      "usedCount": 0,
+      "usedUsers": [],
+      "active": true,
+      "createdAt": "2026-11-15T16:34:49.856Z"
+    },
+    "MUHA": {
+      "code": "MUHA",
+      "days": 7,
+      "maxUses": 10,
+      "usedCount": 2,
+      "usedUsers": [
+        "google_109714818977347266867",
+        "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7"
+      ],
+      "active": true,
+      "createdAt": "2026-11-16T06:47:26.155Z",
+      "createdBy": "bahtiermustafoev1974@gmail.com"
+    }
+  }
+}

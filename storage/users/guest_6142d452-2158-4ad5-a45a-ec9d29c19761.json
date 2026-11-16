@@ -1,0 +1,27 @@
+{
+  "profile": null,
+  "history": [
+    {
+      "id": "783f7161-7b03-45ba-95cb-7dbca5d7b8fe",
+      "title": "Salom",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Salom",
+          "imageUrl": null,
+          "images": [],
+          "timestamp": "2026-11-14T10:50:46.913Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Salom! Gulasal AI sizga qanday yordam bera olishimni ayting. Savolingiz yoki muammongiz bo‘lsa, bemalol so‘rashingiz mumkin. 🌟",
+          "timestamp": "2026-11-14T10:50:46.913Z"
+        }
+      ],
+      "createdAt": "2026-11-14T10:50:46.043Z",
+      "updatedAt": "2026-11-14T10:50:46.913Z"
+    }
+  ],
+  "createdAt": "2026-11-14T10:50:46.913Z",
+  "updatedAt": "2026-11-14T10:50:46.914Z"
+}

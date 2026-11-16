@@ -1,0 +1,146 @@
+[
+  {
+    "id": "audit_1794650649504_fdp0z",
+    "action": "GRANT_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "guest_6250dabb-96a5-4055-8d32-b150d2491865",
+    "details": {
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "validUntil": "2026-12-14T10:04:09.503Z",
+      "userEmail": "guest_test@gulasal.ai"
+    },
+    "timestamp": "2026-11-14T10:04:09.504Z"
+  },
+  {
+    "id": "audit_1794650649542_3dg2l",
+    "action": "REVOKE_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "guest_6250dabb-96a5-4055-8d32-b150d2491865",
+    "details": {
+      "revokedAt": "2026-11-14T10:04:09.541Z"
+    },
+    "timestamp": "2026-11-14T10:04:09.542Z"
+  },
+  {
+    "id": "audit_1794650857561_khniz",
+    "action": "GRANT_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "guest_07bc9da4-1008-4dac-90f2-0de206efed7d",
+    "details": {
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "validUntil": "2026-12-14T10:07:37.559Z",
+      "userEmail": "guest_test@gulasal.ai"
+    },
+    "timestamp": "2026-11-14T10:07:37.561Z"
+  },
+  {
+    "id": "audit_1794650857601_0hbsd",
+    "action": "REVOKE_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "guest_07bc9da4-1008-4dac-90f2-0de206efed7d",
+    "details": {
+      "revokedAt": "2026-11-14T10:07:37.600Z"
+    },
+    "timestamp": "2026-11-14T10:07:37.601Z"
+  },
+  {
+    "id": "audit_1794651850682_ti8k8",
+    "action": "REVOKE_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "google_109714818977347266867",
+    "details": {
+      "revokedAt": "2026-11-14T10:24:10.677Z"
+    },
+    "timestamp": "2026-11-14T10:24:10.682Z"
+  },
+  {
+    "id": "audit_1794661857414_y8ay4",
+    "action": "GRANT_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "google_109714818977347266867",
+    "details": {
+      "duration": "unlimited",
+      "durationLabel": "Cheksiz (Muddatsiz)",
+      "validUntil": null,
+      "userEmail": "marufnarimonov1808@gmail.com"
+    },
+    "timestamp": "2026-11-14T13:10:57.415Z"
+  },
+  {
+    "id": "audit_1794673389020_uaa8o",
+    "action": "GRANT_PRO",
+    "adminEmail": "system@gulasal.ai",
+    "targetUserId": "guest_demo_user",
+    "details": {
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "validUntil": "2026-12-14T16:23:09.017Z",
+      "userEmail": "3 ta do‘st taklifi (Bepul PRO)"
+    },
+    "timestamp": "2026-11-14T16:23:09.020Z"
+  },
+  {
+    "id": "audit_1794811663796_dt6ij",
+    "action": "GRANT_PRO",
+    "adminEmail": "promocode:MUHA",
+    "targetUserId": "google_109714818977347266867",
+    "details": {
+      "duration": 7,
+      "durationLabel": "7 kun",
+      "validUntil": "2026-11-23T06:47:43.779Z",
+      "userEmail": "marufnarimonov1808@gmail.com"
+    },
+    "timestamp": "2026-11-16T06:47:43.796Z"
+  },
+  {
+    "id": "audit_1794812034771_vlyjk",
+    "action": "REVOKE_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "google_109714818977347266867",
+    "details": {
+      "revokedAt": "2026-11-16T06:53:54.771Z"
+    },
+    "timestamp": "2026-11-16T06:53:54.771Z"
+  },
+  {
+    "id": "audit_1794827883275_ahhiz",
+    "action": "GRANT_PRO",
+    "adminEmail": "promocode:MUHA",
+    "targetUserId": "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7",
+    "details": {
+      "duration": 7,
+      "durationLabel": "7 kun",
+      "validUntil": "2026-11-23T11:18:03.261Z",
+      "userEmail": ""
+    },
+    "timestamp": "2026-11-16T11:18:03.277Z"
+  },
+  {
+    "id": "audit_1794831476713_oyzuh",
+    "action": "GRANT_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "test_user_01",
+    "details": {
+      "duration": 30,
+      "durationLabel": "30 kun",
+      "validUntil": "2026-12-16T12:17:56.710Z",
+      "userEmail": "student@example.com"
+    },
+    "timestamp": "2026-11-16T12:17:56.713Z"
+  },
+  {
+    "id": "audit_1794831531178_k7azj",
+    "action": "GRANT_PRO",
+    "adminEmail": "bahtiermustafoev1974@gmail.com",
+    "targetUserId": "test_user_02",
+    "details": {
+      "duration": 90,
+      "durationLabel": "90 kun",
+      "validUntil": "2027-02-14T12:18:51.175Z",
+      "userEmail": "student2@example.com"
+    },
+    "timestamp": "2026-11-16T12:18:51.178Z"
+  }
+]

@@ -1,0 +1,352 @@
+{
+  "users": {
+    "guest_148a8a28-50cb-4436-92eb-209f4bfd566f": {
+      "lessons": {
+        "lesson_math_quadratic": {
+          "completedStages": [
+            1,
+            2,
+            7
+          ],
+          "currentStage": 3,
+          "totalStages": 7,
+          "progress": 43,
+          "completed": false,
+          "completedAt": null,
+          "updatedAt": "2026-11-14T08:06:55.358Z",
+          "quizScore": {
+            "correctCount": 5,
+            "totalQuestions": 5,
+            "scorePercentage": 100,
+            "passed": true,
+            "takenAt": "2026-11-14T08:06:55.368Z"
+          }
+        }
+      },
+      "subjects": {},
+      "updatedAt": "2026-11-14T08:06:55.329Z"
+    },
+    "guest_6eac9d25-acb0-4c2d-bc8b-5310807250ed": {
+      "lessons": {
+        "lesson_math_quadratic": {
+          "completedStages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "currentStage": 7,
+          "totalStages": 7,
+          "progress": 100,
+          "completed": true,
+          "completedAt": "2026-11-14T08:07:07.826Z",
+          "updatedAt": "2026-11-14T08:07:07.818Z",
+          "quizScore": {
+            "correctCount": 5,
+            "totalQuestions": 5,
+            "scorePercentage": 100,
+            "passed": true,
+            "takenAt": "2026-11-14T08:07:07.826Z"
+          }
+        }
+      },
+      "subjects": {},
+      "updatedAt": "2026-11-14T08:07:07.765Z"
+    },
+    "google_109714818977347266867": {
+      "lessons": {
+        "lesson_math_quadratic": {
+          "completedStages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "currentStage": 7,
+          "totalStages": 7,
+          "progress": 100,
+          "completed": true,
+          "completedAt": "2026-11-14T09:30:06.508Z",
+          "updatedAt": "2026-11-14T09:30:06.128Z",
+          "quizScore": {
+            "correctCount": 0,
+            "totalQuestions": 5,
+            "scorePercentage": 0,
+            "passed": false,
+            "takenAt": "2026-11-14T09:30:06.508Z"
+          }
+        },
+        "lesson_chem_periodic": {
+          "completedStages": [
+            1
+          ],
+          "currentStage": 2,
+          "totalStages": 4,
+          "progress": 25,
+          "completed": false,
+          "completedAt": null,
+          "updatedAt": "2026-11-14T16:27:12.801Z"
+        }
+      },
+      "subjects": {},
+      "updatedAt": "2026-11-14T08:08:50.133Z"
+    },
+    "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-14T09:34:54.036Z"
+    },
+    "google_115401282415026396030": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-14T10:24:19.980Z"
+    },
+    "guest_6142d452-2158-4ad5-a45a-ec9d29c19761": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-14T10:50:26.472Z"
+    },
+    "guest_28185be0-95c6-4da3-b33f-7b5ac4ad8318": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-14T13:08:50.193Z"
+    },
+    "guest_df6d9c63-2766-422b-8305-56131283c08d": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-14T13:12:00.537Z"
+    },
+    "guest_general": {
+      "lessons": {
+        "lesson_it_async": {
+          "completedStages": [
+            1,
+            7
+          ],
+          "currentStage": 2,
+          "totalStages": 7,
+          "progress": 29,
+          "completed": false,
+          "completedAt": null,
+          "updatedAt": "2026-11-14T16:51:14.579Z",
+          "quizScore": {
+            "correctCount": 0,
+            "totalQuestions": 5,
+            "scorePercentage": 0,
+            "passed": false,
+            "takenAt": "2026-11-14T16:51:19.455Z"
+          }
+        },
+        "lesson_math_quadratic": {
+          "completedStages": [
+            7
+          ],
+          "currentStage": 1,
+          "totalStages": 7,
+          "progress": 14,
+          "completed": false,
+          "completedAt": null,
+          "quizScore": {
+            "correctCount": 4,
+            "totalQuestions": 5,
+            "scorePercentage": 80,
+            "passed": true,
+            "takenAt": "2026-11-16T07:12:48.912Z",
+            "difficulty": "medium",
+            "attempts": 2
+          },
+          "quizData": {
+            "seenQuestionSignatures": [
+              "2x4x10tenglamasiningdiskriminantidningqiymatinechigateng",
+              "x2kxk90tenglamasidayagonatakroriyhaqiqiyildizbolishiuchunkningqiymatiqaysi",
+              "x6x50tenglamasiningildizlariqaysilar",
+              "axbxc0tenglamasiningildizlarivabolsa43bolsadiskriminantdningqiymatinima",
+              "toshbaqabalandligiht5t20t15formulasibilanberilganbalandi0gatengboladiganvaqtseku",
+              "2x5x30tenglamaningdiskriminantidnihisoblang",
+              "x4x40tenglamaninghaqiqiyildizlarisoninechta",
+              "3xkx120tenglamadahaqiqiyildizlarbolmasligiuchunkningqaysiqiymatlarikerak",
+              "x6x50tenglamaningildizlarinitoping",
+              "a1c9bolgankvadrattenglamauchundiskriminantd23bolsaquyidagilardanqaysibiritogri"
+            ],
+            "difficulty": "medium",
+            "attemptsCount": 2,
+            "history": [
+              {
+                "attempt": 1,
+                "difficulty": "medium",
+                "correctCount": 0,
+                "totalQuestions": 5,
+                "scorePercentage": 0,
+                "passed": false,
+                "takenAt": "2026-11-16T07:11:35.903Z"
+              },
+              {
+                "attempt": 2,
+                "difficulty": "medium",
+                "correctCount": 4,
+                "totalQuestions": 5,
+                "scorePercentage": 80,
+                "passed": true,
+                "takenAt": "2026-11-16T07:12:48.912Z"
+              }
+            ],
+            "activeQuiz": {
+              "createdAt": "2026-11-16T07:12:53.058Z",
+              "difficulty": "medium",
+              "questions": [
+                {
+                  "id": "dyn_1794813173058_1",
+                  "question": "2x² − 5x + 3 = 0 tenglamaning diskriminanti (D) qanday?",
+                  "options": [
+                    {
+                      "id": "A",
+                      "text": "D = 1"
+                    },
+                    {
+                      "id": "B",
+                      "text": "D = ‑7"
+                    },
+                    {
+                      "id": "C",
+                      "text": "D = 13"
+                    },
+                    {
+                      "id": "D",
+                      "text": "D = 0"
+                    }
+                  ],
+                  "correct": "A",
+                  "explanation": "D = b² − 4ac = (‑5)² − 4·2·3 = 25 − 24 = 1.",
+                  "difficulty": "medium"
+                },
+                {
+                  "id": "dyn_1794813173058_2",
+                  "question": "x² + 4x + 4 = 0 tenglamada haqiqiy ildizlar soni qancha?",
+                  "options": [
+                    {
+                      "id": "A",
+                      "text": "0 ta"
+                    },
+                    {
+                      "id": "B",
+                      "text": "1 ta (takroriy)"
+                    },
+                    {
+                      "id": "C",
+                      "text": "2 ta (farqli)"
+                    },
+                    {
+                      "id": "D",
+                      "text": "3 ta"
+                    }
+                  ],
+                  "correct": "B",
+                  "explanation": "D = 4² − 4·1·4 = 16 − 16 = 0, shuning uchun bitta takroriy haqiqiy ildiz mavjud.",
+                  "difficulty": "medium"
+                },
+                {
+                  "id": "dyn_1794813173058_3",
+                  "question": "Quyidagi kvadrat tenglamalardan qaysi biri haqiqiy ildizga ega emas?",
+                  "options": [
+                    {
+                      "id": "A",
+                      "text": "x² − 6x + 9 = 0"
+                    },
+                    {
+                      "id": "B",
+                      "text": "3x² + 2x + 1 = 0"
+                    },
+                    {
+                      "id": "C",
+                      "text": "x² + 2x + 1 = 0"
+                    },
+                    {
+                      "id": "D",
+                      "text": "2x² − 8x + 8 = 0"
+                    }
+                  ],
+                  "correct": "B",
+                  "explanation": "B tenglama uchun D = 2² − 4·3·1 = 4 − 12 = ‑8 < 0, shuning uchun haqiqiy ildiz yo‘q.",
+                  "difficulty": "medium"
+                },
+                {
+                  "id": "dyn_1794813173058_4",
+                  "question": "4x² − kx + 1 = 0 tenglamada (k > 0) bitta haqiqiy ildiz bo‘lishi uchun k ning qiymati qanday?",
+                  "options": [
+                    {
+                      "id": "A",
+                      "text": "2"
+                    },
+                    {
+                      "id": "B",
+                      "text": "4"
+                    },
+                    {
+                      "id": "C",
+                      "text": "‑4"
+                    },
+                    {
+                      "id": "D",
+                      "text": "0"
+                    }
+                  ],
+                  "correct": "B",
+                  "explanation": "Bitta ildiz uchun D = k² − 4·4·1 = 0 ⇒ k² = 16 ⇒ k = 4 (k > 0 shartiga mos).",
+                  "difficulty": "medium"
+                },
+                {
+                  "id": "dyn_1794813173058_5",
+                  "question": "x² − 5x + 6 = 0 tenglamaning ildizlari qaysi juftlik?",
+                  "options": [
+                    {
+                      "id": "A",
+                      "text": "{1, 6}"
+                    },
+                    {
+                      "id": "B",
+                      "text": "{2, 3}"
+                    },
+                    {
+                      "id": "C",
+                      "text": "{‑2, ‑3}"
+                    },
+                    {
+                      "id": "D",
+                      "text": "{0, 5}"
+                    }
+                  ],
+                  "correct": "B",
+                  "explanation": "Tenglama (x − 2)(x − 3) = 0 ga aylanadi, shuning uchun ildizlar x = 2 va x = 3.",
+                  "difficulty": "medium"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "subjects": {},
+      "updatedAt": "2026-11-14T16:46:45.287Z"
+    },
+    "guest_0886f920-d59d-4539-b358-6ef71c24181a": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-16T06:45:54.849Z"
+    },
+    "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-16T11:18:07.595Z"
+    },
+    "guest_0274e152-632e-4284-b95b-0a6acf4cbdd7": {
+      "lessons": {},
+      "subjects": {},
+      "updatedAt": "2026-11-16T14:58:19.381Z"
+    }
+  }
+}

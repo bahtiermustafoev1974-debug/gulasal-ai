@@ -1,0 +1,28 @@
+{
+  "maintenance": {
+    "enabled": false,
+    "message": "Saytda rejaviy yangilanish va texnik profilaktika ishlari olib borilmoqda. Tez orada qaytamiz!",
+    "estimatedEnd": "Tez orada",
+    "updatedAt": "2026-11-15T17:24:53.671Z",
+    "updatedBy": "admin"
+  },
+  "aiSettings": {
+    "primaryProvider": "groq",
+    "temperature": 0.7,
+    "tutorStyle": "friendly",
+    "customPrompt": "",
+    "dailyFreeLimit": 20
+  },
+  "usageStats": {
+    "dailyTotals": {
+      "2026-11-16": {
+        "requests": 6,
+        "estimatedTokens": 2800
+      }
+    },
+    "userCounts": {
+      "dummy_free_user:2026-11-16": 1,
+      "google_109714818977347266867:2026-11-16": 5
+    }
+  }
+}

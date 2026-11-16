@@ -1,0 +1,610 @@
+{
+  "users": {
+    "guest_d8e2f833-2f6d-4d3b-ab51-06c0d1f19821": {
+      "math": {
+        "history": [
+          "math_009",
+          "math_011",
+          "math_003",
+          "math_007",
+          "math_014",
+          "math_010"
+        ],
+        "currentRound": 2,
+        "currentQuestions": [
+          "math_004",
+          "math_001",
+          "math_013",
+          "math_006",
+          "math_012",
+          "math_008"
+        ],
+        "currentDifficulty": "easy",
+        "rounds": [
+          {
+            "round": 1,
+            "completedAt": "2026-11-14T08:15:08.861Z",
+            "correctCount": 2,
+            "wrongCount": 4,
+            "percentage": 33,
+            "difficulty": "easy",
+            "results": [
+              {
+                "id": "math_009",
+                "question": "To‘g‘ri burchakli uchburchakning katetlari 6 sm va 8 sm bo‘lsa, gipotenuzasini toping:",
+                "topic": "Geometriya",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "Pifagor teoremasiga ko‘ra: c = √(a² + b²) = √(6² + 8²) = √(36 + 64) = √100 = 10 sm."
+              },
+              {
+                "id": "math_011",
+                "question": "(2³)² ifodaning qiymatini hisoblang:",
+                "topic": "Darajalar",
+                "userAnswer": "A",
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "(2³)² = 2⁶ = 64."
+              },
+              {
+                "id": "math_003",
+                "question": "x² - 7x + 12 = 0 tenglamasining ildizlari yig‘indisi nechaga teng?",
+                "topic": "Viyet teoremasi",
+                "userAnswer": "A",
+                "correctAnswer": "C",
+                "isCorrect": false,
+                "explanation": "Viyet teoremasiga ko‘ra, keltirilgan kvadrat tenglamada x₁ + x₂ = -p = -(-7) = 7."
+              },
+              {
+                "id": "math_007",
+                "question": "3x + 15 = 0 tenglamaning ildizini toping:",
+                "topic": "Chiziqli tenglamalar",
+                "userAnswer": "A",
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "3x = -15 ⟹ x = -15 / 3 = -5."
+              },
+              {
+                "id": "math_014",
+                "question": "f(x) = x³ - 3x² + 5 funksiyaning hosilasi f'(x) ni toping:",
+                "topic": "Hosilalar",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "(x³)' = 3x², (-3x²)' = -6x, (5)' = 0 ⟹ f'(x) = 3x² - 6x."
+              },
+              {
+                "id": "math_010",
+                "question": "Arifmetik progressiyada a₁ = 3 va ayirma d = 4 bo‘lsa, a₅ ni toping:",
+                "topic": "Progressiya",
+                "userAnswer": "A",
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "an = a₁ + (n - 1)d ⟹ a₅ = 3 + 4 · 4 = 3 + 16 = 19."
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "roundsCompleted": 1,
+          "totalQuestions": 6,
+          "correctAnswers": 2,
+          "accuracy": 33
+        }
+      },
+      "physics": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "phys_009",
+          "phys_006",
+          "phys_004",
+          "phys_008",
+          "phys_010",
+          "phys_007"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      },
+      "informatics": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "it_007",
+          "it_002",
+          "it_001",
+          "it_010",
+          "it_009",
+          "it_006"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "google_109714818977347266867": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_002",
+          "math_014",
+          "math_012",
+          "math_011",
+          "math_008",
+          "math_006"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_general": {
+      "math": {
+        "history": [
+          "math_013",
+          "math_004",
+          "math_008",
+          "math_009",
+          "math_010",
+          "math_007",
+          "math_012",
+          "math_006",
+          "math_001",
+          "math_002",
+          "math_003",
+          "math_014",
+          "math_ai_1794645503742_2",
+          "math_ai_1794645503742_6",
+          "math_ai_1794645503742_5",
+          "math_ai_1794645503742_3",
+          "math_005",
+          "math_ai_1794645503742_1"
+        ],
+        "currentRound": 4,
+        "currentQuestions": [
+          "math_ai_1794846352677_5",
+          "math_ai_1794846352677_6",
+          "math_ai_1794846352677_2",
+          "math_ai_1794846352677_3",
+          "math_ai_1794846352677_4",
+          "math_ai_1794846352677_1"
+        ],
+        "currentDifficulty": "hard",
+        "rounds": [
+          {
+            "round": 1,
+            "completedAt": "2026-11-14T08:37:33.079Z",
+            "correctCount": 0,
+            "wrongCount": 6,
+            "percentage": 0,
+            "difficulty": "easy",
+            "results": [
+              {
+                "id": "math_013",
+                "question": "200 sonining 25 foizi nechaga teng?",
+                "topic": "Foizlar",
+                "userAnswer": null,
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "200 · 0.25 = 50."
+              },
+              {
+                "id": "math_004",
+                "question": "2x² - 4x - 6 = 0 tenglamaning katta ildizini toping:",
+                "topic": "Kvadrat tenglamalar",
+                "userAnswer": null,
+                "correctAnswer": "A",
+                "isCorrect": false,
+                "explanation": "Tenglamani 2 ga bo‘lsak: x² - 2x - 3 = 0. (x - 3)(x + 1) = 0 ⟹ x₁ = 3, x₂ = -1. Katta ildiz: 3."
+              },
+              {
+                "id": "math_008",
+                "question": "sin²α + cos²α ifodaning qiymati nechaga teng?",
+                "topic": "Trigonometriya",
+                "userAnswer": null,
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "Asosiy trigonometrik ayniyatga ko‘ra: sin²α + cos²α = 1."
+              },
+              {
+                "id": "math_009",
+                "question": "To‘g‘ri burchakli uchburchakning katetlari 6 sm va 8 sm bo‘lsa, gipotenuzasini toping:",
+                "topic": "Geometriya",
+                "userAnswer": null,
+                "correctAnswer": "A",
+                "isCorrect": false,
+                "explanation": "Pifagor teoremasiga ko‘ra: c = √(a² + b²) = √(6² + 8²) = √(36 + 64) = √100 = 10 sm."
+              },
+              {
+                "id": "math_010",
+                "question": "Arifmetik progressiyada a₁ = 3 va ayirma d = 4 bo‘lsa, a₅ ni toping:",
+                "topic": "Progressiya",
+                "userAnswer": null,
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "an = a₁ + (n - 1)d ⟹ a₅ = 3 + 4 · 4 = 3 + 16 = 19."
+              },
+              {
+                "id": "math_007",
+                "question": "3x + 15 = 0 tenglamaning ildizini toping:",
+                "topic": "Chiziqli tenglamalar",
+                "userAnswer": null,
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "3x = -15 ⟹ x = -15 / 3 = -5."
+              }
+            ]
+          },
+          {
+            "round": 2,
+            "completedAt": "2026-11-14T08:37:52.373Z",
+            "correctCount": 4,
+            "wrongCount": 2,
+            "percentage": 67,
+            "difficulty": "medium",
+            "results": [
+              {
+                "id": "math_012",
+                "question": "x² - 8x + q = 0 tenglamaning ildizlaridan biri 5 ga teng bo‘lsa, q ning qiymatini toping:",
+                "topic": "Kvadrat tenglamalar",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "x₁ = 5 bo‘lsa: 5² - 8·5 + q = 0 ⟹ 25 - 40 + q = 0 ⟹ -15 + q = 0 ⟹ q = 15."
+              },
+              {
+                "id": "math_006",
+                "question": "(x - 1)(x + 4) = 6 tenglamani standart ko‘rinishga keltiring:",
+                "topic": "Algebraik shakl almashtirish",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "Qavslarni ochamiz: x² + 4x - x - 4 = 6 ⟹ x² + 3x - 4 - 6 = 0 ⟹ x² + 3x - 10 = 0."
+              },
+              {
+                "id": "math_001",
+                "question": "x² - 5x + 6 = 0 tenglamasining diskriminantini toping:",
+                "topic": "Kvadrat tenglamalar",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "D = b² - 4ac = (-5)² - 4·1·6 = 25 - 24 = 1."
+              },
+              {
+                "id": "math_002",
+                "question": "x² - 9 = 0 to‘liq bo‘lmagan kvadrat tenglamaning ildizlarini toping:",
+                "topic": "Kvadrat tenglamalar",
+                "userAnswer": "A",
+                "correctAnswer": "B",
+                "isCorrect": false,
+                "explanation": "x² = 9 ⟹ x = ±√9 = ±3."
+              },
+              {
+                "id": "math_003",
+                "question": "x² - 7x + 12 = 0 tenglamasining ildizlari yig‘indisi nechaga teng?",
+                "topic": "Viyet teoremasi",
+                "userAnswer": "A",
+                "correctAnswer": "C",
+                "isCorrect": false,
+                "explanation": "Viyet teoremasiga ko‘ra, keltirilgan kvadrat tenglamada x₁ + x₂ = -p = -(-7) = 7."
+              },
+              {
+                "id": "math_014",
+                "question": "f(x) = x³ - 3x² + 5 funksiyaning hosilasi f'(x) ni toping:",
+                "topic": "Hosilalar",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "(x³)' = 3x², (-3x²)' = -6x, (5)' = 0 ⟹ f'(x) = 3x² - 6x."
+              }
+            ]
+          },
+          {
+            "round": 3,
+            "completedAt": "2026-11-14T08:38:23.754Z",
+            "correctCount": 5,
+            "wrongCount": 1,
+            "percentage": 83,
+            "difficulty": "hard",
+            "results": [
+              {
+                "id": "math_ai_1794645503742_2",
+                "question": "Asosi 8 sm, balandligi 5 sm bo‘lgan uchburchakning maydonini hisoblang.",
+                "topic": "Geometry",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "Maydon = ½·base·height = ½·8·5 = 20 sm²."
+              },
+              {
+                "id": "math_ai_1794645503742_6",
+                "question": "To‘g‘ri burchakli uchburchakda bitta keskin burchak 30° bo‘lsa, bu burchakka qarshi tomonning gipotenuzaga nisbati qanday?",
+                "topic": "Trigonometry",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "Sin30° = qarshi tomon / gipotenuza = 1/2."
+              },
+              {
+                "id": "math_ai_1794645503742_5",
+                "question": "f(x)=2x − 7 funksiyaning teskari funksiyasini (f⁻¹(x)) toping.",
+                "topic": "Functions",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "y=2x‑7 ⇒ x=(y+7)/2, shuning uchun f⁻¹(x)=(x+7)/2."
+              },
+              {
+                "id": "math_ai_1794645503742_3",
+                "question": "48 va 180 sonlarining eng katta umumiy bo‘luvchisi (GCD) nima?",
+                "topic": "Number Theory",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "48 = 2⁴·3, 180 = 2²·3²·5, umumiy ko‘paytuvchilar 2²·3 = 12."
+              },
+              {
+                "id": "math_005",
+                "question": "Qaysi shartda ax² + bx + c = 0 tenglama bitta karrali haqiqiy ildizga ega bo‘ladi?",
+                "topic": "Diskriminant xossalari",
+                "userAnswer": "A",
+                "correctAnswer": "C",
+                "isCorrect": false,
+                "explanation": "Diskriminant nolga teng (D = 0) bo‘lganda, tenglama bitta karrali ildizga (x = -b/(2a)) ega bo‘ladi."
+              },
+              {
+                "id": "math_ai_1794645503742_1",
+                "question": "x² − 5x + 6 = 0 tenglamaning yechimini toping.",
+                "topic": "Algebra",
+                "userAnswer": "A",
+                "correctAnswer": "A",
+                "isCorrect": true,
+                "explanation": "Tenglama (x‑2)(x‑3)=0 ga aylanadi, shuning uchun ildizlar 2 va 3."
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "roundsCompleted": 3,
+          "totalQuestions": 18,
+          "correctAnswers": 9,
+          "accuracy": 50
+        }
+      }
+    },
+    "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_ai_1794645503742_1",
+          "math_005",
+          "math_010",
+          "math_ai_1794645503742_3",
+          "math_004",
+          "math_006"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "google_115401282415026396030": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_009",
+          "math_ai_1794645503742_5",
+          "math_ai_1794645503742_2",
+          "math_ai_1794645503742_6",
+          "math_004",
+          "math_ai_1794645503742_4"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_6142d452-2158-4ad5-a45a-ec9d29c19761": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_005",
+          "math_ai_1794645503742_2",
+          "math_ai_1794645503742_3",
+          "math_ai_1794645503742_1",
+          "math_006",
+          "math_ai_1794645503742_5"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_28185be0-95c6-4da3-b33f-7b5ac4ad8318": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_ai_1794645503742_5",
+          "math_010",
+          "math_ai_1794645503742_4",
+          "math_004",
+          "math_009",
+          "math_ai_1794645503742_2"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_df6d9c63-2766-422b-8305-56131283c08d": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_ai_1794645503742_3",
+          "math_009",
+          "math_010",
+          "math_ai_1794645503742_2",
+          "math_006",
+          "math_ai_1794645503742_4"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_0886f920-d59d-4539-b358-6ef71c24181a": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_005",
+          "math_ai_1794645503742_4",
+          "math_009",
+          "math_ai_1794645503742_5",
+          "math_ai_1794645503742_3",
+          "math_010"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      },
+      "physics": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "phys_009",
+          "phys_004",
+          "phys_008",
+          "phys_006",
+          "phys_010",
+          "phys_005"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      },
+      "informatics": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "it_001",
+          "it_007",
+          "it_009",
+          "it_004",
+          "it_008",
+          "it_002"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_010",
+          "math_ai_1794645503742_6",
+          "math_006",
+          "math_ai_1794645503742_5",
+          "math_004",
+          "math_ai_1794645503742_1"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    },
+    "guest_0274e152-632e-4284-b95b-0a6acf4cbdd7": {
+      "math": {
+        "history": [],
+        "currentRound": 1,
+        "currentQuestions": [
+          "math_006",
+          "math_010",
+          "math_ai_1794645503742_3",
+          "math_ai_1794645503742_6",
+          "math_009",
+          "math_ai_1794645503742_2"
+        ],
+        "currentDifficulty": "medium",
+        "rounds": [],
+        "stats": {
+          "roundsCompleted": 0,
+          "totalQuestions": 0,
+          "correctAnswers": 0,
+          "accuracy": 0
+        }
+      }
+    }
+  }
+}

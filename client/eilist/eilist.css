@@ -1,0 +1,822 @@
+/* ========================================================
+   GULASAL AI — EILIST (IELTS) ACADEMY & LISTENING SYSTEM
+   Glassmorphism • Audio Player • Daily 4-Pillar Syllabus
+======================================================== */
+
+.eilist-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+  color: #faf7ff;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  animation: eilistFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes eilistFadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 1. HERO HEADER & DAILY SYLLABUS PROGRESS */
+.eilist-hero {
+  position: relative;
+  border-radius: 12px;
+  padding: 26px 24px;
+  background: #121318;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.eilist-hero::before {
+  display: none !important;
+}
+
+.eilist-hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.eilist-badge-source {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  background: #181920;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #a1a1aa;
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.eilist-band-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  background: #181920;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #818cf8;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.eilist-hero-title {
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 8px;
+  color: #f4f4f5;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: initial;
+}
+
+.eilist-hero-subtitle {
+  color: #a1a1aa;
+  font-size: 13.5px;
+  margin: 0 0 20px;
+  max-width: 680px;
+  line-height: 1.5;
+}
+
+/* 4-PART DAILY LESSON TRACKER */
+.eilist-pillars-tracker {
+  background: #16171d;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.eilist-pillars-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.eilist-pillars-title {
+  font-weight: 700;
+  color: #dfdbf5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eilist-pillars-score {
+  font-weight: 800;
+  color: #a78bfa;
+}
+
+.eilist-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.eilist-pillar-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  font-weight: 700;
+  color: #8c89a4;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.eilist-pillar-pill.is-completed {
+  background: rgba(34, 197, 94, 0.14);
+  border-color: rgba(34, 197, 94, 0.4);
+  color: #86efac;
+  box-shadow: 0 0 16px rgba(34, 197, 94, 0.2);
+}
+
+.eilist-pillar-pill.is-active {
+  border-color: #a78bfa;
+  color: #ffffff;
+  background: rgba(167, 139, 250, 0.2);
+  box-shadow: 0 0 15px rgba(167, 139, 250, 0.3);
+}
+
+/* 2. SUB-NAVIGATION TABS */
+.eilist-nav-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.eilist-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: #a5a4b8;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.eilist-tab-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #faf7ff;
+  border-color: rgba(167, 139, 250, 0.35);
+  transform: translateY(-2px);
+}
+
+.eilist-tab-btn.is-active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #a78bfa, #8b5cf6);
+  border-color: #c4b5fd;
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.35);
+}
+
+/* 3. SECTION PANELS */
+.eilist-section-view {
+  display: none;
+  animation: eilistSectionFade 0.35s ease both;
+}
+
+.eilist-section-view.is-visible {
+  display: block;
+}
+
+@keyframes eilistSectionFade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================================================
+   4. GLASSMORPHISM AUDIO PLAYER
+======================================================== */
+.listening-player-card {
+  position: relative;
+  border-radius: 24px;
+  padding: 28px 26px;
+  background: linear-gradient(135deg, rgba(22, 16, 46, 0.9), rgba(12, 9, 26, 0.96));
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  margin-bottom: 28px;
+}
+
+.player-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.player-track-info h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 800;
+  color: #faf7ff;
+}
+
+.player-track-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #a5a4b8;
+}
+
+/* EQUALIZER WAVEFORM BARS */
+.player-equalizer-bars {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 24px;
+}
+
+.player-bar {
+  width: 4px;
+  height: 6px;
+  border-radius: 2px;
+  background: #a78bfa;
+  transition: height 0.2s ease;
+}
+
+.listening-player-card.is-playing .player-bar:nth-child(1) { animation: soundBar 0.8s ease-in-out infinite alternate; }
+.listening-player-card.is-playing .player-bar:nth-child(2) { animation: soundBar 1.1s ease-in-out 0.2s infinite alternate; }
+.listening-player-card.is-playing .player-bar:nth-child(3) { animation: soundBar 0.6s ease-in-out 0.4s infinite alternate; }
+.listening-player-card.is-playing .player-bar:nth-child(4) { animation: soundBar 0.9s ease-in-out 0.1s infinite alternate; }
+.listening-player-card.is-playing .player-bar:nth-child(5) { animation: soundBar 0.7s ease-in-out 0.3s infinite alternate; }
+
+@keyframes soundBar {
+  from { height: 4px; background: #a78bfa; }
+  to { height: 22px; background: #ec8df5; }
+}
+
+/* TIMELINE & PROGRESS BAR */
+.player-timeline-wrap {
+  margin-bottom: 18px;
+}
+
+.player-scrubber {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.14);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.player-scrubber::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a78bfa, #ec8df5);
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.8);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.player-scrubber::-webkit-slider-thumb:hover {
+  transform: scale(1.3);
+}
+
+.player-time-display {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #8c89a4;
+  font-family: monospace;
+}
+
+/* PLAYER CONTROLS (PLAY/PAUSE/REPLAY/VOLUME) */
+.player-controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.player-center-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.player-btn-replay {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #d8b4fe;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.player-btn-replay:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: scale(1.08);
+}
+
+.player-btn-play {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #a78bfa, #ec8df5);
+  color: #120e24;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(167, 139, 250, 0.5);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.player-btn-play:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 35px rgba(167, 139, 250, 0.75);
+}
+
+.player-btn-play:active {
+  transform: scale(0.95);
+}
+
+.player-volume-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.player-volume-btn {
+  background: transparent;
+  border: none;
+  color: #a5a4b8;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.player-volume-slider {
+  width: 80px;
+  height: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  outline: none;
+}
+
+.player-volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #a78bfa;
+  cursor: pointer;
+}
+
+/* ========================================================
+   5. LISTENING TEST QUESTIONS
+======================================================== */
+.listening-quiz-card {
+  background: rgba(18, 14, 38, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  padding: 28px 24px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.listening-quiz-header {
+  margin-bottom: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 14px;
+}
+
+.listening-quiz-header h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #faf7ff;
+}
+
+.listening-quiz-header p {
+  margin: 0;
+  font-size: 13px;
+  color: #a5a4b8;
+}
+
+.listening-questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question-block {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px 20px;
+  transition: all 0.25s ease;
+}
+
+.question-block:hover {
+  border-color: rgba(167, 139, 250, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.question-prompt {
+  font-size: 15px;
+  font-weight: 700;
+  color: #f1efff;
+  margin-bottom: 14px;
+  line-height: 1.45;
+}
+
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 13.5px;
+  color: #dfdbf5;
+  user-select: none;
+}
+
+.option-label:hover {
+  background: rgba(167, 139, 250, 0.1);
+  border-color: rgba(167, 139, 250, 0.4);
+  color: #ffffff;
+  transform: translateX(3px);
+}
+
+.option-label input[type="radio"] {
+  accent-color: #a78bfa;
+  width: 17px;
+  height: 17px;
+}
+
+.option-label.is-selected {
+  background: rgba(167, 139, 250, 0.18);
+  border-color: #a78bfa;
+  color: #ffffff;
+  box-shadow: 0 0 14px rgba(167, 139, 250, 0.25);
+}
+
+.quiz-submit-btn {
+  width: 100%;
+  margin-top: 24px;
+  padding: 16px 28px;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(135deg, #a78bfa, #ec8df5);
+  color: #120e24;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 6px 25px rgba(167, 139, 250, 0.35);
+  transition: all 0.25s ease;
+}
+
+.quiz-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 35px rgba(167, 139, 250, 0.55);
+}
+
+/* ========================================================
+   6. RESULTS MODAL & ANALYSIS & TRANSCRIPT
+======================================================== */
+.quiz-results-card {
+  margin-top: 24px;
+  border-radius: 20px;
+  padding: 28px 24px;
+  background: linear-gradient(135deg, rgba(28, 20, 56, 0.95), rgba(15, 12, 30, 0.98));
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  animation: eilistFadeIn 0.4s ease both;
+}
+
+.results-score-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.score-circle-badge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.score-ring {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #813bff, #e34bcf);
+  box-shadow: 0 0 25px rgba(129, 59, 255, 0.45);
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.score-details h4 {
+  margin: 0 0 4px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #faf7ff;
+}
+
+.score-details p {
+  margin: 0;
+  font-size: 13.5px;
+  color: #86efac;
+  font-weight: 700;
+}
+
+.toggle-transcript-btn {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(167, 139, 250, 0.4);
+  background: rgba(167, 139, 250, 0.12);
+  color: #d8b4fe;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-transcript-btn:hover {
+  background: rgba(167, 139, 250, 0.24);
+  color: #ffffff;
+}
+
+/* REVIEW QUESTIONS BREAKDOWN */
+.review-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.review-item {
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.review-item.is-correct {
+  border-color: rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.06);
+}
+
+.review-item.is-wrong {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.06);
+}
+
+.review-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.review-badge {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.review-item.is-correct .review-badge {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+}
+
+.review-item.is-wrong .review-badge {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+}
+
+.review-explanation {
+  font-size: 12.5px;
+  color: #c4a8ff;
+  margin: 6px 0 0;
+  line-height: 1.45;
+}
+
+/* TRANSCRIPT PANEL */
+.transcript-panel {
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 18px 20px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.transcript-panel.is-open {
+  display: block;
+}
+
+.transcript-line {
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #dfdbf5;
+}
+
+.transcript-time {
+  font-weight: 700;
+  color: #a78bfa;
+  margin-right: 8px;
+  font-family: monospace;
+}
+
+.transcript-speaker {
+  font-weight: 800;
+  color: #ec8df5;
+  margin-right: 6px;
+}
+
+/* ========================================================
+   7. VOCABULARY & GRAMMAR & READING PANELS
+======================================================== */
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.vocab-card {
+  background: rgba(22, 16, 44, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: all 0.25s ease;
+}
+
+.vocab-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(167, 139, 250, 0.4);
+}
+
+.vocab-word-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.vocab-word {
+  font-size: 19px;
+  font-weight: 800;
+  color: #faf7ff;
+}
+
+.vocab-audio-btn {
+  background: rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  color: #d8b4fe;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.vocab-audio-btn:hover {
+  background: #a78bfa;
+  color: #120e24;
+}
+
+.vocab-phonetic {
+  font-size: 12.5px;
+  color: #a78bfa;
+  font-family: monospace;
+  margin-bottom: 8px;
+}
+
+.vocab-meaning {
+  font-size: 13.5px;
+  color: #dfdbf5;
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+
+.vocab-example {
+  font-size: 12px;
+  color: #a5a4b8;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.section-complete-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 14px;
+  border: none;
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ffffff;
+  font-size: 14.5px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 24px;
+  box-shadow: 0 4px 18px rgba(16, 185, 129, 0.35);
+  transition: all 0.25s ease;
+}
+
+.section-complete-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.5);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .eilist-pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .eilist-container {
+    padding: 12px 8px;
+  }
+  .eilist-pillars-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .eilist-hero {
+    padding: 18px 14px;
+    border-radius: 18px;
+  }
+  .listening-player-card {
+    padding: 16px 14px;
+    border-radius: 18px;
+  }
+  .player-controls-row {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .listening-quiz-card {
+    padding: 16px 14px;
+    border-radius: 18px;
+  }
+  .question-block {
+    padding: 14px;
+  }
+}

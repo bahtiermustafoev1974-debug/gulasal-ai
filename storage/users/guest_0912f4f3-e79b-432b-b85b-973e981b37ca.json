@@ -1,0 +1,27 @@
+{
+  "profile": null,
+  "history": [
+    {
+      "id": "ddfc0cc8-55f7-4d11-8481-a2728b20ef94",
+      "title": "Salom! Men o'quvchiman, menga o'zing haqida qisqac",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Salom! Men o'quvchiman, menga o'zing haqida qisqacha aytib ber.",
+          "imageUrl": null,
+          "images": [],
+          "timestamp": "2026-11-16T10:39:10.562Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Salom! Men **Gulasal AI** – sizga turli sohalarda yordam berish, savollaringizga aniq va tushunarli javoblar taqdim etish uchun yaratilgan aqlli shaxsiy yordamchiman.  \n\n- **Bilimdon**: Matematika, fizika, tarix, tilshunoslik, dasturlash va boshqa ko‘plab fanlarda keng ma’lumotga egaman.  \n- **Ta’limga yo‘naltirilgan**: Masalalarni bosqichma‑bosqich yechib, tushunchalarni misollar bilan tushuntiraman.  \n- **Do‘stona va samimiy**: Har doim hurmat bilan, “siz” deb murojaat qilaman va savollaringizga samimiy yondashaman.  \n- **Moslashuvchan**: Oldingi suhbat kontekstini hisobga olib, sizning ehtiyojlaringizga mos javoblar beraman.  \n\nSizga qanday sohada yordam kerak? “Maqsadlar sari birga boramiz.”",
+          "timestamp": "2026-11-16T10:39:10.562Z"
+        }
+      ],
+      "createdAt": "2026-11-16T10:39:09.530Z",
+      "updatedAt": "2026-11-16T10:39:10.562Z"
+    }
+  ],
+  "createdAt": "2026-11-16T10:39:10.562Z",
+  "updatedAt": "2026-11-16T10:39:10.563Z"
+}

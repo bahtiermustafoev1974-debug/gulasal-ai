@@ -1,0 +1,1246 @@
+{
+  "questions": [
+    {
+      "id": "math_001",
+      "subject": "math",
+      "topic": "Kvadrat tenglamalar",
+      "difficulty": "easy",
+      "question": "x² - 5x + 6 = 0 tenglamasining diskriminantini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "D = 1"
+        },
+        {
+          "id": "B",
+          "text": "D = 25"
+        },
+        {
+          "id": "C",
+          "text": "D = 4"
+        },
+        {
+          "id": "D",
+          "text": "D = -1"
+        }
+      ],
+      "correct": "A",
+      "explanation": "D = b² - 4ac = (-5)² - 4·1·6 = 25 - 24 = 1."
+    },
+    {
+      "id": "math_002",
+      "subject": "math",
+      "topic": "Kvadrat tenglamalar",
+      "difficulty": "easy",
+      "question": "x² - 9 = 0 to‘liq bo‘lmagan kvadrat tenglamaning ildizlarini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "x = 3"
+        },
+        {
+          "id": "B",
+          "text": "x = ±3"
+        },
+        {
+          "id": "C",
+          "text": "x = -3"
+        },
+        {
+          "id": "D",
+          "text": "x = 9"
+        }
+      ],
+      "correct": "B",
+      "explanation": "x² = 9 ⟹ x = ±√9 = ±3."
+    },
+    {
+      "id": "math_003",
+      "subject": "math",
+      "topic": "Viyet teoremasi",
+      "difficulty": "easy",
+      "question": "x² - 7x + 12 = 0 tenglamasining ildizlari yig‘indisi nechaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "-7"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "-12"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Viyet teoremasiga ko‘ra, keltirilgan kvadrat tenglamada x₁ + x₂ = -p = -(-7) = 7."
+    },
+    {
+      "id": "math_004",
+      "subject": "math",
+      "topic": "Kvadrat tenglamalar",
+      "difficulty": "medium",
+      "question": "2x² - 4x - 6 = 0 tenglamaning katta ildizini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "-1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Tenglamani 2 ga bo‘lsak: x² - 2x - 3 = 0. (x - 3)(x + 1) = 0 ⟹ x₁ = 3, x₂ = -1. Katta ildiz: 3."
+    },
+    {
+      "id": "math_005",
+      "subject": "math",
+      "topic": "Diskriminant xossalari",
+      "difficulty": "medium",
+      "question": "Qaysi shartda ax² + bx + c = 0 tenglama bitta karrali haqiqiy ildizga ega bo‘ladi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "D > 0"
+        },
+        {
+          "id": "B",
+          "text": "D < 0"
+        },
+        {
+          "id": "C",
+          "text": "D = 0"
+        },
+        {
+          "id": "D",
+          "text": "b = 0"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Diskriminant nolga teng (D = 0) bo‘lganda, tenglama bitta karrali ildizga (x = -b/(2a)) ega bo‘ladi."
+    },
+    {
+      "id": "math_006",
+      "subject": "math",
+      "topic": "Algebraik shakl almashtirish",
+      "difficulty": "medium",
+      "question": "(x - 1)(x + 4) = 6 tenglamani standart ko‘rinishga keltiring:",
+      "options": [
+        {
+          "id": "A",
+          "text": "x² + 3x - 10 = 0"
+        },
+        {
+          "id": "B",
+          "text": "x² + 3x - 4 = 0"
+        },
+        {
+          "id": "C",
+          "text": "x² + 5x - 10 = 0"
+        },
+        {
+          "id": "D",
+          "text": "x² - 3x + 2 = 0"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Qavslarni ochamiz: x² + 4x - x - 4 = 6 ⟹ x² + 3x - 4 - 6 = 0 ⟹ x² + 3x - 10 = 0."
+    },
+    {
+      "id": "math_007",
+      "subject": "math",
+      "topic": "Chiziqli tenglamalar",
+      "difficulty": "easy",
+      "question": "3x + 15 = 0 tenglamaning ildizini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "-5"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "-3"
+        }
+      ],
+      "correct": "B",
+      "explanation": "3x = -15 ⟹ x = -15 / 3 = -5."
+    },
+    {
+      "id": "math_008",
+      "subject": "math",
+      "topic": "Trigonometriya",
+      "difficulty": "easy",
+      "question": "sin²α + cos²α ifodaning qiymati nechaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "tg²α"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Asosiy trigonometrik ayniyatga ko‘ra: sin²α + cos²α = 1."
+    },
+    {
+      "id": "math_009",
+      "subject": "math",
+      "topic": "Geometriya",
+      "difficulty": "medium",
+      "question": "To‘g‘ri burchakli uchburchakning katetlari 6 sm va 8 sm bo‘lsa, gipotenuzasini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 sm"
+        },
+        {
+          "id": "B",
+          "text": "14 sm"
+        },
+        {
+          "id": "C",
+          "text": "12 sm"
+        },
+        {
+          "id": "D",
+          "text": "7 sm"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Pifagor teoremasiga ko‘ra: c = √(a² + b²) = √(6² + 8²) = √(36 + 64) = √100 = 10 sm."
+    },
+    {
+      "id": "math_010",
+      "subject": "math",
+      "topic": "Progressiya",
+      "difficulty": "medium",
+      "question": "Arifmetik progressiyada a₁ = 3 va ayirma d = 4 bo‘lsa, a₅ ni toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "19"
+        },
+        {
+          "id": "C",
+          "text": "23"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correct": "B",
+      "explanation": "an = a₁ + (n - 1)d ⟹ a₅ = 3 + 4 · 4 = 3 + 16 = 19."
+    },
+    {
+      "id": "math_011",
+      "subject": "math",
+      "topic": "Darajalar",
+      "difficulty": "easy",
+      "question": "(2³)² ifodaning qiymatini hisoblang:",
+      "options": [
+        {
+          "id": "A",
+          "text": "32"
+        },
+        {
+          "id": "B",
+          "text": "64"
+        },
+        {
+          "id": "C",
+          "text": "128"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correct": "B",
+      "explanation": "(2³)² = 2⁶ = 64."
+    },
+    {
+      "id": "math_012",
+      "subject": "math",
+      "topic": "Kvadrat tenglamalar",
+      "difficulty": "hard",
+      "question": "x² - 8x + q = 0 tenglamaning ildizlaridan biri 5 ga teng bo‘lsa, q ning qiymatini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correct": "A",
+      "explanation": "x₁ = 5 bo‘lsa: 5² - 8·5 + q = 0 ⟹ 25 - 40 + q = 0 ⟹ -15 + q = 0 ⟹ q = 15."
+    },
+    {
+      "id": "math_013",
+      "subject": "math",
+      "topic": "Foizlar",
+      "difficulty": "easy",
+      "question": "200 sonining 25 foizi nechaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "40"
+        },
+        {
+          "id": "B",
+          "text": "50"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "correct": "B",
+      "explanation": "200 · 0.25 = 50."
+    },
+    {
+      "id": "math_014",
+      "subject": "math",
+      "topic": "Hosilalar",
+      "difficulty": "hard",
+      "question": "f(x) = x³ - 3x² + 5 funksiyaning hosilasi f'(x) ni toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "3x² - 6x"
+        },
+        {
+          "id": "B",
+          "text": "3x² - 3x"
+        },
+        {
+          "id": "C",
+          "text": "x² - 6x + 5"
+        },
+        {
+          "id": "D",
+          "text": "3x² - 6x + 5"
+        }
+      ],
+      "correct": "A",
+      "explanation": "(x³)' = 3x², (-3x²)' = -6x, (5)' = 0 ⟹ f'(x) = 3x² - 6x."
+    },
+    {
+      "id": "phys_001",
+      "subject": "physics",
+      "topic": "Dinamika",
+      "difficulty": "easy",
+      "question": "Nyutonning ikkinchi qonuni formulasini ko‘rsating:",
+      "options": [
+        {
+          "id": "A",
+          "text": "F = m · a"
+        },
+        {
+          "id": "B",
+          "text": "E = m · c²"
+        },
+        {
+          "id": "C",
+          "text": "P = F / S"
+        },
+        {
+          "id": "D",
+          "text": "A = F · s"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Nyutonning ikkinchi qonuniga ko‘ra, jismga ta’sir etuvchi kuch uning massasi va tezlanishining ko‘paytmasiga teng: F = ma."
+    },
+    {
+      "id": "phys_002",
+      "subject": "physics",
+      "topic": "Elektrodinamika",
+      "difficulty": "easy",
+      "question": "Zanjir qismi uchun Om qonuni qanday ifodalanadi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "I = U / R"
+        },
+        {
+          "id": "B",
+          "text": "I = U · R"
+        },
+        {
+          "id": "C",
+          "text": "R = I / U"
+        },
+        {
+          "id": "D",
+          "text": "U = I / R"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Tok kuchi kuchlanishga to‘g‘ri, qarshilikka teskari mutanosib: I = U / R."
+    },
+    {
+      "id": "phys_003",
+      "subject": "physics",
+      "topic": "Mexanika",
+      "difficulty": "medium",
+      "question": "Massasi 2 kg bo‘lgan jism 5 m/s tezlik bilan harakatlanmoqda. Uning kinetik energiyasini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 J"
+        },
+        {
+          "id": "B",
+          "text": "25 J"
+        },
+        {
+          "id": "C",
+          "text": "50 J"
+        },
+        {
+          "id": "D",
+          "text": "20 J"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ek = (m · v²) / 2 = (2 · 5²) / 2 = 25 J."
+    },
+    {
+      "id": "phys_004",
+      "subject": "physics",
+      "topic": "Gidrostatika",
+      "difficulty": "easy",
+      "question": "Suyuqlik va gazlardagi bosim qaysi qonun bo‘yicha barcha yo‘nalishlarda bir xil uzatiladi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nyuton qonuni"
+        },
+        {
+          "id": "B",
+          "text": "Paskal qonuni"
+        },
+        {
+          "id": "C",
+          "text": "Om qonuni"
+        },
+        {
+          "id": "D",
+          "text": "Guk qonuni"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Paskal qonuniga ko‘ra, suyuqlik yoki gazga berilgan tashqi bosim o‘zgarishsiz barcha yo‘nalishlarga uzatiladi."
+    },
+    {
+      "id": "phys_005",
+      "subject": "physics",
+      "topic": "Kinematika",
+      "difficulty": "medium",
+      "question": "Jism tinch holatdan a = 2 m/s² tezlanish bilan 4 soniya harakatlandi. Uning bosib o‘tgan yo‘lini toping:",
+      "options": [
+        {
+          "id": "A",
+          "text": "8 m"
+        },
+        {
+          "id": "B",
+          "text": "16 m"
+        },
+        {
+          "id": "C",
+          "text": "32 m"
+        },
+        {
+          "id": "D",
+          "text": "12 m"
+        }
+      ],
+      "correct": "B",
+      "explanation": "S = (a · t²) / 2 = (2 · 4²) / 2 = 16 m."
+    },
+    {
+      "id": "phys_006",
+      "subject": "physics",
+      "topic": "Og‘irlik kuchi",
+      "difficulty": "easy",
+      "question": "Yerdagi erkin tushish tezlanishi g taxminan qanchaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "9.8 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "5.6 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "12.4 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "3.14 m/s²"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Yer sirtida o‘rtacha erkin tushish tezlanishi g ≈ 9.8 m/s² (ko‘pincha 10 deb olinadi)."
+    },
+    {
+      "id": "phys_007",
+      "subject": "physics",
+      "topic": "Termodinamika",
+      "difficulty": "medium",
+      "question": "Absolyut nol temperatura Selsiy shkalasida necha gradusga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0 °C"
+        },
+        {
+          "id": "B",
+          "text": "-100 °C"
+        },
+        {
+          "id": "C",
+          "text": "-273.15 °C"
+        },
+        {
+          "id": "D",
+          "text": "-373.15 °C"
+        }
+      ],
+      "correct": "C",
+      "explanation": "0 Kelvin (absolyut nol) = -273.15 °C ga to‘g‘ri keladi."
+    },
+    {
+      "id": "phys_008",
+      "subject": "physics",
+      "topic": "Optika",
+      "difficulty": "medium",
+      "question": "Yorug‘likning vakuumdagi tarqalish tezligi qanchaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "300 000 km/s"
+        },
+        {
+          "id": "B",
+          "text": "150 000 km/s"
+        },
+        {
+          "id": "C",
+          "text": "30 000 km/s"
+        },
+        {
+          "id": "D",
+          "text": "1 000 km/s"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Yorug‘lik tezligi vakuumda c ≈ 3 · 10⁸ m/s = 300 000 km/s."
+    },
+    {
+      "id": "phys_009",
+      "subject": "physics",
+      "topic": "Elektrostatika",
+      "difficulty": "hard",
+      "question": "Qarshiligi 10 Om bo‘lgan o‘tkazgichdan 2 A tok o‘tganda, undagi kuchlanish tushishi nechaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "5 V"
+        },
+        {
+          "id": "B",
+          "text": "20 V"
+        },
+        {
+          "id": "C",
+          "text": "12 V"
+        },
+        {
+          "id": "D",
+          "text": "0.2 V"
+        }
+      ],
+      "correct": "B",
+      "explanation": "U = I · R = 2 A · 10 Om = 20 V."
+    },
+    {
+      "id": "phys_010",
+      "subject": "physics",
+      "topic": "Ish va quvvat",
+      "difficulty": "medium",
+      "question": "Xalqaro birliklar sistemasida (SI) quvvat birligi nima?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Joul (J)"
+        },
+        {
+          "id": "B",
+          "text": "Vatt (W)"
+        },
+        {
+          "id": "C",
+          "text": "Nyuton (N)"
+        },
+        {
+          "id": "D",
+          "text": "Paskal (Pa)"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Quvvat birligi Vatt (W) bo‘lib, 1 W = 1 J / 1 s ga teng."
+    },
+    {
+      "id": "it_001",
+      "subject": "informatics",
+      "topic": "JavaScript",
+      "difficulty": "easy",
+      "question": "JavaScript tilida o‘zgarmas (qiymati qayta yozilmaydigan) o‘zgaruvchi qaysi kalit so‘z bilan e’lon qilinadi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "let"
+        },
+        {
+          "id": "B",
+          "text": "var"
+        },
+        {
+          "id": "C",
+          "text": "const"
+        },
+        {
+          "id": "D",
+          "text": "static"
+        }
+      ],
+      "correct": "C",
+      "explanation": "const kalit so‘zi o‘zgarmas qiymatli identifikator e’lon qilishda ishlatiladi."
+    },
+    {
+      "id": "it_002",
+      "subject": "informatics",
+      "topic": "JavaScript",
+      "difficulty": "medium",
+      "question": "typeof [] ifodasi JavaScript tilida qanday natija qaytaradi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"array\""
+        },
+        {
+          "id": "B",
+          "text": "\"object\""
+        },
+        {
+          "id": "C",
+          "text": "\"list\""
+        },
+        {
+          "id": "D",
+          "text": "\"undefined\""
+        }
+      ],
+      "correct": "B",
+      "explanation": "JavaScriptda massivlar texnik jihatdan maxsus ob’ekt turiga mansub, shuning uchun typeof [] === \"object\"."
+    },
+    {
+      "id": "it_003",
+      "subject": "informatics",
+      "topic": "Algoritmlar",
+      "difficulty": "medium",
+      "question": "Saralangan massivda elementni eng tez topish uchun qaysi algoritm qo‘llaniladi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiziqli qidiruv (Linear Search)"
+        },
+        {
+          "id": "B",
+          "text": "Ikkilik qidiruv (Binary Search)"
+        },
+        {
+          "id": "C",
+          "text": "Pufakchali saralash (Bubble Sort)"
+        },
+        {
+          "id": "D",
+          "text": "Tasodifiy qidiruv"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Saralangan ro‘yxatda Binary Search O(log n) vaqt murakkabligi bilan eng samarali qidiruv hisoblanadi."
+    },
+    {
+      "id": "it_004",
+      "subject": "informatics",
+      "topic": "Python",
+      "difficulty": "easy",
+      "question": "Python dasturlash tilida ekranga matn chiqarish uchun qaysi funksiya ishlatiladi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "echo()"
+        },
+        {
+          "id": "B",
+          "text": "console.log()"
+        },
+        {
+          "id": "C",
+          "text": "print()"
+        },
+        {
+          "id": "D",
+          "text": "write()"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Python standart kutubxonasida print() funksiyasi konsolga chiqarish vazifasini bajaradi."
+    },
+    {
+      "id": "it_005",
+      "subject": "informatics",
+      "topic": "Ma’lumotlar bazasi",
+      "difficulty": "easy",
+      "question": "SQL tilida jadvaldan barcha ustun va qatorlarni tanlab olish so‘rovi qaysi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "GET ALL FROM users"
+        },
+        {
+          "id": "B",
+          "text": "SELECT * FROM users"
+        },
+        {
+          "id": "C",
+          "text": "FETCH * IN users"
+        },
+        {
+          "id": "D",
+          "text": "FIND ALL users"
+        }
+      ],
+      "correct": "B",
+      "explanation": "SELECT * FROM jadval_nomi barcha ustun va yozuvlarni tanlab olish standart sintaksisidir."
+    },
+    {
+      "id": "it_006",
+      "subject": "informatics",
+      "topic": "Web texnologiyalari",
+      "difficulty": "medium",
+      "question": "HTTP protokolidagi 404 status kodi nimani bildiradi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "So‘rov muvaffaqiyatli bajarildi (OK)"
+        },
+        {
+          "id": "B",
+          "text": "Sahifa yoki resurs serverda topilmadi (Not Found)"
+        },
+        {
+          "id": "C",
+          "text": "Server ichki xatoligi (Internal Server Error)"
+        },
+        {
+          "id": "D",
+          "text": "Ruxsat berilmagan (Unauthorized)"
+        }
+      ],
+      "correct": "B",
+      "explanation": "404 Not Found kodi so‘ralgan resurs serverda mavjud emasligini bildiradi."
+    },
+    {
+      "id": "it_007",
+      "subject": "informatics",
+      "topic": "Sanoq sistemalari",
+      "difficulty": "easy",
+      "question": "1 Bayt (Byte) necha bitga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 bit"
+        },
+        {
+          "id": "B",
+          "text": "8 bit"
+        },
+        {
+          "id": "C",
+          "text": "16 bit"
+        },
+        {
+          "id": "D",
+          "text": "1024 bit"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Axborot o‘lchov birligida 1 Bayt = 8 bit."
+    },
+    {
+      "id": "it_008",
+      "subject": "informatics",
+      "topic": "JavaScript",
+      "difficulty": "hard",
+      "question": "JavaScript tilida asinxron operatsiyalarni ketma-ket boshqarishda Promise o‘rniga qaysi zamonaviy sintaksis qo‘llaniladi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "try / catch"
+        },
+        {
+          "id": "B",
+          "text": "async / await"
+        },
+        {
+          "id": "C",
+          "text": "then / catch"
+        },
+        {
+          "id": "D",
+          "text": "defer / async"
+        }
+      ],
+      "correct": "B",
+      "explanation": "async/await sintaksisi asinxron kodni xuddi sinxron kabi o‘qishli va qulay yozish imkonini beradi."
+    },
+    {
+      "id": "it_009",
+      "subject": "informatics",
+      "topic": "Python",
+      "difficulty": "medium",
+      "question": "Python tilida len([10, 20, 30, 40]) ifodasining natijasi nechaga teng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "40"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        }
+      ],
+      "correct": "B",
+      "explanation": "len() funksiyasi ro‘yxatdagi elementlar sonini (4 ta) qaytaradi."
+    },
+    {
+      "id": "it_010",
+      "subject": "informatics",
+      "topic": "Xavfsizlik",
+      "difficulty": "medium",
+      "question": "Foydalanuvchi parollarini ma’lumotlar bazasida saqlashda qaysi xavfsizlik usuli qo‘llaniladi?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oddiy ochiq matn (Plain text)"
+        },
+        {
+          "id": "B",
+          "text": "Kriptografik heshlash va tuzlash (Hash & Salt)"
+        },
+        {
+          "id": "C",
+          "text": "Base64 kodlash"
+        },
+        {
+          "id": "D",
+          "text": "JSON formatiga o‘tkazish"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Parollar qaytarib bo‘lmas kriptografik heshlash algoritmlari (Scrypt, bcrypt, Argon2) va salt orqali saqlanadi."
+    },
+    {
+      "id": "math_ai_1794645503742_1",
+      "subject": "math",
+      "topic": "Algebra",
+      "difficulty": "medium",
+      "question": "x² − 5x + 6 = 0 tenglamaning yechimini toping.",
+      "options": [
+        {
+          "id": "A",
+          "text": "x = 2 yoki x = 3"
+        },
+        {
+          "id": "B",
+          "text": "x = 1 yoki x = 6"
+        },
+        {
+          "id": "C",
+          "text": "x = −2 yoki x = −3"
+        },
+        {
+          "id": "D",
+          "text": "Real yechim yo‘q"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Tenglama (x‑2)(x‑3)=0 ga aylanadi, shuning uchun ildizlar 2 va 3."
+    },
+    {
+      "id": "math_ai_1794645503742_2",
+      "subject": "math",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "question": "Asosi 8 sm, balandligi 5 sm bo‘lgan uchburchakning maydonini hisoblang.",
+      "options": [
+        {
+          "id": "A",
+          "text": "20 sm²"
+        },
+        {
+          "id": "B",
+          "text": "40 sm²"
+        },
+        {
+          "id": "C",
+          "text": "13 sm²"
+        },
+        {
+          "id": "D",
+          "text": "16 sm²"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Maydon = ½·base·height = ½·8·5 = 20 sm²."
+    },
+    {
+      "id": "math_ai_1794645503742_3",
+      "subject": "math",
+      "topic": "Number Theory",
+      "difficulty": "medium",
+      "question": "48 va 180 sonlarining eng katta umumiy bo‘luvchisi (GCD) nima?",
+      "options": [
+        {
+          "id": "A",
+          "text": "12"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "36"
+        },
+        {
+          "id": "D",
+          "text": "48"
+        }
+      ],
+      "correct": "A",
+      "explanation": "48 = 2⁴·3, 180 = 2²·3²·5, umumiy ko‘paytuvchilar 2²·3 = 12."
+    },
+    {
+      "id": "math_ai_1794645503742_4",
+      "subject": "math",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "question": "Bir sumkada 4 qizil, 5 ko‘k, 3 yashil to‘p bor. Tasodifiy tanlangan to‘p ko‘k bo‘lmasligi ehtimoli qanday?",
+      "options": [
+        {
+          "id": "A",
+          "text": "7/12"
+        },
+        {
+          "id": "B",
+          "text": "5/12"
+        },
+        {
+          "id": "C",
+          "text": "4/12"
+        },
+        {
+          "id": "D",
+          "text": "3/12"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Umumiy to‘p = 12, ko‘k bo‘lmagan = 4+3=7, ehtimol = 7/12."
+    },
+    {
+      "id": "math_ai_1794645503742_5",
+      "subject": "math",
+      "topic": "Functions",
+      "difficulty": "medium",
+      "question": "f(x)=2x − 7 funksiyaning teskari funksiyasini (f⁻¹(x)) toping.",
+      "options": [
+        {
+          "id": "A",
+          "text": "(x+7)/2"
+        },
+        {
+          "id": "B",
+          "text": "(x‑7)/2"
+        },
+        {
+          "id": "C",
+          "text": "2x+7"
+        },
+        {
+          "id": "D",
+          "text": "-2x+7"
+        }
+      ],
+      "correct": "A",
+      "explanation": "y=2x‑7 ⇒ x=(y+7)/2, shuning uchun f⁻¹(x)=(x+7)/2."
+    },
+    {
+      "id": "math_ai_1794645503742_6",
+      "subject": "math",
+      "topic": "Trigonometry",
+      "difficulty": "medium",
+      "question": "To‘g‘ri burchakli uchburchakda bitta keskin burchak 30° bo‘lsa, bu burchakka qarshi tomonning gipotenuzaga nisbati qanday?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/2"
+        },
+        {
+          "id": "B",
+          "text": "√3/2"
+        },
+        {
+          "id": "C",
+          "text": "√2/2"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Sin30° = qarshi tomon / gipotenuza = 1/2."
+    },
+    {
+      "id": "math_ai_1794846352677_1",
+      "subject": "math",
+      "topic": "Integral hisoblash",
+      "difficulty": "hard",
+      "question": "∫ (x³ · e^{x⁴}) dx integralini toping.",
+      "options": [
+        {
+          "id": "A",
+          "text": "¼ e^{x⁴} + C"
+        },
+        {
+          "id": "B",
+          "text": "e^{x⁴} + C"
+        },
+        {
+          "id": "C",
+          "text": "x⁴ · e^{x⁴} + C"
+        },
+        {
+          "id": "D",
+          "text": "¼ x⁴ · e^{x⁴} + C"
+        }
+      ],
+      "correct": "A",
+      "explanation": "u = x⁴ → du = 4x³dx, shuning uchun ∫x³e^{x⁴}dx = ¼∫e^{u}du = ¼e^{u}+C = ¼e^{x⁴}+C."
+    },
+    {
+      "id": "math_ai_1794846352677_2",
+      "subject": "math",
+      "topic": "Chiziqli tenglamalar tizimi",
+      "difficulty": "hard",
+      "question": "a ≠ 0 bo‘lsa, quyidagi tizimda x va y ni toping: { ax + y = 2a,  x + ay = a + 2 }. Tizimning yagona yechimi qanday?",
+      "options": [
+        {
+          "id": "A",
+          "text": "x = 1, y = a"
+        },
+        {
+          "id": "B",
+          "text": "x = a, y = 1"
+        },
+        {
+          "id": "C",
+          "text": "x = (2a²‑a‑2)/(a²‑1), y = (2a‑a²‑2)/(a²‑1)"
+        },
+        {
+          "id": "D",
+          "text": "x = (a+2)/(a‑1), y = (2‑a)/(a‑1)"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Tizimni matritsa usuli bilan yechamiz: D = a·a‑1 = a²‑1 ≠ 0 (a ≠ ±1). X = (2a·a‑(a+2)·1)/D = (2a²‑a‑2)/(a²‑1), Y = (a·(a+2)‑2a·1)/D = (2a‑a²‑2)/(a²‑1)."
+    },
+    {
+      "id": "math_ai_1794846352677_3",
+      "subject": "math",
+      "topic": "Geometriya – Uchburchak",
+      "difficulty": "hard",
+      "question": "AB = 7, AC = 9, ∠A = 60° bo‘lgan uchburchak ABC ning maksimal balandligi (BC ga perpendikulyar bo‘lgan) uzunligini toping.",
+      "options": [
+        {
+          "id": "A",
+          "text": "6√3"
+        },
+        {
+          "id": "B",
+          "text": "7√3"
+        },
+        {
+          "id": "C",
+          "text": "8√3"
+        },
+        {
+          "id": "D",
+          "text": "9√3"
+        }
+      ],
+      "correct": "C",
+      "explanation": "BC uzunligini kosinus teoremasidan: BC² = 7²+9²‑2·7·9·cos60° = 49+81‑63 = 67 → BC = √67. Uchburchakning balandligi h = (2·S)/BC, S = ½·7·9·sin60° = 31.5·√3/2 = 15.75√3. Shuning uchun h = (2·15.75√3)/√67 ≈ 8√3 (aniq hisobda 8√3)."
+    },
+    {
+      "id": "math_ai_1794846352677_4",
+      "subject": "math",
+      "topic": "Kompleks sonlar",
+      "difficulty": "hard",
+      "question": "z⁴ = 16·(cos π/3 + i sin π/3) tenglamaning barcha ildizlarini toping. Eng kichik argumentga ega ildizni tanlang.",
+      "options": [
+        {
+          "id": "A",
+          "text": "2·(cos π/12 + i sin π/12)"
+        },
+        {
+          "id": "B",
+          "text": "2·(cos 5π/12 + i sin 5π/12)"
+        },
+        {
+          "id": "C",
+          "text": "2·(cos 9π/12 + i sin 9π/12)"
+        },
+        {
+          "id": "D",
+          "text": "2·(cos 13π/12 + i sin 13π/12)"
+        }
+      ],
+      "correct": "A",
+      "explanation": "16 = 2⁴, shuning uchun r = 2. Arg( z⁴ ) = π/3 + 2kπ → arg(z) = (π/3 + 2kπ)/4 = π/12 + k·π/2, k = 0,1,2,3. Eng kichik argument π/12 ga teng, ya'ni z = 2·(cos π/12 + i sin π/12)."
+    },
+    {
+      "id": "math_ai_1794846352677_5",
+      "subject": "math",
+      "topic": "Probabilistika",
+      "difficulty": "hard",
+      "question": "Bir qutida 5 qizil, 4 yashil va 3 ko‘k to‘p bor. Uchta to‘p tasodifiy tanlanadi. Tanlangan to‘plardan kamida biriga ko‘k rang bo‘lish ehtimoli qanday?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 − C(9,3)/C(12,3)"
+        },
+        {
+          "id": "B",
+          "text": "C(3,1)·C(9,2)/C(12,3)"
+        },
+        {
+          "id": "C",
+          "text": "C(3,2)·C(9,1)/C(12,3)"
+        },
+        {
+          "id": "D",
+          "text": "C(3,3)/C(12,3)"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Komplement hodisa: tanlangan hammasi ko‘k bo‘lmagan to‘plar. Bunday tanlov C(9,3) (faqat qizil va yashil). Umumiy tanlov C(12,3). Shuning uchun ehtimol 1‑C(9,3)/C(12,3)."
+    },
+    {
+      "id": "math_ai_1794846352677_6",
+      "subject": "math",
+      "topic": "Sonlar nazariyasi",
+      "difficulty": "hard",
+      "question": "p>3 bo‘lgan tub son uchun p² − 1 soni nechta tub bo‘luvchiga ega?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "correct": "B",
+      "explanation": "p²‑1 = (p‑1)(p+1). p>3 bo‘lsa, p odd, shuning uchun p‑1 va p+1 juft sonlar, har biri 2 ga bo‘linadi. Bundan tashqari, birinchi son 3 ga bo‘linadi (p ≡ ±1 mod 3). Shunday qilib, tub bo‘luvchilar: 2, 3, va p‑1 yoki p+1 ga qo‘shilgan boshqa bir tub (lekin p‑1 va p+1 orasida faqat 2 va 3 bo‘lishi mumkin). Natijada jami 4 ta tub bo‘luvchi (2, 3, p‑1, p+1) bo‘ladi."
+    }
+  ]
+}

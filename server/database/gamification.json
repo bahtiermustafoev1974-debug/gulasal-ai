@@ -1,0 +1,263 @@
+{
+  "users": {
+    "user_55f939f7-dee9-4267-9b4e-4a1780be36db": {
+      "userId": "user_55f939f7-dee9-4267-9b4e-4a1780be36db",
+      "name": "maruf",
+      "xp": 660,
+      "streak": 5,
+      "bestStreak": 7,
+      "lastActiveDate": "2026-11-14",
+      "level": 3,
+      "levelTitle": "Bilimdon",
+      "badges": [
+        "streak_starter",
+        "streak_3",
+        "sharp_mind",
+        "math_expert",
+        "speaking_pro",
+        "photo_pioneer"
+      ],
+      "stats": {
+        "questionsSolved": 36,
+        "perfectRounds": 3,
+        "lessonsCompleted": 2,
+        "photoMathUsed": 4,
+        "voiceMinutes": 17
+      }
+    },
+    "guest_demo_user": {
+      "userId": "guest_demo_user",
+      "name": "O‘quvchi",
+      "xp": 300,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 3,
+      "levelTitle": "Bilimdon",
+      "badges": [
+        "streak_starter",
+        "perfect_round",
+        "sharp_mind"
+      ],
+      "stats": {
+        "questionsSolved": 12,
+        "perfectRounds": 4,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "guest_general": {
+      "userId": "guest_general",
+      "name": "O‘quvchi",
+      "xp": 330,
+      "streak": 3,
+      "bestStreak": 3,
+      "lastActiveDate": "2026-11-16",
+      "level": 3,
+      "levelTitle": "Bilimdon",
+      "badges": [
+        "streak_starter",
+        "streak_3",
+        "math_expert"
+      ],
+      "stats": {
+        "questionsSolved": 6,
+        "perfectRounds": 0,
+        "lessonsCompleted": 1,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "google_109714818977347266867": {
+      "userId": "google_109714818977347266867",
+      "name": "maruf narimonov",
+      "xp": 360,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 3,
+      "levelTitle": "Bilimdon",
+      "badges": [
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 0,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "test_student_user": {
+      "userId": "test_student_user",
+      "name": "O‘quvchi",
+      "xp": 150,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 2,
+      "levelTitle": "Izlanuvchi",
+      "badges": [
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 0,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "google_115401282415026396030": {
+      "userId": "google_115401282415026396030",
+      "name": "Бахтиер Мустафоев",
+      "xp": 200,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 2,
+      "levelTitle": "Izlanuvchi",
+      "badges": [
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 0,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b": {
+      "userId": "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b",
+      "name": "Mehmon",
+      "xp": 50,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 1,
+      "levelTitle": "Boshlang‘ich",
+      "badges": [
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 0,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "test_friend_1": {
+      "userId": "test_friend_1",
+      "name": "Jasur Do'st",
+      "xp": 60,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 1,
+      "levelTitle": "Boshlang‘ich",
+      "badges": [
+        "perfect_round",
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 1,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "test_friend_2": {
+      "userId": "test_friend_2",
+      "name": "Malika Do'st",
+      "xp": 60,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 1,
+      "levelTitle": "Boshlang‘ich",
+      "badges": [
+        "perfect_round",
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 1,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    },
+    "test_friend_3": {
+      "userId": "test_friend_3",
+      "name": "Sardor Do'st",
+      "xp": 60,
+      "streak": 1,
+      "bestStreak": 1,
+      "lastActiveDate": "2026-11-14",
+      "level": 1,
+      "levelTitle": "Boshlang‘ich",
+      "badges": [
+        "perfect_round",
+        "streak_starter"
+      ],
+      "stats": {
+        "questionsSolved": 0,
+        "perfectRounds": 1,
+        "lessonsCompleted": 0,
+        "photoMathUsed": 0,
+        "voiceMinutes": 0
+      }
+    }
+  },
+  "mockLearners": [
+    {
+      "name": "Malika Karimova",
+      "xp": 950,
+      "streak": 14,
+      "level": 4,
+      "levelTitle": "Ekspert",
+      "badge": "👑 Olmos liga",
+      "avatar": "M"
+    },
+    {
+      "name": "Jasur Bekmirzayev",
+      "xp": 780,
+      "streak": 9,
+      "level": 4,
+      "levelTitle": "Ekspert",
+      "badge": "⚡ Oltin liga",
+      "avatar": "J"
+    },
+    {
+      "name": "Nilufar Azimova",
+      "xp": 620,
+      "streak": 6,
+      "level": 3,
+      "levelTitle": "Bilimdon",
+      "badge": "⭐ Oltin liga",
+      "avatar": "N"
+    },
+    {
+      "name": "Shahzod Saidov",
+      "xp": 450,
+      "streak": 4,
+      "level": 3,
+      "levelTitle": "Bilimdon",
+      "badge": "🛡️ Kumush liga",
+      "avatar": "S"
+    },
+    {
+      "name": "Dildora Qodirova",
+      "xp": 340,
+      "streak": 3,
+      "level": 2,
+      "levelTitle": "Izlanuvchi",
+      "badge": "🛡️ Kumush liga",
+      "avatar": "D"
+    }
+  ]
+}

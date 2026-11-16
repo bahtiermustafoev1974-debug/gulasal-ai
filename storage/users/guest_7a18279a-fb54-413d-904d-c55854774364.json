@@ -1,0 +1,26 @@
+{
+  "profile": null,
+  "history": [
+    {
+      "id": "bcd450a7-026d-437e-ac28-83e751228776",
+      "title": "2+2 nechchi bo'ladi?",
+      "messages": [
+        {
+          "role": "user",
+          "content": "2+2 nechchi bo'ladi?",
+          "imageUrl": null,
+          "timestamp": "2026-11-14T07:49:02.088Z"
+        },
+        {
+          "role": "assistant",
+          "content": "2 + 2 = 4.",
+          "timestamp": "2026-11-14T07:49:02.088Z"
+        }
+      ],
+      "createdAt": "2026-11-14T07:49:01.264Z",
+      "updatedAt": "2026-11-14T07:49:02.088Z"
+    }
+  ],
+  "createdAt": "2026-11-14T07:49:02.088Z",
+  "updatedAt": "2026-11-14T07:49:02.089Z"
+}

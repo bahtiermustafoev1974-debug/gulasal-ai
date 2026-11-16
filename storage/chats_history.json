@@ -1,0 +1,127 @@
+[
+  {
+    "user": "Kvadrat tenglama nima?",
+    "reply": "📐 **Kvadrat tenglama yechish qoidasi:**\n\nUmumiy ko'rinishi: **ax² + bx + c = 0**\n\n1. **Diskriminant formulasi:**\n   $$D = b^2 - 4ac$$\n\n2. **Ildizlarni topish:**\n   - Agar **D > 0** bo'lsa: 2 ta turli haqiqiy ildiz:\n     $$x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}$$\n   - Agar **D = 0** bo'lsa: 1 ta ildiz (yoki karrali ildiz):\n     $$x = -\\frac{b}{2a}$$\n   - Agar **D < 0** bo'lsa: Haqiqiy sonlar to'plamida ildiz yo'q (kompleks ildizlar mavjud).\n\n💡 *Masalan, agar $x^2 - 5x + 6 = 0$ bo'lsa:*\n$D = 25 - 24 = 1$\n$x_1 = (5+1)/2 = 3, \\quad x_2 = (5-1)/2 = 2$.",
+    "timestamp": "2026-11-10T11:53:51.750Z"
+  },
+  {
+    "user": "Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T11:55:43.065Z"
+  },
+  {
+    "user": "Kvadrat tenglama formulasini tushuntir",
+    "reply": "📐 **Kvadrat tenglama yechish qoidasi:**\n\nUmumiy ko'rinishi: **ax² + bx + c = 0**\n\n1. **Diskriminant formulasi:**\n   $$D = b^2 - 4ac$$\n\n2. **Ildizlarni topish:**\n   - Agar **D > 0** bo'lsa: 2 ta turli haqiqiy ildiz:\n     $$x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}$$\n   - Agar **D = 0** bo'lsa: 1 ta ildiz (yoki karrali ildiz):\n     $$x = -\\frac{b}{2a}$$\n   - Agar **D < 0** bo'lsa: Haqiqiy sonlar to'plamida ildiz yo'q (kompleks ildizlar mavjud).\n\n💡 *Masalan, agar $x^2 - 5x + 6 = 0$ bo'lsa:*\n$D = 25 - 24 = 1$\n$x_1 = (5+1)/2 = 3, \\quad x_2 = (5-1)/2 = 2$.",
+    "timestamp": "2026-11-10T11:55:44.498Z"
+  },
+  {
+    "user": "Python da sikllar (for, while) qanday ishlaydi?",
+    "reply": "💻 **Python dasturlash tili bo'yicha tavsiyalar:**\n\nPython yangi boshlovchilar va sun'iy intellekt muhandislari uchun eng qulay til hisoblanadi.\n\n**Asosiy sintaksis:**\n```python\n# Ro'yxat bilan ishlash va sikl\ntalabalari = [\"Madina\", \"Jasur\", \"Sardor\"]\n\nfor ism in talabalari:\n    print(f\"Salom, {ism}! Darsga xush kelibsiz.\")\n\n# Funksiya yaratish\ndef kvadrat(son):\n    return son ** 2\n\nprint(\"5 ning kvadrati:\", kvadrat(5))  # 25\n```\n\nAgar kodingizda xatolik bo'lsa yoki biror algoritm kerak bo'lsa, shartini yozing, birga tahlil qilamiz!",
+    "timestamp": "2026-11-10T11:55:46.420Z"
+  },
+  {
+    "user": "Nyutonning 2-qonunini misol bilan tushuntir",
+    "reply": "⚡ **Nyutonning dinamika qonunlari:**\n\n1. **1-qonun (Inersiya qonuni):** Agar jismga boshqa jismlar ta'sir etmasa, u tinch holatini yoki to'g'ri chiziqli tekis harakatini saqlaydi.\n2. **2-qonun (Asosiy qonun):** Jism olgan tezlanish unga ta'sir qiluvchi natijaviy kuchga to'g'ri mutanosib, massasiga teskari mutanosibdir:\n   $$\\vec{F} = m \\cdot \\vec{a}$$\n   *(Kuch = Massa × Tezlanish)*\n3. **3-qonun (Ta'sir va aks ta'sir):** Ikki jism bir-biriga modul jihatdan teng, yo'nalishi bo'yicha qarama-qarshi kuchlar bilan ta'sir qiladi:\n   $$\\vec{F}_1 = -\\vec{F}_2$$",
+    "timestamp": "2026-11-10T11:55:47.381Z"
+  },
+  {
+    "user": "Insho yozishda eng muhim qoidalar qaysilar?",
+    "reply": "📜 **Ona tili va Adabiyot bo'yicha qo'llanma:**\n\n- **Morfemika:** So'zning ma'noli qismlarini o'rganadi: **Asos (o'zak)** va **Qo'shimchalar** (so'z yasovchi, shakl yasovchi, munosabat shakllari).\n- **Alisher Navoiy:** (1441-1501) — o'zbek adabiy tilining asoschisi, \"Xamsa\" (Hayrat ul-abror, Farhod va Shirin, Layli va Majnun, Sab'ai sayyor, Saddi Iskandariy) muallifi.\n- **Insho yozish strukturasi:**\n  1. Kirish (Mavzuning dolzarbligi va g'oyasi)\n  2. Asosiy qism (Tezislar, dalillar, badiiy tahlil)\n  3. Xulosa (Shaxsiy fikr va xulosaviy xatboshi)",
+    "timestamp": "2026-11-10T11:55:49.098Z"
+  },
+  {
+    "user": "2+2",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"2+2\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T11:55:52.921Z"
+  },
+  {
+    "user": "2+2= ?",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"2+2= ?\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T11:56:14.320Z"
+  },
+  {
+    "user": "salom ustoz",
+    "reply": "👋 **Assalomu alaykum! Men Ustoz-AI ta'lim yordamchisiman.**\n\nMen sizga maktab, litsey va universitet fanlari bo'yicha yordam berishga tayyorman:\n\n- 📐 **Matematika:** Formulalar, tenglamalar, integrallar\n- ⚡ **Fizika:** Qonunlar, masalalar, formulalar\n- 💻 **IT va Dasturlash:** Python, JavaScript, algoritmlar\n- 🌍 **Ingliz tili:** IELTS, Grammar, Writing\n- 📜 **Ona tili va Adabiyot:** Qoidalar, insholar tahlili\n\nQaysi mavzudan boshlaymiz?",
+    "timestamp": "2026-11-10T11:56:29.144Z"
+  },
+  {
+    "user": "metematika buyicha yordam kk",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"metematika buyicha yordam kk\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T11:56:40.964Z"
+  },
+  {
+    "user": "Menga Ingliz tili (IELTS) fanining asosiy tushunchalari bo'yicha yordam ber.",
+    "reply": "🌍 **English Learning & IELTS Guide:**\n\n**Present Perfect vs Past Simple:**\n- *Past Simple:* Aniq o'tgan zamonda bo'lib o'tgan ish-harakat (e.g., *I visited Samarkand last year*).\n- *Present Perfect:* Hozirgi zamon bilan bog'liq natija (e.g., *I have finished my homework*).\n\n**IELTS Writing Task 2 maslahatlari:**\n1. Doimo 4-5 xatboshidan iborat qilib yozing (Introduction, Body 1, Body 2, Conclusion).\n2. Har bir asosiy fikr uchun aniq misol (example) keltiring.\n3. Bog'lovchi so'zlardan to'g'ri foydalaning: *Furthermore, Consequently, However, In contrast*.",
+    "timestamp": "2026-11-10T12:12:19.276Z"
+  },
+  {
+    "user": "Python da sikllar (for, while) qanday ishlaydi?",
+    "reply": "💻 **Python dasturlash tili bo'yicha tavsiyalar:**\n\nPython yangi boshlovchilar va sun'iy intellekt muhandislari uchun eng qulay til hisoblanadi.\n\n**Asosiy sintaksis:**\n```python\n# Ro'yxat bilan ishlash va sikl\ntalabalari = [\"Madina\", \"Jasur\", \"Sardor\"]\n\nfor ism in talabalari:\n    print(f\"Salom, {ism}! Darsga xush kelibsiz.\")\n\n# Funksiya yaratish\ndef kvadrat(son):\n    return son ** 2\n\nprint(\"5 ning kvadrati:\", kvadrat(5))  # 25\n```\n\nAgar kodingizda xatolik bo'lsa yoki biror algoritm kerak bo'lsa, shartini yozing, birga tahlil qilamiz!",
+    "timestamp": "2026-11-10T12:12:21.174Z"
+  },
+  {
+    "user": "Kvadrat tenglama formulasini tushuntir",
+    "reply": "📐 **Kvadrat tenglama yechish qoidasi:**\n\nUmumiy ko'rinishi: **ax² + bx + c = 0**\n\n1. **Diskriminant formulasi:**\n   $$D = b^2 - 4ac$$\n\n2. **Ildizlarni topish:**\n   - Agar **D > 0** bo'lsa: 2 ta turli haqiqiy ildiz:\n     $$x_{1,2} = \\frac{-b \\pm \\sqrt{D}}{2a}$$\n   - Agar **D = 0** bo'lsa: 1 ta ildiz (yoki karrali ildiz):\n     $$x = -\\frac{b}{2a}$$\n   - Agar **D < 0** bo'lsa: Haqiqiy sonlar to'plamida ildiz yo'q (kompleks ildizlar mavjud).\n\n💡 *Masalan, agar $x^2 - 5x + 6 = 0$ bo'lsa:*\n$D = 25 - 24 = 1$\n$x_1 = (5+1)/2 = 3, \\quad x_2 = (5-1)/2 = 2$.",
+    "timestamp": "2026-11-10T12:12:21.817Z"
+  },
+  {
+    "user": "Nyutonning 2-qonunini misol bilan tushuntir",
+    "reply": "⚡ **Nyutonning dinamika qonunlari:**\n\n1. **1-qonun (Inersiya qonuni):** Agar jismga boshqa jismlar ta'sir etmasa, u tinch holatini yoki to'g'ri chiziqli tekis harakatini saqlaydi.\n2. **2-qonun (Asosiy qonun):** Jism olgan tezlanish unga ta'sir qiluvchi natijaviy kuchga to'g'ri mutanosib, massasiga teskari mutanosibdir:\n   $$\\vec{F} = m \\cdot \\vec{a}$$\n   *(Kuch = Massa × Tezlanish)*\n3. **3-qonun (Ta'sir va aks ta'sir):** Ikki jism bir-biriga modul jihatdan teng, yo'nalishi bo'yicha qarama-qarshi kuchlar bilan ta'sir qiladi:\n   $$\\vec{F}_1 = -\\vec{F}_2$$",
+    "timestamp": "2026-11-10T12:12:22.602Z"
+  },
+  {
+    "user": "Insho yozishda eng muhim qoidalar qaysilar?",
+    "reply": "📜 **Ona tili va Adabiyot bo'yicha qo'llanma:**\n\n- **Morfemika:** So'zning ma'noli qismlarini o'rganadi: **Asos (o'zak)** va **Qo'shimchalar** (so'z yasovchi, shakl yasovchi, munosabat shakllari).\n- **Alisher Navoiy:** (1441-1501) — o'zbek adabiy tilining asoschisi, \"Xamsa\" (Hayrat ul-abror, Farhod va Shirin, Layli va Majnun, Sab'ai sayyor, Saddi Iskandariy) muallifi.\n- **Insho yozish strukturasi:**\n  1. Kirish (Mavzuning dolzarbligi va g'oyasi)\n  2. Asosiy qism (Tezislar, dalillar, badiiy tahlil)\n  3. Xulosa (Shaxsiy fikr va xulosaviy xatboshi)",
+    "timestamp": "2026-11-10T12:12:23.268Z"
+  },
+  {
+    "user": "Om qonuni formulasi va ma'nosi nima?",
+    "reply": "⚡ **Zanjir qismi uchun Om qonuni:**\n\n$$I = \\frac{U}{R}$$\n\n- **I** — tok kuchi (Amper, A)\n- **U** — kuchlanish (Volt, V)\n- **R** — elektr qarshiligi (Om, $\\Omega$)\n\n📌 **Xulosa:** Tok kuchi kuchlanishga to'g'ri, qarshilikka teskari mutanosibdir. Agar kuchlanish ortsa, tok ham ortadi!",
+    "timestamp": "2026-11-10T12:12:23.894Z"
+  },
+  {
+    "user": "Menga Ona tili va Adabiyot fanining asosiy tushunchalari bo'yicha yordam ber.",
+    "reply": "📜 **Ona tili va Adabiyot bo'yicha qo'llanma:**\n\n- **Morfemika:** So'zning ma'noli qismlarini o'rganadi: **Asos (o'zak)** va **Qo'shimchalar** (so'z yasovchi, shakl yasovchi, munosabat shakllari).\n- **Alisher Navoiy:** (1441-1501) — o'zbek adabiy tilining asoschisi, \"Xamsa\" (Hayrat ul-abror, Farhod va Shirin, Layli va Majnun, Sab'ai sayyor, Saddi Iskandariy) muallifi.\n- **Insho yozish strukturasi:**\n  1. Kirish (Mavzuning dolzarbligi va g'oyasi)\n  2. Asosiy qism (Tezislar, dalillar, badiiy tahlil)\n  3. Xulosa (Shaxsiy fikr va xulosaviy xatboshi)",
+    "timestamp": "2026-11-10T12:45:22.143Z"
+  },
+  {
+    "user": "salom",
+    "reply": "👋 **Assalomu alaykum! Men Ustoz-AI ta'lim yordamchisiman.**\n\nMen sizga maktab, litsey va universitet fanlari bo'yicha yordam berishga tayyorman:\n\n- 📐 **Matematika:** Formulalar, tenglamalar, integrallar\n- ⚡ **Fizika:** Qonunlar, masalalar, formulalar\n- 💻 **IT va Dasturlash:** Python, JavaScript, algoritmlar\n- 🌍 **Ingliz tili:** IELTS, Grammar, Writing\n- 📜 **Ona tili va Adabiyot:** Qoidalar, insholar tahlili\n\nQaysi mavzudan boshlaymiz?",
+    "timestamp": "2026-11-10T13:06:35.938Z"
+  },
+  {
+    "user": "salom",
+    "reply": "👋 **Assalomu alaykum! Men Ustoz-AI ta'lim yordamchisiman.**\n\nMen sizga maktab, litsey va universitet fanlari bo'yicha yordam berishga tayyorman:\n\n- 📐 **Matematika:** Formulalar, tenglamalar, integrallar\n- ⚡ **Fizika:** Qonunlar, masalalar, formulalar\n- 💻 **IT va Dasturlash:** Python, JavaScript, algoritmlar\n- 🌍 **Ingliz tili:** IELTS, Grammar, Writing\n- 📜 **Ona tili va Adabiyot:** Qoidalar, insholar tahlili\n\nQaysi mavzudan boshlaymiz?",
+    "timestamp": "2026-11-10T13:46:12.423Z"
+  },
+  {
+    "user": "Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"Menga Matematika fanining asosiy tushunchalari bo'yicha yordam ber.\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T16:48:09.662Z"
+  },
+  {
+    "user": "2+2 nechi",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"2+2 nechi\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T16:48:19.312Z"
+  },
+  {
+    "user": "salom",
+    "reply": "👋 **Assalomu alaykum! Men Ustoz-AI ta'lim yordamchisiman.**\n\nMen sizga maktab, litsey va universitet fanlari bo'yicha yordam berishga tayyorman:\n\n- 📐 **Matematika:** Formulalar, tenglamalar, integrallar\n- ⚡ **Fizika:** Qonunlar, masalalar, formulalar\n- 💻 **IT va Dasturlash:** Python, JavaScript, algoritmlar\n- 🌍 **Ingliz tili:** IELTS, Grammar, Writing\n- 📜 **Ona tili va Adabiyot:** Qoidalar, insholar tahlili\n\nQaysi mavzudan boshlaymiz?",
+    "timestamp": "2026-11-10T16:48:26.741Z"
+  },
+  {
+    "user": "sen kimsan",
+    "reply": "🎓 **Ustoz-AI Tahlili:**\n\nSizning savolingiz: *\"sen kimsan\"*\n\nUshbu mavzu bo'yicha asosiy tushunchalar:\n1. **Nazariy asos:** Ushbu savol maktab va oliy ta'lim dasturidagi muhim mavzulardan biridir.\n2. **Amaliy qo'llanishi:** Masalani yechishda avval berilgan parametrlar va formulalarni aniqlab olish tavsiya etiladi.\n3. **Tavsiya:** O'quv qo'llanmalari bo'limimizdan tegishli darslikni yuklab olib, mustaqil mashqlar bilan bilimlaringizni mustahkamlashingiz mumkin.\n\nAgar savolingizni aniqroq (masalan, misol yoki formula ko'rinishida) bersangiz, batafsil qadamma-qadam yechimini ko'rsatib beraman!",
+    "timestamp": "2026-11-10T16:48:33.570Z"
+  },
+  {
+    "user": "salom",
+    "reply": "Assalomu alaykum, sizga qanday fan yoki mavzu bo‘yicha yordam bera olishimni aytsangiz bo‘ladi?",
+    "timestamp": "2026-11-10T17:20:04.853Z"
+  },
+  {
+    "user": "menga 2+2 nechi buladi \\",
+    "reply": "2 + 2 = 4.",
+    "timestamp": "2026-11-10T17:20:17.162Z"
+  }
+]

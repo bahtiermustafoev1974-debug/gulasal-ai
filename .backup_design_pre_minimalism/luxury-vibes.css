@@ -1,0 +1,155 @@
+/* =========================================================
+   GULASAL AI — ULTRA-PREMIUM 3D TILT & NEON SPOTLIGHT GLOW
+   Apple / Linear Grade Specular Sheen • 60fps Physics • Mobile Light
+========================================================= */
+
+/* ---------------------------------------------------------
+   1. 3D GLASS CARDS SPOTLIGHT & NEON BORDER BEAM
+--------------------------------------------------------- */
+.auth-glass-card,
+.admin-stat-card,
+.admin-actions-card,
+.intro-feature-pill,
+.ga-suggestions button {
+  position: relative;
+  overflow: visible !important;
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+/* 1.1 NEON VIOLET-PINK BORDER REFLECTION (FOLLOWS MOUSE) */
+.auth-glass-card::before,
+.admin-stat-card::before,
+.admin-actions-card::before,
+.ga-suggestions button::before {
+  content: "";
+  position: absolute;
+  inset: -1.5px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: radial-gradient(
+    320px circle at var(--mouse-x, -200px) var(--mouse-y, -200px),
+    rgba(236, 141, 245, 0.95) 0%,
+    rgba(167, 139, 250, 0.85) 30%,
+    rgba(103, 213, 255, 0.45) 55%,
+    transparent 75%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 10;
+}
+
+/* 1.2 SPECULAR GLASS GLARE (LIGHT WASHING OVER SURFACE) */
+.auth-glass-card::after,
+.admin-stat-card::after,
+.admin-actions-card::after,
+.ga-suggestions button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    260px circle at var(--mouse-x, -200px) var(--mouse-y, -200px),
+    rgba(255, 255, 255, 0.14),
+    rgba(236, 141, 245, 0.06) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 4;
+}
+
+/* HOVER INTENSITY */
+.has-tilt-active::before {
+  opacity: 1;
+}
+
+.has-tilt-active::after {
+  opacity: 1;
+}
+
+.has-tilt-active {
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.7),
+    0 0 35px rgba(167, 139, 250, 0.32),
+    0 0 15px rgba(236, 141, 245, 0.25) !important;
+}
+
+/* Inner elements 3D parallax depth */
+.auth-glass-card.has-tilt-active .card-inner-glass,
+.admin-stat-card.has-tilt-active .admin-stat-icon-wrap,
+.ga-suggestions button.has-tilt-active span {
+  transform: translateZ(14px);
+  transition: transform 0.2s ease;
+}
+
+/* ---------------------------------------------------------
+   2. CHAT ACTIONS BAR (COPY)
+--------------------------------------------------------- */
+.ga-msg-actions-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ga-msg-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 11px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #b8b1cc;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ga-msg-action-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(167, 139, 250, 0.4);
+  color: #faf7ff;
+  transform: translateY(-1px);
+}
+
+/* ---------------------------------------------------------
+   4. MOBIL TELEFONLAR UCHUN MAXSUS YENGIL REJIM (NO LAG)
+--------------------------------------------------------- */
+@media (hover: none), (pointer: coarse) {
+  /* On touch screens: completely disable 3D rotate to prevent lag or scroll resistance */
+  .auth-glass-card,
+  .admin-stat-card,
+  .admin-actions-card,
+  .intro-feature-pill,
+  .ga-suggestions button {
+    transform: none !important;
+  }
+
+  .auth-glass-card::before,
+  .admin-stat-card::before,
+  .ga-suggestions button::before,
+  .auth-glass-card::after,
+  .admin-stat-card::after,
+  .ga-suggestions button::after {
+    display: none !important;
+  }
+
+  /* Smooth gentle tap feedback on touch */
+  .auth-glass-card:active,
+  .admin-stat-card:active,
+  .ga-suggestions button:active {
+    transform: scale(0.978) !important;
+    transition: transform 0.12s ease !important;
+  }
+}

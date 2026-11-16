@@ -1,0 +1,177 @@
+{
+  "users": {
+    "google_115401282415026396030": {
+      "goals": [
+        {
+          "id": "62e004ec-ce7d-488b-a87f-f14f7708c33c",
+          "title": "Oqishga kirish",
+          "description": "olga initish ",
+          "category": "education",
+          "deadline": "2026-11-11",
+          "completed": false,
+          "progress": 0,
+          "createdAt": "2026-11-11T11:37:16.907Z"
+        }
+      ],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-11T11:36:11.819Z",
+      "updatedAt": "2026-11-11T11:37:16.907Z"
+    },
+    "google_109714818977347266867": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-13T12:20:11.700Z",
+      "updatedAt": "2026-11-13T12:20:11.700Z"
+    },
+    "guest_7ecbf90e-99bc-45bb-82ff-38d301e302b0": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-13T19:08:13.466Z",
+      "updatedAt": "2026-11-13T19:08:13.466Z"
+    },
+    "guest_bbb8628c-1837-41d3-9d69-b122892eb4d5": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-13T19:19:13.378Z",
+      "updatedAt": "2026-11-13T19:19:13.378Z"
+    },
+    "guest_cce53c09-0d7d-4ff1-958b-9b79e83e8084": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-13T20:49:20.389Z",
+      "updatedAt": "2026-11-13T20:49:20.389Z"
+    },
+    "guest_5f73ebf6-f5a1-490e-b2ac-205506a5132f": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-13T20:55:00.951Z",
+      "updatedAt": "2026-11-13T20:55:00.951Z"
+    },
+    "guest_6c4decc7-3618-4c7c-a2b9-44625d15439e": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T07:47:36.229Z",
+      "updatedAt": "2026-11-14T07:47:36.229Z"
+    },
+    "guest_42b22b16-eaea-48ca-b4ff-bac1964a8f0b": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T09:34:49.968Z",
+      "updatedAt": "2026-11-14T09:34:49.968Z"
+    },
+    "guest_6142d452-2158-4ad5-a45a-ec9d29c19761": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T10:50:16.614Z",
+      "updatedAt": "2026-11-14T10:50:16.614Z"
+    },
+    "guest_28185be0-95c6-4da3-b33f-7b5ac4ad8318": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T13:08:46.623Z",
+      "updatedAt": "2026-11-14T13:08:46.623Z"
+    },
+    "guest_df6d9c63-2766-422b-8305-56131283c08d": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T13:11:53.375Z",
+      "updatedAt": "2026-11-14T13:11:53.375Z"
+    },
+    "guest_general": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T16:51:59.388Z",
+      "updatedAt": "2026-11-14T16:51:59.388Z"
+    },
+    "guest_69e0c046-6882-4cdb-8057-6e3f8911458e": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T03:56:46.326Z",
+      "updatedAt": "2026-11-14T03:56:46.326Z"
+    },
+    "guest_9d5b30ec-cabc-4dd6-8752-dc002c05aa97": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T04:04:26.386Z",
+      "updatedAt": "2026-11-14T04:04:26.386Z"
+    },
+    "guest_50c76818-8f6e-4bc4-9f74-34b074373ce6": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T04:14:06.517Z",
+      "updatedAt": "2026-11-14T04:14:06.517Z"
+    },
+    "guest_19128acc-371c-4177-8191-f9cd0a8608f8": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-14T04:34:24.866Z",
+      "updatedAt": "2026-11-14T04:34:24.866Z"
+    },
+    "guest_0886f920-d59d-4539-b358-6ef71c24181a": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-16T06:45:43.879Z",
+      "updatedAt": "2026-11-16T06:45:43.879Z"
+    },
+    "guest_0274e152-632e-4284-b95b-0a6acf4cbdd7": {
+      "goals": [],
+      "tasks": [],
+      "plans": [],
+      "achievements": [],
+      "focusSessions": [],
+      "createdAt": "2026-11-16T14:58:23.668Z",
+      "updatedAt": "2026-11-16T14:58:23.668Z"
+    }
+  }
+}

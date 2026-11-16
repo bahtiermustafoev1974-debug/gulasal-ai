@@ -1,0 +1,458 @@
+{
+  "conversations": {
+    "guest_6250dabb-96a5-4055-8d32-b150d2491865": {
+      "userId": "guest_6250dabb-96a5-4055-8d32-b150d2491865",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 1,
+      "lastMessage": "ℹ️ Administrator tomonidan PRO obunangiz to‘xtatildi. Savollar bo‘lsa, administr",
+      "lastMessageAt": "2026-11-14T10:04:09.544Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794650649507",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:04:09.507Z"
+        },
+        {
+          "id": "msg_1794650649520_231c6e",
+          "sender": "user",
+          "senderName": "Mehmon",
+          "text": "Assalomu alaykum, PRO uchun rahmat!",
+          "images": [],
+          "createdAt": "2026-11-14T10:04:09.520Z"
+        },
+        {
+          "id": "msg_adm_1794650649531_9af95a",
+          "sender": "admin",
+          "senderName": "maruf",
+          "adminEmail": "bahtiermustafoev1974@gmail.com",
+          "text": "Arzimaydi! Muvaffaqiyatlar tilaymiz!",
+          "images": [],
+          "createdAt": "2026-11-14T10:04:09.531Z"
+        },
+        {
+          "id": "msg_sys_1794650649543_db0c",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "ℹ️ Administrator tomonidan PRO obunangiz to‘xtatildi. Savollar bo‘lsa, administratorga ushbu chat orqali murojaat qilishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:04:09.544Z"
+        }
+      ]
+    },
+    "guest_07bc9da4-1008-4dac-90f2-0de206efed7d": {
+      "userId": "guest_07bc9da4-1008-4dac-90f2-0de206efed7d",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 1,
+      "lastMessage": "ℹ️ Administrator tomonidan PRO obunangiz to‘xtatildi. Savollar bo‘lsa, administr",
+      "lastMessageAt": "2026-11-14T10:07:37.603Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794650857566",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:07:37.566Z"
+        },
+        {
+          "id": "msg_1794650857577_06c616",
+          "sender": "user",
+          "senderName": "Mehmon",
+          "text": "Assalomu alaykum, PRO uchun rahmat!",
+          "images": [],
+          "createdAt": "2026-11-14T10:07:37.577Z"
+        },
+        {
+          "id": "msg_adm_1794650857590_dff3de",
+          "sender": "admin",
+          "senderName": "maruf",
+          "adminEmail": "bahtiermustafoev1974@gmail.com",
+          "text": "Arzimaydi! Muvaffaqiyatlar tilaymiz!",
+          "images": [],
+          "createdAt": "2026-11-14T10:07:37.590Z"
+        },
+        {
+          "id": "msg_sys_1794650857603_4fae",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "ℹ️ Administrator tomonidan PRO obunangiz to‘xtatildi. Savollar bo‘lsa, administratorga ushbu chat orqali murojaat qilishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:07:37.603Z"
+        }
+      ]
+    },
+    "google_109714818977347266867": {
+      "userId": "google_109714818977347266867",
+      "userName": "maruf narimonov",
+      "userEmail": "marufnarimonov1808@gmail.com",
+      "userAvatar": "https://lh3.googleusercontent.com/a/ACg8ocIGp02QfNQDHV5DIHetAOvz3-pN0I4Qf8c_gGKzBXWYusxrzaSv=s96-c",
+      "unreadByAdmin": 1,
+      "unreadByUser": 0,
+      "lastMessage": "Assalomu alaykum! Men hisobim uchun PRO obunasini olishni xohlayman.",
+      "lastMessageAt": "2026-11-16T12:57:25.312Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794650923483",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:08:43.483Z"
+        },
+        {
+          "id": "msg_1794651781164_f66e9a",
+          "sender": "user",
+          "senderName": "maruf narimonov",
+          "text": "Assalomu alaykum, administrator! Menda quyidagi savol bor edi:",
+          "images": [],
+          "createdAt": "2026-11-14T10:23:01.164Z"
+        },
+        {
+          "id": "msg_adm_1794651838156_d8f464",
+          "sender": "admin",
+          "senderName": "Бахтиер Мустафоев",
+          "adminEmail": "bahtiermustafoev1974@gmail.com",
+          "text": "huw qanday",
+          "images": [],
+          "createdAt": "2026-11-14T10:23:58.156Z"
+        },
+        {
+          "id": "msg_sys_1794651850685_cda2",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "ℹ️ Administrator tomonidan PRO obunangiz to‘xtatildi. Savollar bo‘lsa, administratorga ushbu chat orqali murojaat qilishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:24:10.685Z"
+        },
+        {
+          "id": "msg_1794652850472_b693a6",
+          "sender": "user",
+          "senderName": "maruf narimonov",
+          "text": "",
+          "images": [
+            "/uploads/9155f419-0549-4ea1-a669-90c6772d41b6.png"
+          ],
+          "createdAt": "2026-11-14T10:40:50.472Z"
+        },
+        {
+          "id": "msg_1794661780829_5fd8ce",
+          "sender": "user",
+          "senderName": "maruf narimonov",
+          "text": "menga obunani bor",
+          "images": [],
+          "createdAt": "2026-11-14T13:09:40.829Z"
+        },
+        {
+          "id": "msg_sys_1794661857418_eabe",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "🎉 Tabriklaymiz! Administrator sizning hisobingizga PRO obunasini sovg‘a qildi! Muddat: Cheksiz (Muddatsiz). Endi siz AI Chatda bir vaqtda bir nechta rasm yuklash va barcha premium imkoniyatlardan to‘liq foydalana olasiz.",
+          "images": [],
+          "createdAt": "2026-11-14T13:10:57.418Z"
+        },
+        {
+          "id": "msg_sys_1794811663798_e23f",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "🎉 Tabriklaymiz! Administrator sizning hisobingizga PRO obunasini sovg‘a qildi! Muddat: 7 kun. Endi siz AI Chatda bir vaqtda bir nechta rasm yuklash va barcha premium imkoniyatlardan to‘liq foydalana olasiz.",
+          "images": [],
+          "createdAt": "2026-11-16T06:47:43.806Z"
+        },
+        {
+          "id": "msg_sys_1794812034773_511c",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "ℹ️ Administrator tomonidan PRO obunangiz to‘xtatildi. Savollar bo‘lsa, administratorga ushbu chat orqali murojaat qilishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-16T06:53:54.773Z"
+        },
+        {
+          "id": "msg_1794833845311_3c9cd0",
+          "sender": "user",
+          "senderName": "maruf narimonov",
+          "text": "Assalomu alaykum! Men hisobim uchun PRO obunasini olishni xohlayman.",
+          "images": [],
+          "createdAt": "2026-11-16T12:57:25.312Z"
+        }
+      ]
+    },
+    "google_115401282415026396030": {
+      "userId": "google_115401282415026396030",
+      "userName": "Бахтиер Мустафоев",
+      "userEmail": "bahtiermustafoev1974@gmail.com",
+      "userAvatar": "https://lh3.googleusercontent.com/a-/ALV-UjUq05GLGtTMPSIUTEI7tyTckvk5zTafwrKdix8LcKfuUYdLqWiMxjyBOthc8C2NO3Ulu2dgbzvLXbIEkHQu046KDONikg3mja3H8rVuN5H6UZnSEzI41tWIlKVLt4pRPTQqpg4j6wsVxp4Vzw5F0e3QYeOxUxseEalbLZtAegqvvTgIes-_GS5qlE-U1wb_r8ivwL4C0KImobtK3gfcea9ydqT7EdIJjK27oYfPLJcD7juTdoTO1mehjZG53HG5zCuG2J8fN9YwgeEVOs-75JMJ7Wgd-3gDuwCM-02TsLNMURBaHMlzVTvqcpkrAAGhy70PHuHBP0EYdm-wcDGQnHp86jHWq18wgfnJP4-kE7beTo7tSCIsn6DgX9mZJPIBahIz_nurbZs73HSFhtapqHMf539d0wk3tPrlhGWeMEXUW6cXrKD0Mybe3m3WfbUfNnLmVsAWUZhevLA2lQ5Z4H98EfpIUA-1zRtJNzWYtUdbjo8ETbgshdkV8LX--ZCQCSz8T_-B-O-SCo6Qs32HE-qQCztZOzinCXXrTqb4tQF7UdKcMCv9chnyYrop3vdqUFJynn_Xn33sVEB9l_bJxTAI0OsFYjtFDwsoZKWkQ06B7IMuU4xcXWClTPXu1kxio7Ymw4zZvHuI4ItOCZN_Rd8aVC6W__K3d-eg35lT1j-rjauJ0iUuMHvF2Td-LeCIp3SOLev7rSVxUEf4gRymERNtY1Qze_XV20cxRTrxCLffPnHHTgxYb8NPqv29ST76YKamNErxM35rNiYETCmiGyj0qgAhSuy-WDzf4lSrDEHHJcLw-d8wKJKXjmsrf_NmiTsaT6ovigDF-RFAR9_fg7tH6Hl3XuZItbLOJE1OHZ6ucHKYUJHVXaKETv4WIYGikdgWrJ6mET2pJXkuBgoMqgvVC4lYA-ih9NDJ6bcwrkccWQ98ZvQuXZ-yEwYvqxuBI5CH5OucLra4AD-eplXffTvu84RlUO5dDqGgh-4RTHLYuR1EFCtR_lVNVEJJNuoykjSWEpMTVOyq41k0z6t9mShgWQaBGMEmiTytGcK1zS07w-wLZZ7y4m7Hhfc=s96-c",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Assalomu alaykum! Men hisobim uchun PRO obunasini olishni xohlayman.",
+      "lastMessageAt": "2026-11-14T10:23:38.061Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794651814738",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:23:34.738Z"
+        },
+        {
+          "id": "msg_1794651818061_47ffc5",
+          "sender": "user",
+          "senderName": "Бахтиер Мустафоев",
+          "text": "Assalomu alaykum! Men hisobim uchun PRO obunasini olishni xohlayman.",
+          "images": [],
+          "createdAt": "2026-11-14T10:23:38.061Z"
+        }
+      ]
+    },
+    "guest_6142d452-2158-4ad5-a45a-ec9d29c19761": {
+      "userId": "guest_6142d452-2158-4ad5-a45a-ec9d29c19761",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Pro",
+      "lastMessageAt": "2026-11-14T10:50:39.251Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794653435219",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T10:50:35.219Z"
+        },
+        {
+          "id": "msg_1794653439251_a73c5f",
+          "sender": "user",
+          "senderName": "Mehmon",
+          "text": "Pro",
+          "images": [],
+          "createdAt": "2026-11-14T10:50:39.251Z"
+        }
+      ]
+    },
+    "guest_df6d9c63-2766-422b-8305-56131283c08d": {
+      "userId": "guest_df6d9c63-2766-422b-8305-56131283c08d",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-14T13:12:09.787Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794661929787",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T13:12:09.787Z"
+        }
+      ]
+    },
+    "guest_demo_user": {
+      "userId": "guest_demo_user",
+      "userName": "Foydalanuvchi",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-14T16:23:09.025Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794673389025",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T16:23:09.025Z"
+        }
+      ]
+    },
+    "guest_271f8368-35a7-4f98-bbee-dfd0274352fa": {
+      "userId": "guest_271f8368-35a7-4f98-bbee-dfd0274352fa",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-14T16:48:08.825Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794674888825",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-14T16:48:08.825Z"
+        }
+      ]
+    },
+    "guest_babb6c6d-2228-450e-a718-f8d400b7c71d": {
+      "userId": "guest_babb6c6d-2228-450e-a718-f8d400b7c71d",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-16T06:32:13.110Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794810733110",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-16T06:32:13.118Z"
+        }
+      ]
+    },
+    "guest_89b4852c-1cd6-4d24-919d-5d08d78ca25c": {
+      "userId": "guest_89b4852c-1cd6-4d24-919d-5d08d78ca25c",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-16T06:34:43.019Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794810883019",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-16T06:34:43.019Z"
+        }
+      ]
+    },
+    "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7": {
+      "userId": "guest_d749193c-3b2d-4570-9268-1c9e32c6cba7",
+      "userName": "Foydalanuvchi",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-16T11:18:03.292Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794827883292",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-16T11:18:03.292Z"
+        }
+      ]
+    },
+    "test_user_01": {
+      "userId": "test_user_01",
+      "userName": "Foydalanuvchi",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 2,
+      "lastMessage": "✅ To‘lovingiz muvaffaqiyatli tasdiqlandi!\n🎉 Sizga 1 oylik PRO faollashtirildi! ",
+      "lastMessageAt": "2026-11-16T12:17:56.717Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794831476701",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-16T12:17:56.701Z"
+        },
+        {
+          "id": "msg_sys_1794831476715_4297",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "🎉 Tabriklaymiz! Administrator sizning hisobingizga PRO obunasini sovg‘a qildi! Muddat: 30 kun. Endi siz AI Chatda bir vaqtda bir nechta rasm yuklash va barcha premium imkoniyatlardan to‘liq foydalana olasiz.",
+          "images": [],
+          "createdAt": "2026-11-16T12:17:56.715Z"
+        },
+        {
+          "id": "msg_sys_1794831476717_8a98",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "✅ To‘lovingiz muvaffaqiyatli tasdiqlandi!\n🎉 Sizga 1 oylik PRO faollashtirildi! Barcha premium AI imkoniyatlari to‘liq ochildi. Gulasal AI dan foydalanganingiz uchun tashakkur!",
+          "images": [],
+          "createdAt": "2026-11-16T12:17:56.717Z"
+        }
+      ]
+    },
+    "test_user_02": {
+      "userId": "test_user_02",
+      "userName": "Foydalanuvchi",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 3,
+      "messages": [
+        {
+          "id": "msg_sys_1794831531165_24fa",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "💳 To‘lov arizangiz qabul qilindi!\nTarif: 3 oylik PRO (Tejamkor) (69 000 so‘m).\nKarta: 9860 1606 3566 3802 (BAXTIYOR M.).\nAdministrator chekni tekshirgach (5-15 daqiqa), PRO obuna avtomatik faollashadi.",
+          "images": [],
+          "createdAt": "2026-11-16T12:18:51.168Z"
+        },
+        {
+          "id": "msg_sys_1794831531181_0c5d",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "🎉 Tabriklaymiz! Administrator sizning hisobingizga PRO obunasini sovg‘a qildi! Muddat: 90 kun. Endi siz AI Chatda bir vaqtda bir nechta rasm yuklash va barcha premium imkoniyatlardan to‘liq foydalana olasiz.",
+          "images": [],
+          "createdAt": "2026-11-16T12:18:51.181Z"
+        },
+        {
+          "id": "msg_sys_1794831531183_3a8f",
+          "sender": "system",
+          "senderName": "Gulasal AI Tizimi",
+          "text": "✅ To‘lovingiz muvaffaqiyatli tasdiqlandi!\n🎉 Sizga 3 oylik PRO (Tejamkor) faollashtirildi! Barcha premium AI imkoniyatlari to‘liq ochildi. Gulasal AI dan foydalanganingiz uchun tashakkur!",
+          "images": [],
+          "createdAt": "2026-11-16T12:18:51.183Z"
+        }
+      ],
+      "createdAt": "2026-11-16T12:18:51.165Z",
+      "lastMessage": "✅ To‘lovingiz muvaffaqiyatli tasdiqlandi!\n🎉 Sizga 3 oylik PRO (Tejamkor) faolla",
+      "lastMessageAt": "2026-11-16T12:18:51.183Z"
+    },
+    "guest_e03ab6a0-75d1-4779-b152-61f554a881e1": {
+      "userId": "guest_e03ab6a0-75d1-4779-b152-61f554a881e1",
+      "userName": "Mehmon",
+      "userEmail": "",
+      "userAvatar": "",
+      "unreadByAdmin": 0,
+      "unreadByUser": 0,
+      "lastMessage": "Suhbat ochildi",
+      "lastMessageAt": "2026-11-16T15:33:27.817Z",
+      "messages": [
+        {
+          "id": "msg_welcome_1794843207817",
+          "sender": "admin",
+          "senderName": "Gulasal AI Ma’muriyati",
+          "text": "Assalomu alaykum! Administrator bilan bevosita bog‘lanish chatiga xush kelibsiz. Savollaringiz, takliflaringiz yoki PRO obunasi bo‘yicha murojaatingizni yozib qoldirishingiz mumkin. Rasm yoki screenshot ham biriktirishingiz mumkin.",
+          "images": [],
+          "createdAt": "2026-11-16T15:33:27.817Z"
+        }
+      ]
+    }
+  }
+}

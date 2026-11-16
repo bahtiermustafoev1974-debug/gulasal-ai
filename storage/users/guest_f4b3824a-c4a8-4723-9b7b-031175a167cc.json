@@ -1,0 +1,26 @@
+{
+  "profile": null,
+  "history": [
+    {
+      "id": "e6cc7018-b659-4516-871c-927514627350",
+      "title": "Salom, qalaysan? Qisqa javob ber.",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Salom, qalaysan? Qisqa javob ber.",
+          "imageUrl": null,
+          "timestamp": "2026-11-14T03:57:01.571Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Salom, yaxshi, rahmat. Sizni qanday yordam bera olaman?",
+          "timestamp": "2026-11-14T03:57:01.571Z"
+        }
+      ],
+      "createdAt": "2026-11-14T03:57:00.481Z",
+      "updatedAt": "2026-11-14T03:57:01.571Z"
+    }
+  ],
+  "createdAt": "2026-11-14T03:57:01.571Z",
+  "updatedAt": "2026-11-14T03:57:01.571Z"
+}
