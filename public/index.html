@@ -969,7 +969,7 @@
             error_callback: (err) => {
               console.error('[GOOGLE OAUTH ERROR]', err);
               setGoogleButtonLoading(false);
-              showAuthMessage('Google xizmati bilan ulanishda xatolik yuz berdi: ' + (err.message || err.type || ''), true);
+              showAuthMessage('Google bilan ulanishda cheklov bo‘ldi. Iltimos, pastdagi Email va Parol formasi orqali kiring.', true);
               const fallbackContainer = document.getElementById('google-fallback-container');
               if (fallbackContainer) fallbackContainer.style.display = 'flex';
             }

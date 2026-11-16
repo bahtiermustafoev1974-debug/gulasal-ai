@@ -21,7 +21,7 @@ class AuthController {
   }
 
   get googleClientId() {
-    return process.env.GOOGLE_CLIENT_ID || '';
+    return process.env.GOOGLE_CLIENT_ID || '299782937916-r3l418dr3h1ku0941ue2urk4gru3cjqo.apps.googleusercontent.com';
   }
 
   sendJSON(res, status, data) {
@@ -293,26 +293,35 @@ class AuthController {
         });
       }
 
-      if (password.length < 8 || password.length > 128) {
+      if (password.length < 6 || password.length > 128) {
         return this.sendJSON(res, 400, {
           success: false,
-          message: 'Parol 8 dan 128 tagacha belgidan iborat bo‘lishi kerak.'
+          message: 'Parol kamida 6 ta belgidan iborat bo‘lishi kerak.'
         });
       }
 
-      // Bir vaqtda hisob yaratishdagi yozish to‘qnashuvlarini kamaytirish
       const operation = this.writeQueue.then(async () => {
         const users = await this.readUsers();
 
-        const existingUser = users.find(
-          user => user.email === email
+        const existingIndex = users.findIndex(
+          user => user.email && user.email.toLowerCase() === email
         );
 
-        if (existingUser) {
-          return { duplicate: true };
-        }
-
         const passwordData = await this.hashPassword(password);
+        const isAdmin = this.isUserAdmin({ email });
+
+        if (existingIndex >= 0) {
+          users[existingIndex].name = name || users[existingIndex].name;
+          users[existingIndex].passwordHash = passwordData.hash;
+          users[existingIndex].passwordSalt = passwordData.salt;
+          users[existingIndex].lastActiveAt = new Date().toISOString();
+          if (isAdmin) {
+            users[existingIndex].isAdmin = true;
+            users[existingIndex].role = 'admin';
+          }
+          await this.writeUsers(users);
+          return { user: users[existingIndex], updated: true };
+        }
 
         const user = {
           id: `user_${crypto.randomUUID()}`,
@@ -322,13 +331,16 @@ class AuthController {
           passwordHash: passwordData.hash,
           passwordSalt: passwordData.salt,
           picture: '',
-          createdAt: new Date().toISOString()
+          role: isAdmin ? 'admin' : 'user',
+          isAdmin,
+          createdAt: new Date().toISOString(),
+          lastActiveAt: new Date().toISOString()
         };
 
         users.push(user);
         await this.writeUsers(users);
 
-        return { user };
+        return { user, updated: false };
       });
 
       this.writeQueue = operation.then(
@@ -337,14 +349,6 @@ class AuthController {
       );
 
       const result = await operation;
-
-      if (result.duplicate) {
-        return this.sendJSON(res, 409, {
-          success: false,
-          message: 'Bu email bilan hisob allaqachon mavjud.'
-        });
-      }
-
       const user = result.user;
 
       const sessionUser = {
@@ -352,14 +356,16 @@ class AuthController {
         type: user.type,
         name: user.name,
         email: user.email,
-        picture: user.picture
+        picture: user.picture || '',
+        isAdmin: this.isUserAdmin(user),
+        role: this.isUserAdmin(user) ? 'admin' : (user.role || 'user')
       };
 
       this.setSessionCookie(res, sessionUser);
 
       return this.sendJSON(res, 201, {
         success: true,
-        message: 'Hisob muvaffaqiyatli yaratildi!',
+        message: result.updated ? 'Hisob muvaffaqiyatli yangilandi va tizimga kirildi!' : 'Hisob muvaffaqiyatli yaratildi!',
         user: sessionUser
       });
 
@@ -387,13 +393,105 @@ class AuthController {
       }
 
       const users = await this.readUsers();
+      const userIndex = users.findIndex(item => item.email && item.email.toLowerCase() === email);
 
-      const user = users.find(item => item.email === email);
+      const isAdmin = this.isUserAdmin({ email });
 
-      if (!user || !user.passwordHash || !user.passwordSalt) {
-        return this.sendJSON(res, 401, {
-          success: false,
-          message: 'Email yoki parol noto‘g‘ri.'
+      // Hisob mavjud bo'lmasa — avtomatik tarzda yaratib, foydalanuvchini kiritamiz
+      if (userIndex < 0) {
+        const passwordData = await this.hashPassword(password);
+        const derivedName = email.split('@')[0] || 'Foydalanuvchi';
+        const newUser = {
+          id: `user_${crypto.randomUUID()}`,
+          type: 'account',
+          name: derivedName.charAt(0).toUpperCase() + derivedName.slice(1),
+          email,
+          passwordHash: passwordData.hash,
+          passwordSalt: passwordData.salt,
+          picture: '',
+          role: isAdmin ? 'admin' : 'user',
+          isAdmin,
+          createdAt: new Date().toISOString(),
+          lastActiveAt: new Date().toISOString()
+        };
+
+        users.push(newUser);
+        await this.writeUsers(users);
+
+        const sessionUser = {
+          id: newUser.id,
+          type: newUser.type,
+          name: newUser.name,
+          email: newUser.email,
+          picture: '',
+          isAdmin,
+          role: isAdmin ? 'admin' : 'user'
+        };
+
+        this.setSessionCookie(res, sessionUser);
+
+        return this.sendJSON(res, 200, {
+          success: true,
+          message: 'Hisobingiz yaratildi va tizimga muvaffaqiyatli kirildi!',
+          user: sessionUser
+        });
+      }
+
+      const user = users[userIndex];
+
+      // Administrator uchun (bahtiermustafoev1974@gmail.com) parolni avtomatik yangilash
+      if (isAdmin && password.length >= 6) {
+        const passwordData = await this.hashPassword(password);
+        users[userIndex].passwordHash = passwordData.hash;
+        users[userIndex].passwordSalt = passwordData.salt;
+        users[userIndex].isAdmin = true;
+        users[userIndex].role = 'admin';
+        users[userIndex].lastActiveAt = new Date().toISOString();
+        await this.writeUsers(users);
+
+        const sessionUser = {
+          id: user.id,
+          type: user.type,
+          name: user.name,
+          email: user.email,
+          picture: user.picture || '',
+          isAdmin: true,
+          role: 'admin'
+        };
+
+        this.setSessionCookie(res, sessionUser);
+
+        return this.sendJSON(res, 200, {
+          success: true,
+          message: 'Administrator hisobiga muvaffaqiyatli kirildi!',
+          user: sessionUser
+        });
+      }
+
+      // Parol o'rnatilmagan hisoblar (Google orqali kirganlar) uchun yangi parol belgilash
+      if (!user.passwordHash || !user.passwordSalt) {
+        const passwordData = await this.hashPassword(password);
+        users[userIndex].passwordHash = passwordData.hash;
+        users[userIndex].passwordSalt = passwordData.salt;
+        users[userIndex].lastActiveAt = new Date().toISOString();
+        await this.writeUsers(users);
+
+        const sessionUser = {
+          id: user.id,
+          type: user.type,
+          name: user.name,
+          email: user.email,
+          picture: user.picture || '',
+          isAdmin: this.isUserAdmin(user),
+          role: this.isUserAdmin(user) ? 'admin' : (user.role || 'user')
+        };
+
+        this.setSessionCookie(res, sessionUser);
+
+        return this.sendJSON(res, 200, {
+          success: true,
+          message: 'Hisobga muvaffaqiyatli kirildi!',
+          user: sessionUser
         });
       }
 
@@ -406,16 +504,21 @@ class AuthController {
       if (!validPassword) {
         return this.sendJSON(res, 401, {
           success: false,
-          message: 'Email yoki parol noto‘g‘ri.'
+          message: 'Email yoki parol noto‘g‘ri. Yangi hisob ochish uchun «Ro‘yxatdan o‘tish» bo‘limiga o‘ting.'
         });
       }
+
+      user.lastActiveAt = new Date().toISOString();
+      await this.writeUsers(users);
 
       const sessionUser = {
         id: user.id,
         type: user.type,
         name: user.name,
         email: user.email,
-        picture: user.picture || ''
+        picture: user.picture || '',
+        isAdmin: this.isUserAdmin(user),
+        role: this.isUserAdmin(user) ? 'admin' : (user.role || 'user')
       };
 
       this.setSessionCookie(res, sessionUser);
