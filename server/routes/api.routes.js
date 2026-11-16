@@ -42,6 +42,11 @@ class ApiRouter {
         return await authController.google(req, res, await parseBody(req));
       }
 
+      if (pathname === '/api/auth/google/callback' && (req.method === 'POST' || req.method === 'GET')) {
+        const body = req.method === 'POST' ? await parseBody(req) : {};
+        return await authController.googleCallback(req, res, body);
+      }
+
       if (pathname === '/api/auth/config' && req.method === 'GET') {
         return authController.getAuthConfig(req, res);
       }

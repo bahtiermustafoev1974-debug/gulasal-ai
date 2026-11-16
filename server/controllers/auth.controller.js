@@ -569,134 +569,155 @@ class AuthController {
     }
   }
 
-  // GOOGLE LOGIN (Universal: Supports ID Token, OAuth2 Access Token, and Verified Direct Google Auth)
+  // VERIFY GOOGLE TOKEN (Supports JWT ID Token & OAuth2 Access Token)
+  async verifyGoogleToken(token) {
+    if (!token || typeof token !== 'string') {
+      throw new Error('Google token taqdim etilmadi.');
+    }
+
+    const isIdToken = token.split('.').length === 3;
+
+    if (isIdToken) {
+      // 1. Google ID Token (JWT) verification via official Google endpoint
+      const response = await fetch(
+        `https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(token)}`
+      );
+
+      if (!response.ok) {
+        const errText = await response.text().catch(() => '');
+        console.warn('[GOOGLE ID_TOKEN FAIL]', response.status, errText);
+        throw new Error('Google token tekshiruvidan o‘tmadi.');
+      }
+
+      const data = await response.json();
+
+      const matchedAud = !this.googleClientId ||
+        data.aud === this.googleClientId ||
+        data.azp === this.googleClientId;
+
+      if (!matchedAud) {
+        console.warn('[GOOGLE CLIENT_ID MISMATCH]', {
+          tokenAud: data.aud,
+          tokenAzp: data.azp,
+          expected: this.googleClientId
+        });
+        throw new Error('Google Client ID mos kelmadi.');
+      }
+
+      if (
+        ![
+          'accounts.google.com',
+          'https://accounts.google.com'
+        ].includes(data.iss) ||
+        Number(data.exp) <= Math.floor(Date.now() / 1000) ||
+        String(data.email_verified) !== 'true' ||
+        !data.sub
+      ) {
+        throw new Error('Google hisobini tasdiqlab bo‘lmadi.');
+      }
+
+      return {
+        sub: data.sub,
+        name: data.name || '',
+        email: String(data.email || '').toLowerCase().trim(),
+        picture: data.picture || ''
+      };
+    } else {
+      // 2. Google OAuth2 Access Token verification
+      const verifyRes = await fetch(
+        `https://oauth2.googleapis.com/tokeninfo?access_token=${encodeURIComponent(token)}`
+      );
+
+      if (!verifyRes.ok) {
+        const errText = await verifyRes.text().catch(() => '');
+        console.warn('[GOOGLE ACCESS_TOKEN FAIL]', verifyRes.status, errText);
+        throw new Error('Google access token tekshiruvidan o‘tmadi.');
+      }
+
+      const tokenInfo = await verifyRes.json();
+      const matchedAud = !this.googleClientId ||
+        tokenInfo.aud === this.googleClientId ||
+        tokenInfo.azp === this.googleClientId;
+
+      if (!matchedAud) {
+        console.warn('[GOOGLE CLIENT_ID MISMATCH]', {
+          tokenAud: tokenInfo.aud,
+          tokenAzp: tokenInfo.azp,
+          expected: this.googleClientId
+        });
+        throw new Error('Google Client ID mos kelmadi.');
+      }
+
+      // Fetch user profile from Google UserInfo endpoint
+      const userinfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+
+      if (!userinfoRes.ok) {
+        throw new Error('Google foydalanuvchi ma’lumotlarini olib bo‘lmadi.');
+      }
+
+      const userInfo = await userinfoRes.json();
+
+      return {
+        sub: userInfo.sub || tokenInfo.sub,
+        name: userInfo.name || '',
+        email: String(userInfo.email || tokenInfo.email || '').toLowerCase().trim(),
+        picture: userInfo.picture || ''
+      };
+    }
+  }
+
+  // SAVE OR UPDATE GOOGLE USER IN DATABASE
+  async saveOrUpdateGoogleUser(user) {
+    const users = await this.readUsers();
+    const existingIdx = users.findIndex(
+      u => u.id === user.id || (u.email && u.email.toLowerCase() === user.email.toLowerCase())
+    );
+    const now = new Date().toISOString();
+
+    if (existingIdx >= 0) {
+      users[existingIdx].id = user.id;
+      users[existingIdx].name = user.name || users[existingIdx].name;
+      users[existingIdx].picture = user.picture || users[existingIdx].picture;
+      users[existingIdx].lastActiveAt = now;
+      users[existingIdx].type = 'google';
+      if (user.isAdmin) {
+        users[existingIdx].isAdmin = true;
+        users[existingIdx].role = 'admin';
+      }
+    } else {
+      users.push({
+        id: user.id,
+        type: 'google',
+        name: user.name,
+        email: user.email,
+        picture: user.picture,
+        role: user.isAdmin ? 'admin' : 'user',
+        isAdmin: user.isAdmin,
+        createdAt: now,
+        lastActiveAt: now
+      });
+    }
+
+    await this.writeUsers(users);
+  }
+
+  // GOOGLE LOGIN (AJAX / Popup Flow: POST /api/auth/google)
   async google(req, res, body = {}) {
     try {
       const token = body.credential || body.token || body.access_token;
-      const googleEmail = typeof body.googleEmail === 'string' ? body.googleEmail.trim().toLowerCase() : '';
 
-      let profile = null;
-
-      if (token && typeof token === 'string') {
-        const isIdToken = token.split('.').length === 3;
-
-        if (isIdToken) {
-          const response = await fetch(
-            `https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(token)}`
-          );
-
-          if (!response.ok) {
-            const errText = await response.text().catch(() => '');
-            console.warn('[GOOGLE ID_TOKEN FAIL]', response.status, errText);
-            return this.sendJSON(res, 401, {
-              success: false,
-              message: 'Google token tekshiruvidan o‘tmadi.'
-            });
-          }
-
-          const data = await response.json();
-          const matchedAud = !this.googleClientId ||
-            data.aud === this.googleClientId ||
-            data.azp === this.googleClientId ||
-            (data.aud && data.aud.endsWith('.apps.googleusercontent.com'));
-
-          if (
-            !matchedAud ||
-            ![
-              'accounts.google.com',
-              'https://accounts.google.com'
-            ].includes(data.iss) ||
-            Number(data.exp) <= Math.floor(Date.now() / 1000) ||
-            String(data.email_verified) !== 'true' ||
-            !data.sub
-          ) {
-            return this.sendJSON(res, 401, {
-              success: false,
-              message: 'Google hisobini tasdiqlab bo‘lmadi.'
-            });
-          }
-
-          profile = {
-            sub: data.sub,
-            name: data.name || '',
-            email: (data.email || '').toLowerCase(),
-            picture: data.picture || ''
-          };
-        } else {
-          // Access token flow (from google.accounts.oauth2.initTokenClient)
-          const verifyRes = await fetch(
-            `https://oauth2.googleapis.com/tokeninfo?access_token=${encodeURIComponent(token)}`
-          );
-
-          if (!verifyRes.ok) {
-            const errText = await verifyRes.text().catch(() => '');
-            console.warn('[GOOGLE ACCESS_TOKEN FAIL]', verifyRes.status, errText);
-            return this.sendJSON(res, 401, {
-              success: false,
-              message: 'Google access token tekshiruvidan o‘tmadi.'
-            });
-          }
-
-          const tokenInfo = await verifyRes.json();
-          const matchedAud = !this.googleClientId ||
-            tokenInfo.aud === this.googleClientId ||
-            tokenInfo.azp === this.googleClientId ||
-            (tokenInfo.aud && tokenInfo.aud.endsWith('.apps.googleusercontent.com'));
-
-          if (!matchedAud) {
-            console.warn('[GOOGLE CLIENT_ID MISMATCH]', {
-              tokenAud: tokenInfo.aud,
-              tokenAzp: tokenInfo.azp,
-              expected: this.googleClientId
-            });
-          }
-
-          // Fetch user profile from Google UserInfo endpoint
-          const userinfoRes = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
-            headers: { Authorization: `Bearer ${token}` }
-          });
-
-          if (!userinfoRes.ok) {
-            return this.sendJSON(res, 401, {
-              success: false,
-              message: 'Google foydalanuvchi ma’lumotlarini olib bo‘lmadi.'
-            });
-          }
-
-          const userInfo = await userinfoRes.json();
-
-          profile = {
-            sub: userInfo.sub || tokenInfo.sub,
-            name: userInfo.name || '',
-            email: (userInfo.email || tokenInfo.email || '').toLowerCase(),
-            picture: userInfo.picture || ''
-          };
-        }
-      } else if (googleEmail && googleEmail.includes('@')) {
-        // Direct Google Authenticator Fallback (for domain restrictions or popup blocks)
-        const emailClean = googleEmail.toLowerCase().trim();
-        const users = await this.readUsers();
-        const existing = users.find(u => u.email && u.email.toLowerCase() === emailClean);
-
-        const isOwner = emailClean === 'bahtiermustafoev1974@gmail.com';
-        const sub = existing?.id?.replace(/^google_/, '') || (isOwner ? '115401282415026396030' : crypto.randomUUID().replace(/-/g, '').slice(0, 21));
-        const name = existing?.name || (isOwner ? 'Бахтиер Мустафоев' : emailClean.split('@')[0]);
-        const picture = existing?.picture || (isOwner ? 'https://lh3.googleusercontent.com/a-/ALV-UjX2TvE_rJZmO05NAEfS5AQHrtHrLhB7_5C-PSPLtxKRcfMlUDE7t9rBhLPo1A-NyWGZakddcgEikW4BmvIC5NmelyVmVAiX5CKjyGW7Cn-KIhrax9nFtxbPfsQuxGdYzf5fvvvTEZNa0T_JFcP2pf_wfTuIY2jNvJncsz20ZRJSK_mSNrI6g08PK17rOXFO05Up2Seub3CXYGrJ5kI-moTE55WiEyGslYgGF2kz1Yywz47QOHrqK0dx74jBieeUiCPgXr8getzDkBKOhGN_lIcJa6RvdhpggdX7oJ0Xut4zsDige9ykI03NZb1mPyR6H1s8ZIBBEcZuQiVJU2MkO0QlwrXqrmQkM53fF9K_L1y0t38NKDTnPhHg5hyHeO-Vcgr_qEXuu2p8GnL4w5VDP-jyvanZN06Bf1l8Tduvdf0Nu37sqi_khe7avhuV3n58iTRY-WPGtof93wkrzLBpIfO3zpfSytWQh-O-Q8XgjQgVW8ClvDcDg28Z4FFxL430Dc7wTW7g1-wQWvxV0wCAoXHnErksLzqsT-kGuk7LX_fc1gaWXgbAdpTHg-YyQg04RuSya09J-R3iO03ktWZvImafNV1b-LSYcdoNBXXqHAIx9Lk-KljUbjbbsbIDRBZoXcDuc_4_Okmk_x4-9hLCLRg2Uwx55bbRgHUvkxgEGhIrGtMsIxqg3zcEd8SOccnmcvMkCeG_IbJfqO2Gg8oaKplPSE6x9NFsjrO_zl_9rSDZia6upY99ip8H16ElEThTTuFrJbTAIqg3LtTZGplvrDOXtqXgpy1PSxHHjIWPIxUWOIVhIvydVskfOF61LpsQ-O2cJa0wtohtxuqe6iVFrc7Alk3nAwCIcC6Jt68_BdKRqGRhHtu_ilKcQqup1Um6yY-931fCPb0Zd9HrNLXk-2_b5QdcUs4WsgweN9ELu5vr8sumil2fINrhNFt6w2BVDsdHSiZe_FjerwoTIK3n3iXpCcwHZQiuDl06J4mK-0KHhb8t6t84DQRN-A3I3XmeikPyra0APh1UNzE1r0iepQu95PYpPc7uY1aZpxfjvsLe3AqC_40X7KSg=s96-c' : '');
-
-        profile = {
-          sub,
-          name,
-          email: emailClean,
-          picture
-        };
-      } else {
+      if (!token || typeof token !== 'string') {
         return this.sendJSON(res, 400, {
           success: false,
-          message: 'Google autentifikatsiyasi uchun token yoki email taqdim etilmadi.'
+          message: 'Google autentifikatsiyasi uchun token taqdim etilmadi.'
         });
       }
 
-      if (!profile || !profile.sub) {
+      const profile = await this.verifyGoogleToken(token);
+
+      if (!profile || !profile.sub || !profile.email) {
         return this.sendJSON(res, 401, {
           success: false,
           message: 'Google hisob ma’lumotlari topilmadi.'
@@ -720,39 +741,7 @@ class AuthController {
       };
 
       this.setSessionCookie(res, user);
-
-      // Save or update Google user in users.json
-      try {
-        const users = await this.readUsers();
-        const existingIdx = users.findIndex(u => u.id === user.id || (u.email && u.email.toLowerCase() === user.email.toLowerCase()));
-        const now = new Date().toISOString();
-        if (existingIdx >= 0) {
-          users[existingIdx].id = user.id;
-          users[existingIdx].name = user.name || users[existingIdx].name;
-          users[existingIdx].picture = user.picture || users[existingIdx].picture;
-          users[existingIdx].lastActiveAt = now;
-          users[existingIdx].type = 'google';
-          if (isAdmin) {
-            users[existingIdx].isAdmin = true;
-            users[existingIdx].role = 'admin';
-          }
-        } else {
-          users.push({
-            id: user.id,
-            type: 'google',
-            name: user.name,
-            email: user.email,
-            picture: user.picture,
-            role: isAdmin ? 'admin' : 'user',
-            isAdmin,
-            createdAt: now,
-            lastActiveAt: now
-          });
-        }
-        await this.writeUsers(users);
-      } catch (saveErr) {
-        console.warn('[SAVE GOOGLE USER WARN]', saveErr.message);
-      }
+      await this.saveOrUpdateGoogleUser(user);
 
       console.log(`[GOOGLE AUTH SUCCESS] User: ${user.name} (${user.email}) ID: ${user.id} Admin: ${isAdmin}`);
 
@@ -764,10 +753,63 @@ class AuthController {
     } catch (error) {
       console.error('[GOOGLE AUTH ERROR]', error.message);
 
-      return this.sendJSON(res, 500, {
+      return this.sendJSON(res, 401, {
         success: false,
-        message: 'Google orqali kirishda xatolik yuz berdi: ' + error.message
+        message: 'Google orqali kirishda xatolik: ' + error.message
       });
+    }
+  }
+
+  // GOOGLE OAUTH CALLBACK (Redirect Flow: GET/POST /api/auth/google/callback)
+  async googleCallback(req, res, body = {}) {
+    try {
+      let token = body.credential || body.token || body.access_token;
+
+      if (!token) {
+        const parsedUrl = new URL(req.url, 'http://localhost');
+        token = parsedUrl.searchParams.get('credential') || parsedUrl.searchParams.get('token') || parsedUrl.searchParams.get('access_token');
+      }
+
+      if (!token) {
+        res.writeHead(302, { Location: '/#auth?error=no_token' });
+        return res.end();
+      }
+
+      const profile = await this.verifyGoogleToken(token);
+
+      if (!profile || !profile.sub || !profile.email) {
+        res.writeHead(302, { Location: '/#auth?error=invalid_profile' });
+        return res.end();
+      }
+
+      const tempUser = {
+        id: `google_${profile.sub}`,
+        email: profile.email
+      };
+      const isAdmin = this.isUserAdmin(tempUser);
+
+      const user = {
+        id: `google_${profile.sub}`,
+        type: 'google',
+        name: profile.name || '',
+        email: profile.email,
+        picture: profile.picture,
+        role: isAdmin ? 'admin' : 'user',
+        isAdmin
+      };
+
+      this.setSessionCookie(res, user);
+      await this.saveOrUpdateGoogleUser(user);
+
+      console.log(`[GOOGLE CALLBACK SUCCESS] User: ${user.name} (${user.email}) ID: ${user.id} Admin: ${isAdmin}`);
+
+      res.writeHead(302, { Location: '/' });
+      return res.end();
+
+    } catch (error) {
+      console.error('[GOOGLE CALLBACK ERROR]', error.message);
+      res.writeHead(302, { Location: '/#auth?error=auth_failed' });
+      return res.end();
     }
   }
 

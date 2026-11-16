@@ -38,8 +38,21 @@ module.exports = function parseBody(req) {
 
       const contentType = req.headers['content-type'] || '';
 
+      if (contentType.includes('application/x-www-form-urlencoded')) {
+        try {
+          const params = new URLSearchParams(body);
+          const obj = {};
+          for (const [k, v] of params.entries()) {
+            obj[k] = v;
+          }
+          return finish(null, obj);
+        } catch (e) {
+          return finish(e);
+        }
+      }
+
       if (!contentType.includes('application/json')) {
-        const error = new Error('Faqat JSON format qabul qilinadi');
+        const error = new Error('Faqat JSON yoki form-urlencoded format qabul qilinadi');
         error.statusCode = 415;
         return finish(error);
       }
